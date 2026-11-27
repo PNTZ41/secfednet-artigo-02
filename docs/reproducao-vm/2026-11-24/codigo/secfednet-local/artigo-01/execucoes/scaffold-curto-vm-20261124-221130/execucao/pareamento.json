@@ -1,0 +1,7 @@
+{
+  "mesma_inicializacao_particoes_minibatches_orcamento": true,
+  "primeira_rodada_pesos_iguais_bit_a_bit": true,
+  "tolerancia_primeira_rodada": 0.0,
+  "ci_persistente_entre_rodadas": true,
+  "teste_global_avaliado": false
+}

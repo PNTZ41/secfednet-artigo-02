@@ -1,0 +1,8 @@
+{
+  "inicializacao_particoes_normalizacao_minibatches_iguais": true,
+  "duas_primeiras_rodadas_reproduzem_pesos_e_controles_12h37_bit_a_bit": true,
+  "scores_da_rodada_2_reproduzem_12h37_bit_a_bit": true,
+  "tolerancia_igualdade": 0.0,
+  "passos_por_metodo": 8000,
+  "avaliou_teste_global": false
+}

@@ -1,0 +1,55 @@
+INFO :      [INIT]
+INFO :      Using initial global parameters provided by strategy
+INFO :      Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO :
+INFO :      [ROUND 1]
+INFO :      configure_fit: strategy sampled 5 clients (out of 5)
+89 fedavg {'rodada': 1, 'cliente': 0, 'exemplos': 639587, 'passos': 1250}
+89 fedavg {'rodada': 1, 'cliente': 2, 'exemplos': 47892, 'passos': 94}
+89 fedavg {'rodada': 1, 'cliente': 4, 'exemplos': 13307, 'passos': 26}
+89 fedavg {'rodada': 1, 'cliente': 1, 'exemplos': 225597, 'passos': 441}
+89 fedavg {'rodada': 1, 'cliente': 3, 'exemplos': 258041, 'passos': 504}
+INFO :      aggregate_fit: received 5 results and 0 failures
+INFO :      configure_evaluate: no clients selected, skipping evaluation
+INFO :
+INFO :      [ROUND 2]
+INFO :      configure_fit: strategy sampled 5 clients (out of 5)
+89 fedavg {'rodada': 2, 'cliente': 1, 'exemplos': 225597, 'passos': 441}
+89 fedavg {'rodada': 2, 'cliente': 3, 'exemplos': 258041, 'passos': 504}
+89 fedavg {'rodada': 2, 'cliente': 4, 'exemplos': 13307, 'passos': 26}
+89 fedavg {'rodada': 2, 'cliente': 0, 'exemplos': 639587, 'passos': 1250}
+89 fedavg {'rodada': 2, 'cliente': 2, 'exemplos': 47892, 'passos': 94}
+INFO :      aggregate_fit: received 5 results and 0 failures
+INFO :      configure_evaluate: no clients selected, skipping evaluation
+INFO :
+INFO :      [ROUND 3]
+INFO :      configure_fit: strategy sampled 5 clients (out of 5)
+89 fedavg {'rodada': 3, 'cliente': 2, 'exemplos': 47892, 'passos': 94}
+89 fedavg {'rodada': 3, 'cliente': 0, 'exemplos': 639587, 'passos': 1250}
+89 fedavg {'rodada': 3, 'cliente': 4, 'exemplos': 13307, 'passos': 26}
+89 fedavg {'rodada': 3, 'cliente': 3, 'exemplos': 258041, 'passos': 504}
+89 fedavg {'rodada': 3, 'cliente': 1, 'exemplos': 225597, 'passos': 441}
+INFO :      aggregate_fit: received 5 results and 0 failures
+INFO :      configure_evaluate: no clients selected, skipping evaluation
+INFO :
+INFO :      [ROUND 4]
+INFO :      configure_fit: strategy sampled 5 clients (out of 5)
+89 fedavg {'rodada': 4, 'cliente': 4, 'exemplos': 13307, 'passos': 26}
+89 fedavg {'rodada': 4, 'cliente': 0, 'exemplos': 639587, 'passos': 1250}
+89 fedavg {'rodada': 4, 'cliente': 3, 'exemplos': 258041, 'passos': 504}
+89 fedavg {'rodada': 4, 'cliente': 2, 'exemplos': 47892, 'passos': 94}
+89 fedavg {'rodada': 4, 'cliente': 1, 'exemplos': 225597, 'passos': 441}
+INFO :      aggregate_fit: received 5 results and 0 failures
+INFO :      configure_evaluate: no clients selected, skipping evaluation
+INFO :
+INFO :      [ROUND 5]
+INFO :      configure_fit: strategy sampled 5 clients (out of 5)
+89 fedavg {'rodada': 5, 'cliente': 0, 'exemplos': 639587, 'passos': 1250}
+89 fedavg {'rodada': 5, 'cliente': 2, 'exemplos': 47892, 'passos': 94}
+89 fedavg {'rodada': 5, 'cliente': 3, 'exemplos': 258041, 'passos': 504}
+89 fedavg {'rodada': 5, 'cliente': 4, 'exemplos': 13307, 'passos': 26}
+89 fedavg {'rodada': 5, 'cliente': 1, 'exemplos': 225597, 'passos': 441}
+INFO :      aggregate_fit: received 5 results and 0 failures
+INFO :      configure_evaluate: no clients selected, skipping evaluation
+MODELO CONCLUIDO 89 fedavg passos 11575 exposicoes 5922120

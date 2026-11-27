@@ -1,0 +1,1073 @@
+{
+  "zip_sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+  "hash_script": "70328e008bbbded14ca147d1bf8b6989818f06cbd3608156d2051e6ea2f94ddf",
+  "hash_inventario_anterior": "02802188f9cca6d189ae4614367daeb2105042a0c8b9d18c6919e58c027aa6cf",
+  "hash_contrato": "e5114198735db8e583fd0ef7549c932726ec99a41f6621433d008c1de9e919f1",
+  "python": "3.14.4",
+  "numpy": "2.3.5",
+  "plataforma": "Linux-7.0.0-44-generic-x86_64-desconhecido-with-glibc2.43",
+  "ordem_features": [
+    "Flow Duration",
+    "Total Fwd Packet",
+    "Total Bwd packets",
+    "Total Length of Fwd Packet",
+    "Total Length of Bwd Packet",
+    "Fwd Packet Length Max",
+    "Fwd Packet Length Min",
+    "Fwd Packet Length Mean",
+    "Fwd Packet Length Std",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Total",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Total",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Fwd PSH Flags",
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "Fwd RST Flags",
+    "Bwd RST Flags",
+    "Fwd Header Length",
+    "Bwd Header Length",
+    "Fwd Packets/s",
+    "Bwd Packets/s",
+    "Packet Length Min",
+    "Packet Length Max",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "FIN Flag Count",
+    "SYN Flag Count",
+    "RST Flag Count",
+    "PSH Flag Count",
+    "ACK Flag Count",
+    "URG Flag Count",
+    "CWR Flag Count",
+    "ECE Flag Count",
+    "Down/Up Ratio",
+    "Average Packet Size",
+    "Fwd Segment Size Avg",
+    "Bwd Segment Size Avg",
+    "Fwd Bytes/Bulk Avg",
+    "Fwd Packet/Bulk Avg",
+    "Fwd Bulk Rate Avg",
+    "Bwd Bytes/Bulk Avg",
+    "Bwd Packet/Bulk Avg",
+    "Bwd Bulk Rate Avg",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Bwd Bytes",
+    "FWD Init Win Bytes",
+    "Bwd Init Win Bytes",
+    "Fwd Act Data Pkts",
+    "Fwd Seg Size Min",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min",
+    "ICMP Code",
+    "ICMP Type",
+    "Total TCP Flow Time"
+  ],
+  "classes_nominais": [
+    "BENIGN",
+    "FTP-Patator",
+    "SSH-Patator",
+    "DoS Slowloris",
+    "DoS Slowhttptest",
+    "DoS Hulk",
+    "DoS GoldenEye",
+    "Heartbleed",
+    "Web Attack - Brute Force",
+    "Infiltration",
+    "Infiltration - Portscan",
+    "Web Attack - XSS",
+    "Web Attack - SQL Injection",
+    "Botnet",
+    "Portscan",
+    "DDoS"
+  ],
+  "rotulos_binarios": {
+    "BENIGN": 0,
+    "demais_sem_Attempted": 1
+  },
+  "capturas": [
+    {
+      "arquivo": "monday.csv",
+      "conjunto": "treino",
+      "brutas": 371624,
+      "nao_attempted": 371624,
+      "attempted": {},
+      "classes": {
+        "BENIGN": 371624
+      },
+      "qualidade_linhas": {
+        "vazio": 0,
+        "invalido": 0,
+        "nao_finito": 3,
+        "qualquer_problema": 3
+      },
+      "problemas_metadados": {
+        "flag_sufixo_attempted_divergentes": 0,
+        "vazio_id": 0,
+        "espaco_lateral_id": 0,
+        "vazio_Flow ID": 0,
+        "espaco_lateral_Flow ID": 0,
+        "vazio_Src IP": 0,
+        "espaco_lateral_Src IP": 0,
+        "vazio_Src Port": 0,
+        "espaco_lateral_Src Port": 0,
+        "vazio_Dst IP": 0,
+        "espaco_lateral_Dst IP": 0,
+        "vazio_Dst Port": 0,
+        "espaco_lateral_Dst Port": 0,
+        "vazio_Protocol": 0,
+        "espaco_lateral_Protocol": 0,
+        "vazio_Timestamp": 0,
+        "espaco_lateral_Timestamp": 0,
+        "flow_id_sentido_reverso": 13
+      },
+      "id_min": 1,
+      "id_max": 371624,
+      "ids_distintos": 371624,
+      "id_igual_numero_registro_em_todas_linhas": true,
+      "primeiro_timestamp": "2017-07-03T11:55:58.598308",
+      "ultimo_timestamp": "2017-07-03T20:01:34.352593",
+      "flow_ids_distintos": 249126,
+      "flow_ids_com_mais_um_timestamp": 39933,
+      "linhas_nesses_flow_ids": 162431,
+      "csv_sha256": "51fe5dc962626efb4ae70dce0303072fb780da0932822b651202ee9c2fbc1aff"
+    },
+    {
+      "arquivo": "tuesday.csv",
+      "conjunto": "treino",
+      "brutas": 322078,
+      "nao_attempted": 322039,
+      "attempted": {
+        "FTP-Patator - Attempted": 12,
+        "SSH-Patator - Attempted": 27
+      },
+      "classes": {
+        "BENIGN": 315106,
+        "FTP-Patator": 3972,
+        "SSH-Patator": 2961
+      },
+      "qualidade_linhas": {
+        "vazio": 0,
+        "invalido": 0,
+        "nao_finito": 0,
+        "qualquer_problema": 0
+      },
+      "problemas_metadados": {
+        "flag_sufixo_attempted_divergentes": 0,
+        "vazio_id": 0,
+        "espaco_lateral_id": 0,
+        "vazio_Flow ID": 0,
+        "espaco_lateral_Flow ID": 0,
+        "vazio_Src IP": 0,
+        "espaco_lateral_Src IP": 0,
+        "vazio_Src Port": 0,
+        "espaco_lateral_Src Port": 0,
+        "vazio_Dst IP": 0,
+        "espaco_lateral_Dst IP": 0,
+        "vazio_Dst Port": 0,
+        "espaco_lateral_Dst Port": 0,
+        "vazio_Protocol": 0,
+        "espaco_lateral_Protocol": 0,
+        "vazio_Timestamp": 0,
+        "espaco_lateral_Timestamp": 0,
+        "flow_id_sentido_reverso": 4
+      },
+      "id_min": 1,
+      "id_max": 322078,
+      "ids_distintos": 322078,
+      "id_igual_numero_registro_em_todas_linhas": true,
+      "primeiro_timestamp": "2017-07-04T11:53:44.398274",
+      "ultimo_timestamp": "2017-07-04T20:00:30.041663",
+      "flow_ids_distintos": 211691,
+      "flow_ids_com_mais_um_timestamp": 36543,
+      "linhas_nesses_flow_ids": 146891,
+      "csv_sha256": "e2a0a5b631dfc6b455cc9f9a88b944110637d70a7f74171473925f76f38b6b0c"
+    },
+    {
+      "arquivo": "wednesday.csv",
+      "conjunto": "treino",
+      "brutas": 496641,
+      "nao_attempted": 490765,
+      "attempted": {
+        "DoS Slowloris - Attempted": 1847,
+        "DoS Slowhttptest - Attempted": 3368,
+        "DoS Hulk - Attempted": 581,
+        "DoS GoldenEye - Attempted": 80
+      },
+      "classes": {
+        "BENIGN": 319120,
+        "DoS Slowloris": 3859,
+        "DoS Slowhttptest": 1740,
+        "DoS Hulk": 158468,
+        "DoS GoldenEye": 7567,
+        "Heartbleed": 11
+      },
+      "qualidade_linhas": {
+        "vazio": 0,
+        "invalido": 0,
+        "nao_finito": 1,
+        "qualquer_problema": 1
+      },
+      "problemas_metadados": {
+        "flag_sufixo_attempted_divergentes": 0,
+        "vazio_id": 0,
+        "espaco_lateral_id": 0,
+        "vazio_Flow ID": 0,
+        "espaco_lateral_Flow ID": 0,
+        "vazio_Src IP": 0,
+        "espaco_lateral_Src IP": 0,
+        "vazio_Src Port": 0,
+        "espaco_lateral_Src Port": 0,
+        "vazio_Dst IP": 0,
+        "espaco_lateral_Dst IP": 0,
+        "vazio_Dst Port": 0,
+        "espaco_lateral_Dst Port": 0,
+        "vazio_Protocol": 0,
+        "espaco_lateral_Protocol": 0,
+        "vazio_Timestamp": 0,
+        "espaco_lateral_Timestamp": 0,
+        "flow_id_sentido_reverso": 841
+      },
+      "id_min": 1,
+      "id_max": 496641,
+      "ids_distintos": 496641,
+      "id_igual_numero_registro_em_todas_linhas": true,
+      "primeiro_timestamp": "2017-07-05T11:42:42.084372",
+      "ultimo_timestamp": "2017-07-05T20:10:14.557249",
+      "flow_ids_distintos": 226696,
+      "flow_ids_com_mais_um_timestamp": 49603,
+      "linhas_nesses_flow_ids": 313672,
+      "csv_sha256": "bf46c5f3c792e8817381f724511229569606918eaf07ac986d7a2592b6341bc2"
+    },
+    {
+      "arquivo": "thursday.csv",
+      "conjunto": "validacao",
+      "brutas": 362076,
+      "nao_attempted": 360079,
+      "attempted": {
+        "Web Attack - Brute Force - Attempted": 1292,
+        "Infiltration - Attempted": 45,
+        "Web Attack - XSS - Attempted": 655,
+        "Web Attack - SQL Injection - Attempted": 5
+      },
+      "classes": {
+        "BENIGN": 288172,
+        "Web Attack - Brute Force": 73,
+        "Infiltration": 36,
+        "Infiltration - Portscan": 71767,
+        "Web Attack - XSS": 18,
+        "Web Attack - SQL Injection": 13
+      },
+      "qualidade_linhas": {
+        "vazio": 0,
+        "invalido": 0,
+        "nao_finito": 1,
+        "qualquer_problema": 1
+      },
+      "problemas_metadados": {
+        "flag_sufixo_attempted_divergentes": 0,
+        "vazio_id": 0,
+        "espaco_lateral_id": 0,
+        "vazio_Flow ID": 0,
+        "espaco_lateral_Flow ID": 0,
+        "vazio_Src IP": 0,
+        "espaco_lateral_Src IP": 0,
+        "vazio_Src Port": 0,
+        "espaco_lateral_Src Port": 0,
+        "vazio_Dst IP": 0,
+        "espaco_lateral_Dst IP": 0,
+        "vazio_Dst Port": 0,
+        "espaco_lateral_Dst Port": 0,
+        "vazio_Protocol": 0,
+        "espaco_lateral_Protocol": 0,
+        "vazio_Timestamp": 0,
+        "espaco_lateral_Timestamp": 0,
+        "flow_id_sentido_reverso": 320
+      },
+      "id_min": 1,
+      "id_max": 362076,
+      "ids_distintos": 362076,
+      "id_igual_numero_registro_em_todas_linhas": true,
+      "primeiro_timestamp": "2017-07-06T11:59:00.490140",
+      "ultimo_timestamp": "2017-07-06T20:04:36.513760",
+      "flow_ids_distintos": 256596,
+      "flow_ids_com_mais_um_timestamp": 39464,
+      "linhas_nesses_flow_ids": 142947,
+      "csv_sha256": "78a4d11eaf473d099e30e71ddb01e0f38218e844c0a9cdd36602145d674af482"
+    },
+    {
+      "arquivo": "friday.csv",
+      "conjunto": "teste",
+      "brutas": 547557,
+      "nao_attempted": 543490,
+      "attempted": {
+        "Botnet - Attempted": 4067
+      },
+      "classes": {
+        "BENIGN": 288544,
+        "Botnet": 736,
+        "Portscan": 159066,
+        "DDoS": 95144
+      },
+      "qualidade_linhas": {
+        "vazio": 0,
+        "invalido": 0,
+        "nao_finito": 0,
+        "qualquer_problema": 0
+      },
+      "problemas_metadados": {
+        "flag_sufixo_attempted_divergentes": 0,
+        "vazio_id": 0,
+        "espaco_lateral_id": 0,
+        "vazio_Flow ID": 0,
+        "espaco_lateral_Flow ID": 0,
+        "vazio_Src IP": 0,
+        "espaco_lateral_Src IP": 0,
+        "vazio_Src Port": 0,
+        "espaco_lateral_Src Port": 0,
+        "vazio_Dst IP": 0,
+        "espaco_lateral_Dst IP": 0,
+        "vazio_Dst Port": 0,
+        "espaco_lateral_Dst Port": 0,
+        "vazio_Protocol": 0,
+        "espaco_lateral_Protocol": 0,
+        "vazio_Timestamp": 0,
+        "espaco_lateral_Timestamp": 0,
+        "flow_id_sentido_reverso": 666
+      },
+      "id_min": 1,
+      "id_max": 547557,
+      "ids_distintos": 547557,
+      "id_igual_numero_registro_em_todas_linhas": true,
+      "primeiro_timestamp": "2017-07-07T11:59:50.315195",
+      "ultimo_timestamp": "2017-07-07T20:02:40.977798",
+      "flow_ids_distintos": 394813,
+      "flow_ids_com_mais_um_timestamp": 50713,
+      "linhas_nesses_flow_ids": 199390,
+      "csv_sha256": "ebd499e6f23bd59f9cb81bec28178491b02b925fa5640a24215c9437d79482d0"
+    }
+  ],
+  "totais_referencia": {
+    "treino": 1184428,
+    "validacao": 360079,
+    "teste": 543490
+  },
+  "cruzamentos": [
+    {
+      "par": "treino_x_validacao",
+      "tipo": "id_local_escopado",
+      "chaves_comuns": 0,
+      "linhas_a": 0,
+      "linhas_b": 0,
+      "pct_linhas_a": 0.0,
+      "pct_linhas_b": 0.0,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "flow_id_direcional",
+      "chaves_comuns": 66337,
+      "linhas_a": 357414,
+      "linhas_b": 145519,
+      "pct_linhas_a": 30.176084996302013,
+      "pct_linhas_b": 40.41307601942907,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "grupo_bidirecional",
+      "chaves_comuns": 66350,
+      "linhas_a": 357709,
+      "linhas_b": 145624,
+      "pct_linhas_a": 30.200991533465942,
+      "pct_linhas_b": 40.44223628703701,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "vetor_float64",
+      "chaves_comuns": 19965,
+      "linhas_a": 62395,
+      "linhas_b": 31649,
+      "pct_linhas_a": 5.26794368252017,
+      "pct_linhas_b": 8.789460090702319,
+      "linhas_sem_chave_a": 4,
+      "linhas_sem_chave_b": 1
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "flow_id_timestamp",
+      "chaves_comuns": 0,
+      "linhas_a": 0,
+      "linhas_b": 0,
+      "pct_linhas_a": 0.0,
+      "pct_linhas_b": 0.0,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "id_local_escopado",
+      "chaves_comuns": 0,
+      "linhas_a": 0,
+      "linhas_b": 0,
+      "pct_linhas_a": 0.0,
+      "pct_linhas_b": 0.0,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "flow_id_direcional",
+      "chaves_comuns": 80246,
+      "linhas_a": 498838,
+      "linhas_b": 178899,
+      "pct_linhas_a": 42.116363341629885,
+      "pct_linhas_b": 32.91670499917202,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "grupo_bidirecional",
+      "chaves_comuns": 80454,
+      "linhas_a": 501371,
+      "linhas_b": 179509,
+      "pct_linhas_a": 42.33022184548153,
+      "pct_linhas_b": 33.028942574840386,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "vetor_float64",
+      "chaves_comuns": 20437,
+      "linhas_a": 64403,
+      "linhas_b": 33221,
+      "pct_linhas_a": 5.437476993113975,
+      "pct_linhas_b": 6.112531969309463,
+      "linhas_sem_chave_a": 4,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "flow_id_timestamp",
+      "chaves_comuns": 0,
+      "linhas_a": 0,
+      "linhas_b": 0,
+      "pct_linhas_a": 0.0,
+      "pct_linhas_b": 0.0,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "id_local_escopado",
+      "chaves_comuns": 0,
+      "linhas_a": 0,
+      "linhas_b": 0,
+      "pct_linhas_a": 0.0,
+      "pct_linhas_b": 0.0,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "flow_id_direcional",
+      "chaves_comuns": 38166,
+      "linhas_a": 107610,
+      "linhas_b": 108314,
+      "pct_linhas_a": 29.88510854562471,
+      "pct_linhas_b": 19.929345526136636,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "grupo_bidirecional",
+      "chaves_comuns": 38175,
+      "linhas_a": 107623,
+      "linhas_b": 108325,
+      "pct_linhas_a": 29.888718864471407,
+      "pct_linhas_b": 19.93136948241918,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "vetor_float64",
+      "chaves_comuns": 10728,
+      "linhas_a": 34882,
+      "linhas_b": 96417,
+      "pct_linhas_a": 9.687318616192558,
+      "pct_linhas_b": 17.740344808552134,
+      "linhas_sem_chave_a": 1,
+      "linhas_sem_chave_b": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "flow_id_timestamp",
+      "chaves_comuns": 0,
+      "linhas_a": 0,
+      "linhas_b": 0,
+      "pct_linhas_a": 0.0,
+      "pct_linhas_b": 0.0,
+      "linhas_sem_chave_a": 0,
+      "linhas_sem_chave_b": 0
+    }
+  ],
+  "conflitos": [
+    {
+      "par": "treino_x_validacao",
+      "tipo": "id_local_escopado",
+      "escala": "nominal",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "id_local_escopado",
+      "escala": "binario",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "flow_id_direcional",
+      "escala": "nominal",
+      "chaves_com_conflito": 129,
+      "linhas_a_em_chaves_conflitantes": 1547,
+      "linhas_b_em_chaves_conflitantes": 130,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 1547,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 130,
+      "pares_de_linhas_com_rotulos_diferentes": 1558
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "flow_id_direcional",
+      "escala": "binario",
+      "chaves_com_conflito": 28,
+      "linhas_a_em_chaves_conflitantes": 307,
+      "linhas_b_em_chaves_conflitantes": 29,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 307,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 28,
+      "pares_de_linhas_com_rotulos_diferentes": 307
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "grupo_bidirecional",
+      "escala": "nominal",
+      "chaves_com_conflito": 134,
+      "linhas_a_em_chaves_conflitantes": 1607,
+      "linhas_b_em_chaves_conflitantes": 135,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 1606,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 135,
+      "pares_de_linhas_com_rotulos_diferentes": 1617
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "grupo_bidirecional",
+      "escala": "binario",
+      "chaves_com_conflito": 33,
+      "linhas_a_em_chaves_conflitantes": 367,
+      "linhas_b_em_chaves_conflitantes": 34,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 344,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 33,
+      "pares_de_linhas_com_rotulos_diferentes": 344
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "vetor_float64",
+      "escala": "nominal",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "vetor_float64",
+      "escala": "binario",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "flow_id_timestamp",
+      "escala": "nominal",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_validacao",
+      "tipo": "flow_id_timestamp",
+      "escala": "binario",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "id_local_escopado",
+      "escala": "nominal",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "id_local_escopado",
+      "escala": "binario",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "flow_id_direcional",
+      "escala": "nominal",
+      "chaves_com_conflito": 11068,
+      "linhas_a_em_chaves_conflitantes": 135759,
+      "linhas_b_em_chaves_conflitantes": 28928,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 135759,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 28928,
+      "pares_de_linhas_com_rotulos_diferentes": 357459
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "flow_id_direcional",
+      "escala": "binario",
+      "chaves_com_conflito": 22,
+      "linhas_a_em_chaves_conflitantes": 238,
+      "linhas_b_em_chaves_conflitantes": 51,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 203,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 35,
+      "pares_de_linhas_com_rotulos_diferentes": 225
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "grupo_bidirecional",
+      "escala": "nominal",
+      "chaves_com_conflito": 11262,
+      "linhas_a_em_chaves_conflitantes": 138142,
+      "linhas_b_em_chaves_conflitantes": 29519,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 138142,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 29505,
+      "pares_de_linhas_com_rotulos_diferentes": 364388
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "grupo_bidirecional",
+      "escala": "binario",
+      "chaves_com_conflito": 216,
+      "linhas_a_em_chaves_conflitantes": 2621,
+      "linhas_b_em_chaves_conflitantes": 642,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 2092,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 342,
+      "pares_de_linhas_com_rotulos_diferentes": 2271
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "vetor_float64",
+      "escala": "nominal",
+      "chaves_com_conflito": 1,
+      "linhas_a_em_chaves_conflitantes": 1,
+      "linhas_b_em_chaves_conflitantes": 957,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 1,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 957,
+      "pares_de_linhas_com_rotulos_diferentes": 957
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "vetor_float64",
+      "escala": "binario",
+      "chaves_com_conflito": 1,
+      "linhas_a_em_chaves_conflitantes": 1,
+      "linhas_b_em_chaves_conflitantes": 957,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 1,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 957,
+      "pares_de_linhas_com_rotulos_diferentes": 957
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "flow_id_timestamp",
+      "escala": "nominal",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "treino_x_teste",
+      "tipo": "flow_id_timestamp",
+      "escala": "binario",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "id_local_escopado",
+      "escala": "nominal",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "id_local_escopado",
+      "escala": "binario",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "flow_id_direcional",
+      "escala": "nominal",
+      "chaves_com_conflito": 136,
+      "linhas_a_em_chaves_conflitantes": 137,
+      "linhas_b_em_chaves_conflitantes": 427,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 137,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 427,
+      "pares_de_linhas_com_rotulos_diferentes": 430
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "flow_id_direcional",
+      "escala": "binario",
+      "chaves_com_conflito": 58,
+      "linhas_a_em_chaves_conflitantes": 59,
+      "linhas_b_em_chaves_conflitantes": 223,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 58,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 222,
+      "pares_de_linhas_com_rotulos_diferentes": 222
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "grupo_bidirecional",
+      "escala": "nominal",
+      "chaves_com_conflito": 139,
+      "linhas_a_em_chaves_conflitantes": 140,
+      "linhas_b_em_chaves_conflitantes": 430,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 140,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 430,
+      "pares_de_linhas_com_rotulos_diferentes": 433
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "grupo_bidirecional",
+      "escala": "binario",
+      "chaves_com_conflito": 61,
+      "linhas_a_em_chaves_conflitantes": 62,
+      "linhas_b_em_chaves_conflitantes": 226,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 61,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 225,
+      "pares_de_linhas_com_rotulos_diferentes": 225
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "vetor_float64",
+      "escala": "nominal",
+      "chaves_com_conflito": 110,
+      "linhas_a_em_chaves_conflitantes": 14808,
+      "linhas_b_em_chaves_conflitantes": 75372,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 14808,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 75372,
+      "pares_de_linhas_com_rotulos_diferentes": 11079464
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "vetor_float64",
+      "escala": "binario",
+      "chaves_com_conflito": 13,
+      "linhas_a_em_chaves_conflitantes": 38,
+      "linhas_b_em_chaves_conflitantes": 1682,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 14,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 1682,
+      "pares_de_linhas_com_rotulos_diferentes": 1688
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "flow_id_timestamp",
+      "escala": "nominal",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    },
+    {
+      "par": "validacao_x_teste",
+      "tipo": "flow_id_timestamp",
+      "escala": "binario",
+      "chaves_com_conflito": 0,
+      "linhas_a_em_chaves_conflitantes": 0,
+      "linhas_b_em_chaves_conflitantes": 0,
+      "linhas_a_com_rotulo_oposto_no_outro_lado": 0,
+      "linhas_b_com_rotulo_oposto_no_outro_lado": 0,
+      "pares_de_linhas_com_rotulos_diferentes": 0
+    }
+  ],
+  "simulacoes_totais": [
+    {
+      "cenario": "sem_exclusao",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "sem_exclusao",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 360079
+    },
+    {
+      "cenario": "sem_exclusao",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 543490
+    },
+    {
+      "cenario": "qualidade_numerica_todos_conjuntos",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184424
+    },
+    {
+      "cenario": "qualidade_numerica_todos_conjuntos",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 360078
+    },
+    {
+      "cenario": "qualidade_numerica_todos_conjuntos",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 543490
+    },
+    {
+      "cenario": "sequencial_vetor_float64",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "sequencial_vetor_float64",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 328430
+    },
+    {
+      "cenario": "sequencial_vetor_float64",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 429801
+    },
+    {
+      "cenario": "par_treino_x_validacao_vetor_float64",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "par_treino_x_validacao_vetor_float64",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 328430
+    },
+    {
+      "cenario": "par_treino_x_validacao_vetor_float64",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 543490
+    },
+    {
+      "cenario": "par_treino_x_teste_vetor_float64",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "par_treino_x_teste_vetor_float64",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 360079
+    },
+    {
+      "cenario": "par_treino_x_teste_vetor_float64",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 510269
+    },
+    {
+      "cenario": "par_validacao_x_teste_vetor_float64",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "par_validacao_x_teste_vetor_float64",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 360079
+    },
+    {
+      "cenario": "par_validacao_x_teste_vetor_float64",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 447073
+    },
+    {
+      "cenario": "sequencial_grupo_bidirecional",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "sequencial_grupo_bidirecional",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 214455
+    },
+    {
+      "cenario": "sequencial_grupo_bidirecional",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 356133
+    },
+    {
+      "cenario": "par_treino_x_validacao_grupo_bidirecional",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "par_treino_x_validacao_grupo_bidirecional",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 214455
+    },
+    {
+      "cenario": "par_treino_x_validacao_grupo_bidirecional",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 543490
+    },
+    {
+      "cenario": "par_treino_x_teste_grupo_bidirecional",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "par_treino_x_teste_grupo_bidirecional",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 360079
+    },
+    {
+      "cenario": "par_treino_x_teste_grupo_bidirecional",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 363981
+    },
+    {
+      "cenario": "par_validacao_x_teste_grupo_bidirecional",
+      "conjunto": "treino",
+      "antes": 1184428,
+      "depois": 1184428
+    },
+    {
+      "cenario": "par_validacao_x_teste_grupo_bidirecional",
+      "conjunto": "validacao",
+      "antes": 360079,
+      "depois": 360079
+    },
+    {
+      "cenario": "par_validacao_x_teste_grupo_bidirecional",
+      "conjunto": "teste",
+      "antes": 543490,
+      "depois": 435165
+    }
+  ],
+  "limites": [
+    "sem normalizacao ou comparacao de vetores padronizados",
+    "sem treino",
+    "sem indices novos ou alteracao do split original",
+    "simulacoes removem dos conjuntos posteriores e preservam treino",
+    "flow ID e grupo nao provam evento duplicado",
+    "vetores invalidos sem chave; nao imputados nem considerados iguais",
+    "binario BENIGN/ATTACK difere do piloto BENIGN/DDoS"
+  ],
+  "tempo_total_s": 140.49219252099283,
+  "pico_rss_kib": 2151856
+}

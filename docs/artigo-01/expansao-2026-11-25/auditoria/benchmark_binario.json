@@ -1,0 +1,28 @@
+{
+  "estado": "candidato somente auditado; nenhum indice congelado",
+  "classes": {
+    "0": "BENIGN",
+    "1": "ATTACK"
+  },
+  "regra_ATTACK": "qualquer rotulo nominal diferente de BENIGN apos separar Attempted",
+  "Attempted": "Attempted Category != -1 OU sufixo literal - Attempted; fora do universo comparado",
+  "capturas": {
+    "treino": [
+      "monday.csv",
+      "tuesday.csv",
+      "wednesday.csv"
+    ],
+    "validacao": [
+      "thursday.csv"
+    ],
+    "teste": [
+      "friday.csv"
+    ]
+  },
+  "totais_antes_exclusoes_adicionais": {
+    "treino": 1184428,
+    "validacao": 360079,
+    "teste": 543490
+  },
+  "nota": "mapeamento confirmado no pedido atual; nao reutilizar 1=DDoS do piloto para a expansao"
+}

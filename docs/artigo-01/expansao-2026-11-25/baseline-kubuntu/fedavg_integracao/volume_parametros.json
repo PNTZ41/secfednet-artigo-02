@@ -1,0 +1,14 @@
+{
+  "rodada": 1,
+  "participantes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "exemplos": 1184424,
+  "bytes_brutos_parametros_enviados": 22980,
+  "bytes_brutos_parametros_recebidos": 22980,
+  "escopo": "arrays float32 da simulacao em processo, sem serializacao ou transporte"
+}

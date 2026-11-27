@@ -1,0 +1,47 @@
+{
+  "formato": "secfednet-scaffold-20rodadas-v1",
+  "metodos": [
+    "fedavg_sgd",
+    "scaffold"
+  ],
+  "rodadas": 20,
+  "clientes": 5,
+  "epocas_locais": 1,
+  "lote": 512,
+  "otimizador": "SGD",
+  "lr": 0.01,
+  "momentum": 0,
+  "weight_decay": 0,
+  "seed_modelo": 23,
+  "seed_clientes": 2305,
+  "alpha_dirichlet": 0.5,
+  "seed_minibatches": "23 + 100 * rodada + cliente",
+  "agregacao_modelo": "uniforme por cliente, eta_global=1, nos dois metodos",
+  "scaffold": "opcao II; c_i persistente; c inicial e c_i inicial iguais a zero",
+  "regra_particao_insuficiente": "repetir Dirichlet/multinomial se algum cliente vazio; aceitar classe ausente",
+  "manifesto_validacao_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f",
+  "fpr_maxima_validacao": 0.01,
+  "regra_limiar": "maior recall dentro do teto empirico de FPR; empate por menor FP e maior limiar; score >= limiar",
+  "avaliou_teste_global": false,
+  "ajustar_hiperparametros_neste_ensaio": false,
+  "atol_controles_float32": 1e-06,
+  "rtol_controles_float32": 1e-05,
+  "tolerancia_primeira_rodada": 0.0,
+  "atol_teste_escalar_float64": 1e-12,
+  "fonte_algoritmo": "https://proceedings.mlr.press/v119/karimireddy20a/karimireddy20a.pdf",
+  "comparacoes": [
+    {
+      "fedavg_sgd_rodada": 20,
+      "scaffold_rodada": 20,
+      "eixo": "rodadas"
+    },
+    {
+      "fedavg_sgd_rodada": 20,
+      "scaffold_rodada": 10,
+      "eixo": "bytes_brutos_parametros_e_controles"
+    }
+  ],
+  "metricas_por_rodada": true,
+  "selecao_rodada": "pontos 20/20 e 20/10 fixados antes da execucao, sem early stopping",
+  "perda_treino": "BCE do modelo global apos agregacao; media por exemplos e media uniforme das perdas por cliente; perda online local separada"
+}

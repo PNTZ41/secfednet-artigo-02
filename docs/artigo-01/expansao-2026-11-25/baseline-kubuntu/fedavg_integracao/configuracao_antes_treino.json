@@ -1,0 +1,56 @@
+{
+  "uso": "VERIFICACAO_DE_INTEGRACAO; sem conclusao comparativa",
+  "modelo": "CNN1D original; novo contrato ATTACK",
+  "rodadas": 1,
+  "clientes": 5,
+  "epocas_locais": 1,
+  "lote": 512,
+  "otimizador": "Adam reiniciado por fit",
+  "lr": 0.001,
+  "agregacao": "ponderada por numero de exemplos, CID ordenado, inplace=False",
+  "seed_modelo": 23,
+  "seed_particao": 2305,
+  "alpha": 0.5,
+  "tentativa_aceita": 1,
+  "seed_minibatches": "23+100*rodada+cliente",
+  "particao": [
+    {
+      "cliente": 0,
+      "total": 55846,
+      "BENIGN": 27398,
+      "ATTACK": 28448
+    },
+    {
+      "cliente": 1,
+      "total": 137677,
+      "BENIGN": 87615,
+      "ATTACK": 50062
+    },
+    {
+      "cliente": 2,
+      "total": 40391,
+      "BENIGN": 37936,
+      "ATTACK": 2455
+    },
+    {
+      "cliente": 3,
+      "total": 288370,
+      "BENIGN": 267434,
+      "ATTACK": 20936
+    },
+    {
+      "cliente": 4,
+      "total": 662140,
+      "BENIGN": 585463,
+      "ATTACK": 76677
+    }
+  ],
+  "limiar": 0.5,
+  "ajuste_na_quinta": false,
+  "sexta_avaliada": false,
+  "manifesto_sha256": "00329b9c03f83b9b04fe995231ca18384e3d399e025f9c575d22498081933096",
+  "python": "3.14.4",
+  "pytorch": "2.12.1+cpu",
+  "flower": "1.32.0",
+  "fonte_rodar_flower_sha256": "8fe82fcf8c016c1f2cfedc20f5e245c8ad25d43e0355f2d3bd4e2c6e8a4b54c6"
+}

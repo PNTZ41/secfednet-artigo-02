@@ -1,0 +1,51 @@
+{
+  "processos": "    PID    PPID    PGID     SID TT       STAT COMMAND\n  59052   59051   59051   59051 ?        S    python3.14\n  59205   59052   59205   59205 ?        Ssl  python\n",
+  "status": "em_andamento",
+  "etapa": "05_seed23_fedavg",
+  "gate_campos": 231,
+  "gate_passou": true,
+  "documentais": [
+    {
+      "campo": "baseline/config/manifesto_sha256",
+      "kubuntu": "00329b9c03f83b9b04fe995231ca18384e3d399e025f9c575d22498081933096",
+      "vm": "b75427553a490ec1abc1b9c85519ce9eb52f11b5a4b4e6c9ef9cb5a60b017ded",
+      "motivo": "vinculo ao manifesto que inclui tempo/pico da execucao; parametros numericos comparados separadamente"
+    },
+    {
+      "campo": "baseline/checkpoint_sha256",
+      "kubuntu": "59401542d3e6512e57b9c6d37a8fc64bf1b6983762b7db57a215de8dbd869c5d",
+      "vm": "53c4fdedaf28a5a6464e1f4ece2cdc4c31e44995e5f8d9db40052b5f252fc961",
+      "motivo": "checkpoint inclui configuracao e hash do manifesto especifico da execucao; pesos/normalizacao conferidos campo a campo"
+    },
+    {
+      "campo": "baseline/tempos_pico",
+      "vm": {
+        "tempo_treino_s": 1.5056985190021805,
+        "tempo_total_s": 6.372360749999643,
+        "pico_rss_kib": 863988
+      },
+      "motivo": "medidas de execucao/ambiente, nao criterios de igualdade numerica"
+    },
+    {
+      "campo": "fedavg_integracao/config/manifesto_sha256",
+      "kubuntu": "00329b9c03f83b9b04fe995231ca18384e3d399e025f9c575d22498081933096",
+      "vm": "b75427553a490ec1abc1b9c85519ce9eb52f11b5a4b4e6c9ef9cb5a60b017ded",
+      "motivo": "vinculo ao manifesto que inclui tempo/pico da execucao; parametros numericos comparados separadamente"
+    },
+    {
+      "campo": "fedavg_integracao/checkpoint_sha256",
+      "kubuntu": "e3dd0d3fe55d66b7a9e74d091d283d039526d8e06f91b136b498d6511747cb8c",
+      "vm": "522533cc0c0d2b4ec11989bcb2ffbbaa229d174580a23f6868dcd6385324e3b0",
+      "motivo": "checkpoint inclui configuracao e hash do manifesto especifico da execucao; pesos/normalizacao conferidos campo a campo"
+    },
+    {
+      "campo": "fedavg_integracao/tempos_pico",
+      "vm": {
+        "tempo_treino_s": 9.555712535002385,
+        "tempo_total_s": 14.163520529997186,
+        "pico_rss_kib": 1163052
+      },
+      "motivo": "medidas de execucao/ambiente, nao criterios de igualdade numerica"
+    }
+  ]
+}

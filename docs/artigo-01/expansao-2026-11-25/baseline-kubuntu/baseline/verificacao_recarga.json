@@ -1,0 +1,9 @@
+{
+  "status": "OK",
+  "weights_only": true,
+  "dispositivo": "cpu",
+  "scores_quinta_bit_a_bit": true,
+  "metricas_principal_sensibilidade_identicas": true,
+  "exemplo_bruto_quinta_preprocessado_igual": true,
+  "sexta_avaliada": false
+}

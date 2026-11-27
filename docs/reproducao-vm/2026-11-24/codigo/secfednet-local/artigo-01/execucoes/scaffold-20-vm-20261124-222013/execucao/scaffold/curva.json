@@ -1,0 +1,1102 @@
+[
+  {
+    "rodada": 1,
+    "perda_treino_global_uniforme_clientes": 0.6369309445175695,
+    "perda_treino_global_por_exemplo": 0.6454715468613531,
+    "perda_online_uniforme_clientes": 0.6799507331668677,
+    "perda_online_por_exemplo": 0.6473589078235668,
+    "validacao_calibrada": {
+      "limiar": 0.461512953042984,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40401,
+          375
+        ],
+        [
+          10029,
+          10
+        ]
+      ],
+      "fpr": 0.009196586227192466,
+      "recall_ddos": 0.0009961151509114453,
+      "macro_f1_binario": 0.44392360330133385
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "57d9fce7b3160bc4643150450dff2428c388fdf117641e27e2cc1d3e86fd8c4d",
+    "pesos_sha256": "f96f29092e8d8d20d89ccb986609856f4355aad29ef75b8f4d8e8020f3da7af9",
+    "bytes_parametros_acumulados": 45960,
+    "bytes_controles_acumulados": 45960,
+    "passos_acumulados": 400,
+    "exposicoes_acumuladas": 203251,
+    "tempo_monitoramento_s": 0.5877496489999885,
+    "bytes_brutos_acumulados": 91920
+  },
+  {
+    "rodada": 2,
+    "perda_treino_global_uniforme_clientes": 0.5664941524769272,
+    "perda_treino_global_por_exemplo": 0.5877675761641075,
+    "perda_online_uniforme_clientes": 0.6084403385885232,
+    "perda_online_por_exemplo": 0.5895156142275285,
+    "validacao_calibrada": {
+      "limiar": 0.4026653468608857,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf",
+    "pesos_sha256": "5f97f2e0896b0b530fddc9e2427deedfea036ca7ce1d9e7c61e0ab27dda07f1c",
+    "bytes_parametros_acumulados": 91920,
+    "bytes_controles_acumulados": 91920,
+    "passos_acumulados": 800,
+    "exposicoes_acumuladas": 406502,
+    "tempo_monitoramento_s": 0.5397663960000045,
+    "bytes_brutos_acumulados": 183840
+  },
+  {
+    "rodada": 3,
+    "perda_treino_global_uniforme_clientes": 0.5158481831727805,
+    "perda_treino_global_por_exemplo": 0.548442091816484,
+    "perda_online_uniforme_clientes": 0.5474987008882674,
+    "perda_online_por_exemplo": 0.5505094802546882,
+    "validacao_calibrada": {
+      "limiar": 0.3515907227993012,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "f32c2bc7f2ca7b9f6eaa3a4e02af80fe8e21ab942e3b8550d08c352200a6f0cf",
+    "pesos_sha256": "05f3bd65a1c7cece6ca8ca83df4aa86b1bc4ea10a769d5635dd945e089677f32",
+    "bytes_parametros_acumulados": 137880,
+    "bytes_controles_acumulados": 137880,
+    "passos_acumulados": 1200,
+    "exposicoes_acumuladas": 609753,
+    "tempo_monitoramento_s": 0.5794496820001314,
+    "bytes_brutos_acumulados": 275760
+  },
+  {
+    "rodada": 4,
+    "perda_treino_global_uniforme_clientes": 0.48029418805219876,
+    "perda_treino_global_por_exemplo": 0.5227052036158404,
+    "perda_online_uniforme_clientes": 0.5035555604050649,
+    "perda_online_por_exemplo": 0.5250738229987822,
+    "validacao_calibrada": {
+      "limiar": 0.31117594242095953,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "5f46d7d7436ea811013ac57dbdb0dfa66ae61917431f61f431be46e92e017098",
+    "pesos_sha256": "e97ad6941f553126b232726db26d51a16dd760b46a3d7bf1420b5043939c5289",
+    "bytes_parametros_acumulados": 183840,
+    "bytes_controles_acumulados": 183840,
+    "passos_acumulados": 1600,
+    "exposicoes_acumuladas": 813004,
+    "tempo_monitoramento_s": 0.5281256420000773,
+    "bytes_brutos_acumulados": 367680
+  },
+  {
+    "rodada": 5,
+    "perda_treino_global_uniforme_clientes": 0.45487764214232645,
+    "perda_treino_global_por_exemplo": 0.5058968172888101,
+    "perda_online_uniforme_clientes": 0.47229142870028823,
+    "perda_online_por_exemplo": 0.5081482866980299,
+    "validacao_calibrada": {
+      "limiar": 0.2782548367977143,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "405c06907d1436cd725b72fe2be9eb9d851018a780a3f416f29fc03feb2c5f2d",
+    "pesos_sha256": "d40e4548887cca615058c3ab48fa792b52f4b98669657abc84ee384c3a2e7717",
+    "bytes_parametros_acumulados": 229800,
+    "bytes_controles_acumulados": 229800,
+    "passos_acumulados": 2000,
+    "exposicoes_acumuladas": 1016255,
+    "tempo_monitoramento_s": 0.5276535299999523,
+    "bytes_brutos_acumulados": 459600
+  },
+  {
+    "rodada": 6,
+    "perda_treino_global_uniforme_clientes": 0.4365305953192216,
+    "perda_treino_global_por_exemplo": 0.49505974276384385,
+    "perda_online_uniforme_clientes": 0.4498704020040304,
+    "perda_online_por_exemplo": 0.4975915135009404,
+    "validacao_calibrada": {
+      "limiar": 0.2496822327375412,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40373,
+          403
+        ],
+        [
+          10038,
+          1
+        ]
+      ],
+      "fpr": 0.009883264665489503,
+      "recall_ddos": 9.961151509114453e-05,
+      "macro_f1_binario": 0.442845272657428
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "03b76893aa44431a6ff1153ed5f79a11677fb36680905d3f1012c771e8a9c885",
+    "pesos_sha256": "fbeb5d1981f00d4c3ef2f2dc717273b51bff32b0fc8987d4130e63f86913b976",
+    "bytes_parametros_acumulados": 275760,
+    "bytes_controles_acumulados": 275760,
+    "passos_acumulados": 2400,
+    "exposicoes_acumuladas": 1219506,
+    "tempo_monitoramento_s": 0.49104941600012353,
+    "bytes_brutos_acumulados": 551520
+  },
+  {
+    "rodada": 7,
+    "perda_treino_global_uniforme_clientes": 0.4228915284368707,
+    "perda_treino_global_por_exemplo": 0.4880516551271027,
+    "perda_online_uniforme_clientes": 0.4333319091470714,
+    "perda_online_por_exemplo": 0.49044258621765247,
+    "validacao_calibrada": {
+      "limiar": 0.22821226716041565,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40496,
+          280
+        ],
+        [
+          10038,
+          1
+        ]
+      ],
+      "fpr": 0.006866784382970375,
+      "recall_ddos": 9.961151509114453e-05,
+      "macro_f1_binario": 0.44359706350035105
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "0673404dc64a438277a3e18798bc583c90ed011dfccab6e8656b040d35cd00c0",
+    "pesos_sha256": "f12401d23da2a1f96ac0b92240386d00ea948e5d1f827d92481e19b0797baaae",
+    "bytes_parametros_acumulados": 321720,
+    "bytes_controles_acumulados": 321720,
+    "passos_acumulados": 2800,
+    "exposicoes_acumuladas": 1422757,
+    "tempo_monitoramento_s": 0.5391102149999369,
+    "bytes_brutos_acumulados": 643440
+  },
+  {
+    "rodada": 8,
+    "perda_treino_global_uniforme_clientes": 0.4126471807410109,
+    "perda_treino_global_por_exemplo": 0.4835011113547512,
+    "perda_online_uniforme_clientes": 0.4208667920859554,
+    "perda_online_por_exemplo": 0.48574375431420713,
+    "validacao_calibrada": {
+      "limiar": 0.21069948375225067,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40390,
+          386
+        ],
+        [
+          10034,
+          5
+        ]
+      ],
+      "fpr": 0.009466352756523445,
+      "recall_ddos": 0.0004980575754557227,
+      "macro_f1_binario": 0.4433521934029705
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "e88eed2dae097aec61284229c164fc6d4133c15b801a4fb727f2ec9ce5b9c702",
+    "pesos_sha256": "d2a631b108d9f3c7af4b0ab8ae864169ed087efbfd15e4caec376fa9e9def7e4",
+    "bytes_parametros_acumulados": 367680,
+    "bytes_controles_acumulados": 367680,
+    "passos_acumulados": 3200,
+    "exposicoes_acumuladas": 1626008,
+    "tempo_monitoramento_s": 0.5067684549999285,
+    "bytes_brutos_acumulados": 735360
+  },
+  {
+    "rodada": 9,
+    "perda_treino_global_uniforme_clientes": 0.4046178639185367,
+    "perda_treino_global_por_exemplo": 0.4802470527115969,
+    "perda_online_uniforme_clientes": 0.4113185861477615,
+    "perda_online_por_exemplo": 0.4824279645151567,
+    "validacao_calibrada": {
+      "limiar": 0.19726450741291046,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40370,
+          406
+        ],
+        [
+          10027,
+          12
+        ]
+      ],
+      "fpr": 0.009956837355307044,
+      "recall_ddos": 0.0011953381810937344,
+      "macro_f1_binario": 0.44393215297750216
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "72bc7ba20a8ed66943680b272a17cdb72c7c96c37738208adc2bab72082b19a5",
+    "pesos_sha256": "c4b26f1e57237b19f762d9cd90be8e703f78aa7c3c1c04f8f287bf620517adff",
+    "bytes_parametros_acumulados": 413640,
+    "bytes_controles_acumulados": 413640,
+    "passos_acumulados": 3600,
+    "exposicoes_acumuladas": 1829259,
+    "tempo_monitoramento_s": 0.5107595710001078,
+    "bytes_brutos_acumulados": 827280
+  },
+  {
+    "rodada": 10,
+    "perda_treino_global_uniforme_clientes": 0.3979142798548837,
+    "perda_treino_global_por_exemplo": 0.47741565503124933,
+    "perda_online_uniforme_clientes": 0.40358138086367745,
+    "perda_online_por_exemplo": 0.4795123931302959,
+    "validacao_calibrada": {
+      "limiar": 0.18719515204429626,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40370,
+          406
+        ],
+        [
+          10012,
+          27
+        ]
+      ],
+      "fpr": 0.009956837355307044,
+      "recall_ddos": 0.0026895109074609024,
+      "macro_f1_binario": 0.44543576033358484
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "f73609ac833697dcc0737a6ba5cb2dd7da9110ff415fd692a6cccaad6f8a7ef9",
+    "pesos_sha256": "38d50c96b1bde91658b488c5eba4a0123f5327103c148893800d477a74a164a2",
+    "bytes_parametros_acumulados": 459600,
+    "bytes_controles_acumulados": 459600,
+    "passos_acumulados": 4000,
+    "exposicoes_acumuladas": 2032510,
+    "tempo_monitoramento_s": 0.5195042539999122,
+    "bytes_brutos_acumulados": 919200
+  },
+  {
+    "rodada": 11,
+    "perda_treino_global_uniforme_clientes": 0.39183474035738186,
+    "perda_treino_global_por_exemplo": 0.4743276824118371,
+    "perda_online_uniforme_clientes": 0.39670706646419396,
+    "perda_online_por_exemplo": 0.4759874525202731,
+    "validacao_calibrada": {
+      "limiar": 0.18028216063976288,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40369,
+          407
+        ],
+        [
+          9993,
+          46
+        ]
+      ],
+      "fpr": 0.009981361585246224,
+      "recall_ddos": 0.004582129694192649,
+      "macro_f1_binario": 0.447327960638878
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "b12ae2e2fc8f93bd246782982e9a90276145d58fec5ae78ccfc1a444c45b6b76",
+    "pesos_sha256": "342d9987685c6471ad25113f5a3b1f526f3f6a5566a699efee2ab08117dc8d01",
+    "bytes_parametros_acumulados": 505560,
+    "bytes_controles_acumulados": 505560,
+    "passos_acumulados": 4400,
+    "exposicoes_acumuladas": 2235761,
+    "tempo_monitoramento_s": 0.5102772580000874,
+    "bytes_brutos_acumulados": 1011120
+  },
+  {
+    "rodada": 12,
+    "perda_treino_global_uniforme_clientes": 0.38562264498428345,
+    "perda_treino_global_por_exemplo": 0.4703752119190633,
+    "perda_online_uniforme_clientes": 0.39020695937804206,
+    "perda_online_por_exemplo": 0.47169576871122443,
+    "validacao_calibrada": {
+      "limiar": 0.17560970783233643,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40369,
+          407
+        ],
+        [
+          9956,
+          83
+        ]
+      ],
+      "fpr": 0.009981361585246224,
+      "recall_ddos": 0.008267755752564996,
+      "macro_f1_binario": 0.45100655598944484
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "bab068e5b70047677f8b335a2db6cd76a184caac0713fc6bc4ce643348a07b5f",
+    "pesos_sha256": "963dd8e8b9b15f6cbf3204afa09f70e70a3bc4c72836c1b7f316ec36515e71ef",
+    "bytes_parametros_acumulados": 551520,
+    "bytes_controles_acumulados": 551520,
+    "passos_acumulados": 4800,
+    "exposicoes_acumuladas": 2439012,
+    "tempo_monitoramento_s": 0.5575711950000368,
+    "bytes_brutos_acumulados": 1103040
+  },
+  {
+    "rodada": 13,
+    "perda_treino_global_uniforme_clientes": 0.3780715421249531,
+    "perda_treino_global_por_exemplo": 0.4642560709052476,
+    "perda_online_uniforme_clientes": 0.3828784857048904,
+    "perda_online_por_exemplo": 0.465253925843987,
+    "validacao_calibrada": {
+      "limiar": 0.17362698912620544,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40369,
+          407
+        ],
+        [
+          9903,
+          136
+        ]
+      ],
+      "fpr": 0.009981361585246224,
+      "recall_ddos": 0.013547166052395657,
+      "macro_f1_binario": 0.45623352590007543
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "008e38a9f0d9ab7f529af88d4689bc718b04934d339b00ad1f85a5ae3a001188",
+    "pesos_sha256": "07455592aadd2ac8770121efd7a1848163a01f0091dad23674e081dec2e7525c",
+    "bytes_parametros_acumulados": 597480,
+    "bytes_controles_acumulados": 597480,
+    "passos_acumulados": 5200,
+    "exposicoes_acumuladas": 2642263,
+    "tempo_monitoramento_s": 0.5387315550001404,
+    "bytes_brutos_acumulados": 1194960
+  },
+  {
+    "rodada": 14,
+    "perda_treino_global_uniforme_clientes": 0.3694046515111427,
+    "perda_treino_global_por_exemplo": 0.45622874925459983,
+    "perda_online_uniforme_clientes": 0.3742860658859849,
+    "perda_online_por_exemplo": 0.4567539535475723,
+    "validacao_calibrada": {
+      "limiar": 0.17343302071094513,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40370,
+          406
+        ],
+        [
+          9717,
+          322
+        ]
+      ],
+      "fpr": 0.009956837355307044,
+      "recall_ddos": 0.03207490785934854,
+      "macro_f1_binario": 0.47420145255030016
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "d0200f06a1c94bd526ab7f6fb10e385f1dc710834afc3dafffae376805f264fa",
+    "pesos_sha256": "f32b2ae3de8bec7c8c00e410846abfc74efd5495499cbcb4d6e9b457075434d6",
+    "bytes_parametros_acumulados": 643440,
+    "bytes_controles_acumulados": 643440,
+    "passos_acumulados": 5600,
+    "exposicoes_acumuladas": 2845514,
+    "tempo_monitoramento_s": 0.4972894229999838,
+    "bytes_brutos_acumulados": 1286880
+  },
+  {
+    "rodada": 15,
+    "perda_treino_global_uniforme_clientes": 0.3597900516304003,
+    "perda_treino_global_por_exemplo": 0.44641552007693763,
+    "perda_online_uniforme_clientes": 0.36485128690607854,
+    "perda_online_por_exemplo": 0.4467431137234184,
+    "validacao_calibrada": {
+      "limiar": 0.1748831421136856,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40369,
+          407
+        ],
+        [
+          9026,
+          1013
+        ]
+      ],
+      "fpr": 0.009981361585246224,
+      "recall_ddos": 0.10090646478732941,
+      "macro_f1_binario": 0.5360959555053696
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "cad5151eee09a438b9a14789c66eb0dee0239d717f90579f28f6edcf1fc87897",
+    "pesos_sha256": "07e09c62306cfb1d375b21666c3b8844168d6086d50999f1f8b7cecf9a574396",
+    "bytes_parametros_acumulados": 689400,
+    "bytes_controles_acumulados": 689400,
+    "passos_acumulados": 6000,
+    "exposicoes_acumuladas": 3048765,
+    "tempo_monitoramento_s": 0.5405040149998968,
+    "bytes_brutos_acumulados": 1378800
+  },
+  {
+    "rodada": 16,
+    "perda_treino_global_uniforme_clientes": 0.34928551146479336,
+    "perda_treino_global_por_exemplo": 0.43511463741058015,
+    "perda_online_uniforme_clientes": 0.3545176180756663,
+    "perda_online_por_exemplo": 0.43508502743744654,
+    "validacao_calibrada": {
+      "limiar": 0.17818471789360046,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40370,
+          406
+        ],
+        [
+          7781,
+          2258
+        ]
+      ],
+      "fpr": 0.009956837355307044,
+      "recall_ddos": 0.22492280107580437,
+      "macro_f1_binario": 0.631721147904683
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "99b958f305bc86f5ec000a7d393af2ca1376c94218ec7736da01ea29f24988a6",
+    "pesos_sha256": "3944747b656f384cb326270e53048b5b0ef32931d41434f77d227c7c8ca8e730",
+    "bytes_parametros_acumulados": 735360,
+    "bytes_controles_acumulados": 735360,
+    "passos_acumulados": 6400,
+    "exposicoes_acumuladas": 3252016,
+    "tempo_monitoramento_s": 0.6051449110000249,
+    "bytes_brutos_acumulados": 1470720
+  },
+  {
+    "rodada": 17,
+    "perda_treino_global_uniforme_clientes": 0.3374629056366308,
+    "perda_treino_global_por_exemplo": 0.42183178290319695,
+    "perda_online_uniforme_clientes": 0.34302580758321743,
+    "perda_online_por_exemplo": 0.42142538210638525,
+    "validacao_calibrada": {
+      "limiar": 0.18332789838314056,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40369,
+          407
+        ],
+        [
+          6496,
+          3543
+        ]
+      ],
+      "fpr": 0.009981361585246224,
+      "recall_ddos": 0.3529235979679251,
+      "macro_f1_binario": 0.7138881741652163
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "a610d1a76c5f22ad120f9d8a4ad0834c6acb7db1efcaad88035ff53b445d6f10",
+    "pesos_sha256": "fbf65ed1cb5904e9b49d9c5af764fda7232c32882cd14125c80879d3e2d3f647",
+    "bytes_parametros_acumulados": 781320,
+    "bytes_controles_acumulados": 781320,
+    "passos_acumulados": 6800,
+    "exposicoes_acumuladas": 3455267,
+    "tempo_monitoramento_s": 0.5872942089999924,
+    "bytes_brutos_acumulados": 1562640
+  },
+  {
+    "rodada": 18,
+    "perda_treino_global_uniforme_clientes": 0.3237422714005884,
+    "perda_treino_global_por_exemplo": 0.4059074508164412,
+    "perda_online_uniforme_clientes": 0.32977009229729504,
+    "perda_online_por_exemplo": 0.4048716869002358,
+    "validacao_calibrada": {
+      "limiar": 0.19011682271957397,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40369,
+          407
+        ],
+        [
+          5348,
+          4691
+        ]
+      ],
+      "fpr": 0.009981361585246224,
+      "recall_ddos": 0.467277617292559,
+      "macro_f1_binario": 0.7766342987562627
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "70b915407a0ca2c3f138ba4144098e80bcda4e24e97ee0ac7c336107f6ebb8c0",
+    "pesos_sha256": "e9bd06899080c709e1ed9227469de8d098a7ec4bd27f2202d969677bfeaba162",
+    "bytes_parametros_acumulados": 827280,
+    "bytes_controles_acumulados": 827280,
+    "passos_acumulados": 7200,
+    "exposicoes_acumuladas": 3658518,
+    "tempo_monitoramento_s": 0.5528454960001454,
+    "bytes_brutos_acumulados": 1654560
+  },
+  {
+    "rodada": 19,
+    "perda_treino_global_uniforme_clientes": 0.3076263206936162,
+    "perda_treino_global_por_exemplo": 0.3865673649829601,
+    "perda_online_uniforme_clientes": 0.31453443818567883,
+    "perda_online_por_exemplo": 0.3852860149085906,
+    "validacao_calibrada": {
+      "limiar": 0.19927620887756348,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40370,
+          406
+        ],
+        [
+          4477,
+          5562
+        ]
+      ],
+      "fpr": 0.009956837355307044,
+      "recall_ddos": 0.554039246936946,
+      "macro_f1_binario": 0.8189584459249355
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "6c72e47759b46532771534bc0d18dd278f4dd56bf8fe72b659641c7b3da463f0",
+    "pesos_sha256": "a54e1f0dfa00866e61c7dfc0d28801dfd881344c26580f80e756652e24a030db",
+    "bytes_parametros_acumulados": 873240,
+    "bytes_controles_acumulados": 873240,
+    "passos_acumulados": 7600,
+    "exposicoes_acumuladas": 3861769,
+    "tempo_monitoramento_s": 0.6432351700000254,
+    "bytes_brutos_acumulados": 1746480
+  },
+  {
+    "rodada": 20,
+    "perda_treino_global_uniforme_clientes": 0.288662022670288,
+    "perda_treino_global_por_exemplo": 0.3634393566016668,
+    "perda_online_uniforme_clientes": 0.29656500585846823,
+    "perda_online_por_exemplo": 0.3616675962435855,
+    "validacao_calibrada": {
+      "limiar": 0.21026940643787384,
+      "orcamento_fp": 407,
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40369,
+          407
+        ],
+        [
+          2538,
+          7501
+        ]
+      ],
+      "fpr": 0.009981361585246224,
+      "recall_ddos": 0.7471859746986752,
+      "macro_f1_binario": 0.9003566947170022
+    },
+    "validacao_limiar_05": {
+      "suporte": {
+        "BENIGN": 40776,
+        "DDoS": 10039
+      },
+      "matriz_real_por_previsto": [
+        [
+          40776,
+          0
+        ],
+        [
+          10039,
+          0
+        ]
+      ],
+      "fpr": 0.0,
+      "recall_ddos": 0.0,
+      "macro_f1_binario": 0.44519658045004423
+    },
+    "scores_sha256": "b627ec5effb614ecc0bad5bc22c21b9a062ef24b92dd680e6570eb3e60317619",
+    "pesos_sha256": "000e19c619b17908d94e1749d3b614756f78655d268f27820f42f165fb473bd6",
+    "bytes_parametros_acumulados": 919200,
+    "bytes_controles_acumulados": 919200,
+    "passos_acumulados": 8000,
+    "exposicoes_acumuladas": 4065020,
+    "tempo_monitoramento_s": 0.5387940069999786,
+    "bytes_brutos_acumulados": 1838400
+  }
+]

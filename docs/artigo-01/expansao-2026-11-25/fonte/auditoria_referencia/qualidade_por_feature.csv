@@ -1,0 +1,649 @@
+escopo,populacao,linhas,feature,vazios,invalidos,nao_finitos,pct_celulas_problematicas
+monday.csv,nao_Attempted,371624,Flow Duration,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Total Fwd Packet,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Total Bwd packets,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Total Length of Fwd Packet,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Total Length of Bwd Packet,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Packet Length Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Packet Length Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Packet Length Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Packet Length Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Packet Length Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Packet Length Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Packet Length Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Packet Length Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Flow Bytes/s,0,0,3,0.0008072675607603384
+monday.csv,nao_Attempted,371624,Flow Packets/s,0,0,3,0.0008072675607603384
+monday.csv,nao_Attempted,371624,Flow IAT Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Flow IAT Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Flow IAT Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Flow IAT Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd IAT Total,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd IAT Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd IAT Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd IAT Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd IAT Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd IAT Total,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd IAT Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd IAT Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd IAT Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd IAT Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd PSH Flags,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd PSH Flags,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd URG Flags,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd URG Flags,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd RST Flags,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd RST Flags,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Header Length,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Header Length,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Packets/s,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Packets/s,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Packet Length Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Packet Length Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Packet Length Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Packet Length Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Packet Length Variance,0,0,0,0.0
+monday.csv,nao_Attempted,371624,FIN Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,SYN Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,RST Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,PSH Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,ACK Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,URG Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,CWR Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,ECE Flag Count,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Down/Up Ratio,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Average Packet Size,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Segment Size Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Segment Size Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Bytes/Bulk Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Packet/Bulk Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Bulk Rate Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Bytes/Bulk Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Packet/Bulk Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Bulk Rate Avg,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Subflow Fwd Packets,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Subflow Fwd Bytes,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Subflow Bwd Packets,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Subflow Bwd Bytes,0,0,0,0.0
+monday.csv,nao_Attempted,371624,FWD Init Win Bytes,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Bwd Init Win Bytes,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Act Data Pkts,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Fwd Seg Size Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Active Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Active Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Active Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Active Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Idle Mean,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Idle Std,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Idle Max,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Idle Min,0,0,0,0.0
+monday.csv,nao_Attempted,371624,ICMP Code,0,0,0,0.0
+monday.csv,nao_Attempted,371624,ICMP Type,0,0,0,0.0
+monday.csv,nao_Attempted,371624,Total TCP Flow Time,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Flow Duration,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Total Fwd Packet,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Total Bwd packets,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Total Length of Fwd Packet,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Total Length of Bwd Packet,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Packet Length Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Packet Length Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Packet Length Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Packet Length Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Packet Length Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Packet Length Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Packet Length Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Packet Length Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Flow Bytes/s,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Flow Packets/s,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Flow IAT Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Flow IAT Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Flow IAT Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Flow IAT Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd IAT Total,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd IAT Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd IAT Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd IAT Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd IAT Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd IAT Total,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd IAT Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd IAT Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd IAT Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd IAT Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd PSH Flags,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd PSH Flags,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd URG Flags,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd URG Flags,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd RST Flags,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd RST Flags,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Header Length,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Header Length,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Packets/s,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Packets/s,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Packet Length Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Packet Length Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Packet Length Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Packet Length Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Packet Length Variance,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,FIN Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,SYN Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,RST Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,PSH Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,ACK Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,URG Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,CWR Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,ECE Flag Count,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Down/Up Ratio,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Average Packet Size,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Segment Size Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Segment Size Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Bytes/Bulk Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Packet/Bulk Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Bulk Rate Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Bytes/Bulk Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Packet/Bulk Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Bulk Rate Avg,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Subflow Fwd Packets,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Subflow Fwd Bytes,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Subflow Bwd Packets,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Subflow Bwd Bytes,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,FWD Init Win Bytes,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Bwd Init Win Bytes,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Act Data Pkts,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Fwd Seg Size Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Active Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Active Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Active Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Active Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Idle Mean,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Idle Std,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Idle Max,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Idle Min,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,ICMP Code,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,ICMP Type,0,0,0,0.0
+tuesday.csv,nao_Attempted,322039,Total TCP Flow Time,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Flow Duration,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Total Fwd Packet,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Total Bwd packets,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Total Length of Fwd Packet,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Total Length of Bwd Packet,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Packet Length Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Packet Length Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Packet Length Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Packet Length Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Packet Length Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Packet Length Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Packet Length Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Packet Length Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Flow Bytes/s,0,0,1,0.000203763512067894
+wednesday.csv,nao_Attempted,490765,Flow Packets/s,0,0,1,0.000203763512067894
+wednesday.csv,nao_Attempted,490765,Flow IAT Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Flow IAT Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Flow IAT Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Flow IAT Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd IAT Total,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd IAT Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd IAT Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd IAT Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd IAT Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd IAT Total,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd IAT Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd IAT Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd IAT Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd IAT Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd PSH Flags,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd PSH Flags,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd URG Flags,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd URG Flags,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd RST Flags,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd RST Flags,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Header Length,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Header Length,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Packets/s,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Packets/s,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Packet Length Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Packet Length Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Packet Length Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Packet Length Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Packet Length Variance,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,FIN Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,SYN Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,RST Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,PSH Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,ACK Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,URG Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,CWR Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,ECE Flag Count,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Down/Up Ratio,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Average Packet Size,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Segment Size Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Segment Size Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Bytes/Bulk Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Packet/Bulk Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Bulk Rate Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Bytes/Bulk Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Packet/Bulk Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Bulk Rate Avg,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Subflow Fwd Packets,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Subflow Fwd Bytes,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Subflow Bwd Packets,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Subflow Bwd Bytes,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,FWD Init Win Bytes,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Bwd Init Win Bytes,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Act Data Pkts,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Fwd Seg Size Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Active Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Active Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Active Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Active Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Idle Mean,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Idle Std,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Idle Max,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Idle Min,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,ICMP Code,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,ICMP Type,0,0,0,0.0
+wednesday.csv,nao_Attempted,490765,Total TCP Flow Time,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Flow Duration,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Total Fwd Packet,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Total Bwd packets,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Total Length of Fwd Packet,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Total Length of Bwd Packet,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Packet Length Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Packet Length Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Packet Length Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Packet Length Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Packet Length Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Packet Length Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Packet Length Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Packet Length Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Flow Bytes/s,0,0,1,0.00027771683436134847
+thursday.csv,nao_Attempted,360079,Flow Packets/s,0,0,1,0.00027771683436134847
+thursday.csv,nao_Attempted,360079,Flow IAT Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Flow IAT Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Flow IAT Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Flow IAT Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd IAT Total,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd IAT Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd IAT Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd IAT Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd IAT Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd IAT Total,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd IAT Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd IAT Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd IAT Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd IAT Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd PSH Flags,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd PSH Flags,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd URG Flags,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd URG Flags,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd RST Flags,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd RST Flags,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Header Length,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Header Length,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Packets/s,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Packets/s,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Packet Length Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Packet Length Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Packet Length Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Packet Length Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Packet Length Variance,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,FIN Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,SYN Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,RST Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,PSH Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,ACK Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,URG Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,CWR Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,ECE Flag Count,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Down/Up Ratio,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Average Packet Size,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Segment Size Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Segment Size Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Bytes/Bulk Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Packet/Bulk Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Bulk Rate Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Bytes/Bulk Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Packet/Bulk Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Bulk Rate Avg,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Subflow Fwd Packets,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Subflow Fwd Bytes,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Subflow Bwd Packets,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Subflow Bwd Bytes,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,FWD Init Win Bytes,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Bwd Init Win Bytes,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Act Data Pkts,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Fwd Seg Size Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Active Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Active Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Active Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Active Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Idle Mean,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Idle Std,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Idle Max,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Idle Min,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,ICMP Code,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,ICMP Type,0,0,0,0.0
+thursday.csv,nao_Attempted,360079,Total TCP Flow Time,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Flow Duration,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Total Fwd Packet,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Total Bwd packets,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Total Length of Fwd Packet,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Total Length of Bwd Packet,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Packet Length Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Packet Length Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Packet Length Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Packet Length Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Packet Length Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Packet Length Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Packet Length Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Packet Length Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Flow Bytes/s,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Flow Packets/s,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Flow IAT Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Flow IAT Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Flow IAT Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Flow IAT Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd IAT Total,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd IAT Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd IAT Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd IAT Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd IAT Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd IAT Total,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd IAT Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd IAT Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd IAT Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd IAT Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd PSH Flags,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd PSH Flags,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd URG Flags,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd URG Flags,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd RST Flags,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd RST Flags,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Header Length,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Header Length,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Packets/s,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Packets/s,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Packet Length Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Packet Length Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Packet Length Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Packet Length Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Packet Length Variance,0,0,0,0.0
+friday.csv,nao_Attempted,543490,FIN Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,SYN Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,RST Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,PSH Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,ACK Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,URG Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,CWR Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,ECE Flag Count,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Down/Up Ratio,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Average Packet Size,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Segment Size Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Segment Size Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Bytes/Bulk Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Packet/Bulk Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Bulk Rate Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Bytes/Bulk Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Packet/Bulk Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Bulk Rate Avg,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Subflow Fwd Packets,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Subflow Fwd Bytes,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Subflow Bwd Packets,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Subflow Bwd Bytes,0,0,0,0.0
+friday.csv,nao_Attempted,543490,FWD Init Win Bytes,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Bwd Init Win Bytes,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Act Data Pkts,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Fwd Seg Size Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Active Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Active Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Active Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Active Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Idle Mean,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Idle Std,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Idle Max,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Idle Min,0,0,0,0.0
+friday.csv,nao_Attempted,543490,ICMP Code,0,0,0,0.0
+friday.csv,nao_Attempted,543490,ICMP Type,0,0,0,0.0
+friday.csv,nao_Attempted,543490,Total TCP Flow Time,0,0,0,0.0
+treino,nao_Attempted,1184428,Flow Duration,0,0,0,0.0
+treino,nao_Attempted,1184428,Total Fwd Packet,0,0,0,0.0
+treino,nao_Attempted,1184428,Total Bwd packets,0,0,0,0.0
+treino,nao_Attempted,1184428,Total Length of Fwd Packet,0,0,0,0.0
+treino,nao_Attempted,1184428,Total Length of Bwd Packet,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Packet Length Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Packet Length Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Packet Length Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Packet Length Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Packet Length Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Packet Length Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Packet Length Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Packet Length Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Flow Bytes/s,0,0,4,0.00033771575815499125
+treino,nao_Attempted,1184428,Flow Packets/s,0,0,4,0.00033771575815499125
+treino,nao_Attempted,1184428,Flow IAT Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Flow IAT Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Flow IAT Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Flow IAT Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd IAT Total,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd IAT Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd IAT Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd IAT Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd IAT Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd IAT Total,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd IAT Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd IAT Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd IAT Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd IAT Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd PSH Flags,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd PSH Flags,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd URG Flags,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd URG Flags,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd RST Flags,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd RST Flags,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Header Length,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Header Length,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Packets/s,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Packets/s,0,0,0,0.0
+treino,nao_Attempted,1184428,Packet Length Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Packet Length Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Packet Length Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Packet Length Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Packet Length Variance,0,0,0,0.0
+treino,nao_Attempted,1184428,FIN Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,SYN Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,RST Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,PSH Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,ACK Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,URG Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,CWR Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,ECE Flag Count,0,0,0,0.0
+treino,nao_Attempted,1184428,Down/Up Ratio,0,0,0,0.0
+treino,nao_Attempted,1184428,Average Packet Size,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Segment Size Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Segment Size Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Bytes/Bulk Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Packet/Bulk Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Bulk Rate Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Bytes/Bulk Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Packet/Bulk Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Bulk Rate Avg,0,0,0,0.0
+treino,nao_Attempted,1184428,Subflow Fwd Packets,0,0,0,0.0
+treino,nao_Attempted,1184428,Subflow Fwd Bytes,0,0,0,0.0
+treino,nao_Attempted,1184428,Subflow Bwd Packets,0,0,0,0.0
+treino,nao_Attempted,1184428,Subflow Bwd Bytes,0,0,0,0.0
+treino,nao_Attempted,1184428,FWD Init Win Bytes,0,0,0,0.0
+treino,nao_Attempted,1184428,Bwd Init Win Bytes,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Act Data Pkts,0,0,0,0.0
+treino,nao_Attempted,1184428,Fwd Seg Size Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Active Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Active Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Active Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Active Min,0,0,0,0.0
+treino,nao_Attempted,1184428,Idle Mean,0,0,0,0.0
+treino,nao_Attempted,1184428,Idle Std,0,0,0,0.0
+treino,nao_Attempted,1184428,Idle Max,0,0,0,0.0
+treino,nao_Attempted,1184428,Idle Min,0,0,0,0.0
+treino,nao_Attempted,1184428,ICMP Code,0,0,0,0.0
+treino,nao_Attempted,1184428,ICMP Type,0,0,0,0.0
+treino,nao_Attempted,1184428,Total TCP Flow Time,0,0,0,0.0
+validacao,nao_Attempted,360079,Flow Duration,0,0,0,0.0
+validacao,nao_Attempted,360079,Total Fwd Packet,0,0,0,0.0
+validacao,nao_Attempted,360079,Total Bwd packets,0,0,0,0.0
+validacao,nao_Attempted,360079,Total Length of Fwd Packet,0,0,0,0.0
+validacao,nao_Attempted,360079,Total Length of Bwd Packet,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Packet Length Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Packet Length Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Packet Length Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Packet Length Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Packet Length Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Packet Length Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Packet Length Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Packet Length Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Flow Bytes/s,0,0,1,0.00027771683436134847
+validacao,nao_Attempted,360079,Flow Packets/s,0,0,1,0.00027771683436134847
+validacao,nao_Attempted,360079,Flow IAT Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Flow IAT Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Flow IAT Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Flow IAT Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd IAT Total,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd IAT Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd IAT Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd IAT Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd IAT Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd IAT Total,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd IAT Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd IAT Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd IAT Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd IAT Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd PSH Flags,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd PSH Flags,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd URG Flags,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd URG Flags,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd RST Flags,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd RST Flags,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Header Length,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Header Length,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Packets/s,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Packets/s,0,0,0,0.0
+validacao,nao_Attempted,360079,Packet Length Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Packet Length Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Packet Length Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Packet Length Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Packet Length Variance,0,0,0,0.0
+validacao,nao_Attempted,360079,FIN Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,SYN Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,RST Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,PSH Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,ACK Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,URG Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,CWR Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,ECE Flag Count,0,0,0,0.0
+validacao,nao_Attempted,360079,Down/Up Ratio,0,0,0,0.0
+validacao,nao_Attempted,360079,Average Packet Size,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Segment Size Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Segment Size Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Bytes/Bulk Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Packet/Bulk Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Bulk Rate Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Bytes/Bulk Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Packet/Bulk Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Bulk Rate Avg,0,0,0,0.0
+validacao,nao_Attempted,360079,Subflow Fwd Packets,0,0,0,0.0
+validacao,nao_Attempted,360079,Subflow Fwd Bytes,0,0,0,0.0
+validacao,nao_Attempted,360079,Subflow Bwd Packets,0,0,0,0.0
+validacao,nao_Attempted,360079,Subflow Bwd Bytes,0,0,0,0.0
+validacao,nao_Attempted,360079,FWD Init Win Bytes,0,0,0,0.0
+validacao,nao_Attempted,360079,Bwd Init Win Bytes,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Act Data Pkts,0,0,0,0.0
+validacao,nao_Attempted,360079,Fwd Seg Size Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Active Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Active Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Active Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Active Min,0,0,0,0.0
+validacao,nao_Attempted,360079,Idle Mean,0,0,0,0.0
+validacao,nao_Attempted,360079,Idle Std,0,0,0,0.0
+validacao,nao_Attempted,360079,Idle Max,0,0,0,0.0
+validacao,nao_Attempted,360079,Idle Min,0,0,0,0.0
+validacao,nao_Attempted,360079,ICMP Code,0,0,0,0.0
+validacao,nao_Attempted,360079,ICMP Type,0,0,0,0.0
+validacao,nao_Attempted,360079,Total TCP Flow Time,0,0,0,0.0
+teste,nao_Attempted,543490,Flow Duration,0,0,0,0.0
+teste,nao_Attempted,543490,Total Fwd Packet,0,0,0,0.0
+teste,nao_Attempted,543490,Total Bwd packets,0,0,0,0.0
+teste,nao_Attempted,543490,Total Length of Fwd Packet,0,0,0,0.0
+teste,nao_Attempted,543490,Total Length of Bwd Packet,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Packet Length Max,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Packet Length Min,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Packet Length Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Packet Length Std,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Packet Length Max,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Packet Length Min,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Packet Length Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Packet Length Std,0,0,0,0.0
+teste,nao_Attempted,543490,Flow Bytes/s,0,0,0,0.0
+teste,nao_Attempted,543490,Flow Packets/s,0,0,0,0.0
+teste,nao_Attempted,543490,Flow IAT Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Flow IAT Std,0,0,0,0.0
+teste,nao_Attempted,543490,Flow IAT Max,0,0,0,0.0
+teste,nao_Attempted,543490,Flow IAT Min,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd IAT Total,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd IAT Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd IAT Std,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd IAT Max,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd IAT Min,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd IAT Total,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd IAT Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd IAT Std,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd IAT Max,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd IAT Min,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd PSH Flags,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd PSH Flags,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd URG Flags,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd URG Flags,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd RST Flags,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd RST Flags,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Header Length,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Header Length,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Packets/s,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Packets/s,0,0,0,0.0
+teste,nao_Attempted,543490,Packet Length Min,0,0,0,0.0
+teste,nao_Attempted,543490,Packet Length Max,0,0,0,0.0
+teste,nao_Attempted,543490,Packet Length Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Packet Length Std,0,0,0,0.0
+teste,nao_Attempted,543490,Packet Length Variance,0,0,0,0.0
+teste,nao_Attempted,543490,FIN Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,SYN Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,RST Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,PSH Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,ACK Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,URG Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,CWR Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,ECE Flag Count,0,0,0,0.0
+teste,nao_Attempted,543490,Down/Up Ratio,0,0,0,0.0
+teste,nao_Attempted,543490,Average Packet Size,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Segment Size Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Segment Size Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Bytes/Bulk Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Packet/Bulk Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Bulk Rate Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Bytes/Bulk Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Packet/Bulk Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Bulk Rate Avg,0,0,0,0.0
+teste,nao_Attempted,543490,Subflow Fwd Packets,0,0,0,0.0
+teste,nao_Attempted,543490,Subflow Fwd Bytes,0,0,0,0.0
+teste,nao_Attempted,543490,Subflow Bwd Packets,0,0,0,0.0
+teste,nao_Attempted,543490,Subflow Bwd Bytes,0,0,0,0.0
+teste,nao_Attempted,543490,FWD Init Win Bytes,0,0,0,0.0
+teste,nao_Attempted,543490,Bwd Init Win Bytes,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Act Data Pkts,0,0,0,0.0
+teste,nao_Attempted,543490,Fwd Seg Size Min,0,0,0,0.0
+teste,nao_Attempted,543490,Active Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Active Std,0,0,0,0.0
+teste,nao_Attempted,543490,Active Max,0,0,0,0.0
+teste,nao_Attempted,543490,Active Min,0,0,0,0.0
+teste,nao_Attempted,543490,Idle Mean,0,0,0,0.0
+teste,nao_Attempted,543490,Idle Std,0,0,0,0.0
+teste,nao_Attempted,543490,Idle Max,0,0,0,0.0
+teste,nao_Attempted,543490,Idle Min,0,0,0,0.0
+teste,nao_Attempted,543490,ICMP Code,0,0,0,0.0
+teste,nao_Attempted,543490,ICMP Type,0,0,0,0.0
+teste,nao_Attempted,543490,Total TCP Flow Time,0,0,0,0.0

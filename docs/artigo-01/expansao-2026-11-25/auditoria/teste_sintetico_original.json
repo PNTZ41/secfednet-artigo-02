@@ -1,0 +1,13 @@
+{
+  "status": "OK",
+  "testes": [
+    "duplicatas e linhas versus chaves",
+    "conflitos binarios e nominais",
+    "IDs locais repetidos entre capturas nao sao comuns",
+    "FlowID recorrente com timestamps diferentes nao e mesmo evento",
+    "chave bidirecional invariante a reversao",
+    "canonicalizacao -0.0 sem arredondamento",
+    "vazios invalidos e nao finitos separados",
+    "Attempted excluido e simulacoes reconciliadas/disjuntas"
+  ]
+}

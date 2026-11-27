@@ -1,0 +1,9 @@
+fase,medida,kubuntu,VM,VM_menos_kubuntu,categoria
+baseline,tempo_treino_s,1.5698312640015502,1.5056985190021805,-0.0641327449993696,medida de execucao; depende de carga/cache/virtualizacao; nao divergencia numerica
+baseline,tempo_total_s,7.418007689004298,6.372360749999643,-1.045646939004655,medida de execucao; depende de carga/cache/virtualizacao; nao divergencia numerica
+baseline,pico_rss_kib,861564,863988,2424,medida de execucao; depende de carga/cache/virtualizacao; nao divergencia numerica
+fedavg_integracao,tempo_treino_s,9.755340147996321,9.555712535002385,-0.19962761299393605,medida de execucao; depende de carga/cache/virtualizacao; nao divergencia numerica
+fedavg_integracao,tempo_total_s,14.522183667999343,14.163520529997186,-0.3586631380021572,medida de execucao; depende de carga/cache/virtualizacao; nao divergencia numerica
+fedavg_integracao,pico_rss_kib,1159812,1163052,3240,medida de execucao; depende de carga/cache/virtualizacao; nao divergencia numerica
+preparo_candidato,tempo_s,112.04597177199321,109.5342248310044,-2.5117469409888145,"medida de execucao, parametros e matrizes iguais"
+preparo_candidato,pico_rss_kib,3452216,3383548,-68668,"medida de execucao, parametros e matrizes iguais"

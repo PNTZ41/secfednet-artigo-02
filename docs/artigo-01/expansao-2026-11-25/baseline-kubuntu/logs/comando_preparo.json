@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+    "-B",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/preparar_candidato.py",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato"
+  ],
+  "cwd": "/home/willian/Projetos/secfednet",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  }
+}

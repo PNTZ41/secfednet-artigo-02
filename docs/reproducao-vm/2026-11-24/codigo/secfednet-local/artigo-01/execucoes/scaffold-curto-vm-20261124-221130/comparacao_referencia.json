@@ -1,0 +1,379 @@
+{
+  "manifesto": "secfednet-local/artigo-01/cnn-scaffold/SHA256_ARTEFATOS",
+  "hashes": {
+    "execucao/clientes.npz": {
+      "referencia": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb",
+      "vm": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb",
+      "igual": true
+    },
+    "execucao/configuracao.json": {
+      "referencia": "8b6de3e14fb6011891bbf9c6da6d8a73017a43db575ad9d0a985bed7d420d72a",
+      "vm": "6fc93f7fda5e65c8959ae20f0bec7d68c243cb67456607ac8a20ca45ae39cdd6",
+      "igual": false
+    },
+    "execucao/fedavg_sgd/checkpoint.pt": {
+      "referencia": "2e1a9fd5f7e4f0850d5216776e7e37a1b0e273d8e1d870a8c617c0ff263606e5",
+      "vm": "3b08b3e72caaeeb44cc789af9cac5c7ba26d5acdb51beb501f9a7728aba3a715",
+      "igual": false
+    },
+    "execucao/fedavg_sgd/rodada-00.pt": {
+      "referencia": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c",
+      "vm": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c",
+      "igual": true
+    },
+    "execucao/fedavg_sgd/rodada-01.pt": {
+      "referencia": "e6c87b14efd0f0828dd8df1161d2c0ceb7e1e570d5782dbfe1ec6b7fea611234",
+      "vm": "e6c87b14efd0f0828dd8df1161d2c0ceb7e1e570d5782dbfe1ec6b7fea611234",
+      "igual": true
+    },
+    "execucao/fedavg_sgd/rodada-02.pt": {
+      "referencia": "01488dd86ca26725b4064b1bf782817fba42148f35fa5672176b92ba7993969d",
+      "vm": "01488dd86ca26725b4064b1bf782817fba42148f35fa5672176b92ba7993969d",
+      "igual": true
+    },
+    "execucao/fedavg_sgd/rodadas.json": {
+      "referencia": "062a13cb162ac79c6aedf81591d1063dcddc6f1628eee2e7b3bf183eedfcf2cb",
+      "vm": "062a13cb162ac79c6aedf81591d1063dcddc6f1628eee2e7b3bf183eedfcf2cb",
+      "igual": true
+    },
+    "execucao/fedavg_sgd/scores_validacao.npy": {
+      "referencia": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e",
+      "vm": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e",
+      "igual": true
+    },
+    "execucao/fedavg_sgd/treino.json": {
+      "referencia": "a96eccf1acffe603ba7c285b29d752a0b96c37c8bf171a95eb7b8fdc53c21f02",
+      "vm": "20292414c3a805491ff758b41e4a4740306d50a3d4f5ae252fa1d3ff633e8b7d",
+      "igual": false
+    },
+    "execucao/pareamento.json": {
+      "referencia": "350fcc319a5fe8ab5d4dc7e24c087aa5e6992d58ee1b5e0a190af25503ae2f97",
+      "vm": "350fcc319a5fe8ab5d4dc7e24c087aa5e6992d58ee1b5e0a190af25503ae2f97",
+      "igual": true
+    },
+    "execucao/pesos_iniciais.pt": {
+      "referencia": "871163ef08d667f769082f9b111a7a27e6f0d39ea0f56a0920781b48a8a8a41c",
+      "vm": "871163ef08d667f769082f9b111a7a27e6f0d39ea0f56a0920781b48a8a8a41c",
+      "igual": true
+    },
+    "execucao/resultados.json": {
+      "referencia": "0d70a70be849261bee037d11fafdfa37548eb871beb44195b32ebc5811b656cf",
+      "vm": "0d70a70be849261bee037d11fafdfa37548eb871beb44195b32ebc5811b656cf",
+      "igual": true
+    },
+    "execucao/scaffold/checkpoint.pt": {
+      "referencia": "9b626828e85ae8d4ac09caf7ad186e0677f03d3812151a179eecebdb815fad43",
+      "vm": "943770ea9d00e68c9ddbe9598f101fec5d6335c026d063e48807c33bcc287149",
+      "igual": false
+    },
+    "execucao/scaffold/rodada-00.pt": {
+      "referencia": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c",
+      "vm": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c",
+      "igual": true
+    },
+    "execucao/scaffold/rodada-01.pt": {
+      "referencia": "2907bb452842d460273c9128a372a8339fe92106c47a228a5f2cea8b39b49fcd",
+      "vm": "2907bb452842d460273c9128a372a8339fe92106c47a228a5f2cea8b39b49fcd",
+      "igual": true
+    },
+    "execucao/scaffold/rodada-02.pt": {
+      "referencia": "5f205c785618947a3ff49396f85d9bc47cb82a113935615be73c0efb6052948d",
+      "vm": "5f205c785618947a3ff49396f85d9bc47cb82a113935615be73c0efb6052948d",
+      "igual": true
+    },
+    "execucao/scaffold/rodadas.json": {
+      "referencia": "a6c2b68415a809fd20eb13917f099707018ee29617b282e884390961b472aa07",
+      "vm": "a6c2b68415a809fd20eb13917f099707018ee29617b282e884390961b472aa07",
+      "igual": true
+    },
+    "execucao/scaffold/scores_validacao.npy": {
+      "referencia": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf",
+      "vm": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf",
+      "igual": true
+    },
+    "execucao/scaffold/treino.json": {
+      "referencia": "dcc5b40ad1eb8196ef6f87a85147c597f6b3bd9ee8f34984a51956b7527b9d08",
+      "vm": "e6af2057c473bec581b49b6143d97be570623a8726c72c2c655a1c3ce3d8603b",
+      "igual": false
+    },
+    "execucao/tempo.json": {
+      "referencia": "57bfac44febec293d3d24a1a06172a0df3aa728d64891136cbdfd2b8b264a434",
+      "vm": "3a54746d3717fb14ac62f0a3b609022feb3ae2afc9d86823204ffd6b89a67f36",
+      "igual": false
+    },
+    "recarga.log": {
+      "referencia": "a7316bfa9f55ca5d260dde54b47e99d22d7d4507344ad7484b98ddd461e4166e",
+      "vm": "a7316bfa9f55ca5d260dde54b47e99d22d7d4507344ad7484b98ddd461e4166e",
+      "igual": true
+    },
+    "teste_controles/continuo-02.pt": {
+      "referencia": "eb02617010e01b5ff98c14ff1f084b45a9e2ecc4feb81aa2a4abf4ef8bffec00",
+      "vm": "eb02617010e01b5ff98c14ff1f084b45a9e2ecc4feb81aa2a4abf4ef8bffec00",
+      "igual": true
+    },
+    "teste_controles/resultado.json": {
+      "referencia": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5",
+      "vm": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5",
+      "igual": true
+    },
+    "teste_controles/retomado-02.pt": {
+      "referencia": "8091cac7353638ff7f1a2acd25418b0636507830605792f02d97731bd64cfbbe",
+      "vm": "8091cac7353638ff7f1a2acd25418b0636507830605792f02d97731bd64cfbbe",
+      "igual": true
+    },
+    "teste_controles/rodada-01.pt": {
+      "referencia": "8e659880a9709b833625b41a70119d22f4d3d61a37357f4069e2c88842dfb295",
+      "vm": "8e659880a9709b833625b41a70119d22f4d3d61a37357f4069e2c88842dfb295",
+      "igual": true
+    },
+    "teste_controles.log": {
+      "referencia": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5",
+      "vm": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5",
+      "igual": true
+    },
+    "treino.log": {
+      "referencia": "7dacdcd41712f57558fe9c0b882d6abc282a09ee5ad720f01d2861580c7aeb75",
+      "vm": "7dacdcd41712f57558fe9c0b882d6abc282a09ee5ad720f01d2861580c7aeb75",
+      "igual": true
+    }
+  },
+  "total_hashes_iguais": 21,
+  "configuracao_diferencas": [
+    {
+      "campo": "/versoes/plataforma",
+      "referencia": "Linux-7.0.0-43-generic-x86_64-desconhecido-with-glibc2.43",
+      "vm": "Linux-7.0.0-44-generic-x86_64-desconhecido-with-glibc2.43"
+    }
+  ],
+  "clientes_npy_iguais": {
+    "cliente_0": true,
+    "cliente_1": true,
+    "cliente_2": true,
+    "cliente_3": true,
+    "cliente_4": true
+  },
+  "metodos": {
+    "fedavg_sgd": {
+      "scores": {
+        "quantidade": 50815,
+        "dtype": "float32",
+        "quantidade_diferente": 0,
+        "diferenca_absoluta_maxima": 0.0,
+        "diferenca_absoluta_media": 0.0,
+        "bits_iguais": true
+      },
+      "metricas_referencia": {
+        "nome": "fedavg_sgd",
+        "calibrado_validacao": {
+          "limiar": 0.41333019733428955,
+          "orcamento_fp": 407,
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40375,
+              401
+            ],
+            [
+              10032,
+              7
+            ]
+          ],
+          "fpr": 0.009834216205611144,
+          "recall_ddos": 0.0006972806056380117,
+          "macro_f1_binario": 0.44346091992320197
+        },
+        "limiar_05": {
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40776,
+              0
+            ],
+            [
+              10039,
+              0
+            ]
+          ],
+          "fpr": 0.0,
+          "recall_ddos": 0.0,
+          "macro_f1_binario": 0.44519658045004423
+        },
+        "scores_sha256": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e"
+      },
+      "metricas_vm": {
+        "nome": "fedavg_sgd",
+        "calibrado_validacao": {
+          "limiar": 0.41333019733428955,
+          "orcamento_fp": 407,
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40375,
+              401
+            ],
+            [
+              10032,
+              7
+            ]
+          ],
+          "fpr": 0.009834216205611144,
+          "recall_ddos": 0.0006972806056380117,
+          "macro_f1_binario": 0.44346091992320197
+        },
+        "limiar_05": {
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40776,
+              0
+            ],
+            [
+              10039,
+              0
+            ]
+          ],
+          "fpr": 0.0,
+          "recall_ddos": 0.0,
+          "macro_f1_binario": 0.44519658045004423
+        },
+        "scores_sha256": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e"
+      },
+      "metricas_diferencas": [],
+      "treino_diferencas": [
+        {
+          "campo": "/tempo_treino_s",
+          "referencia": 2.5795444900286384,
+          "vm": 2.9606596820000277
+        },
+        {
+          "campo": "/checkpoint_sha256",
+          "referencia": "2e1a9fd5f7e4f0850d5216776e7e37a1b0e273d8e1d870a8c617c0ff263606e5",
+          "vm": "3b08b3e72caaeeb44cc789af9cac5c7ba26d5acdb51beb501f9a7728aba3a715"
+        }
+      ]
+    },
+    "scaffold": {
+      "scores": {
+        "quantidade": 50815,
+        "dtype": "float32",
+        "quantidade_diferente": 0,
+        "diferenca_absoluta_maxima": 0.0,
+        "diferenca_absoluta_media": 0.0,
+        "bits_iguais": true
+      },
+      "metricas_referencia": {
+        "nome": "scaffold",
+        "calibrado_validacao": {
+          "limiar": 0.4026653468608857,
+          "orcamento_fp": 407,
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40776,
+              0
+            ],
+            [
+              10039,
+              0
+            ]
+          ],
+          "fpr": 0.0,
+          "recall_ddos": 0.0,
+          "macro_f1_binario": 0.44519658045004423
+        },
+        "limiar_05": {
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40776,
+              0
+            ],
+            [
+              10039,
+              0
+            ]
+          ],
+          "fpr": 0.0,
+          "recall_ddos": 0.0,
+          "macro_f1_binario": 0.44519658045004423
+        },
+        "scores_sha256": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf"
+      },
+      "metricas_vm": {
+        "nome": "scaffold",
+        "calibrado_validacao": {
+          "limiar": 0.4026653468608857,
+          "orcamento_fp": 407,
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40776,
+              0
+            ],
+            [
+              10039,
+              0
+            ]
+          ],
+          "fpr": 0.0,
+          "recall_ddos": 0.0,
+          "macro_f1_binario": 0.44519658045004423
+        },
+        "limiar_05": {
+          "suporte": {
+            "BENIGN": 40776,
+            "DDoS": 10039
+          },
+          "matriz_real_por_previsto": [
+            [
+              40776,
+              0
+            ],
+            [
+              10039,
+              0
+            ]
+          ],
+          "fpr": 0.0,
+          "recall_ddos": 0.0,
+          "macro_f1_binario": 0.44519658045004423
+        },
+        "scores_sha256": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf"
+      },
+      "metricas_diferencas": [],
+      "treino_diferencas": [
+        {
+          "campo": "/tempo_treino_s",
+          "referencia": 2.6476685449597426,
+          "vm": 3.0531039280000414
+        },
+        {
+          "campo": "/checkpoint_sha256",
+          "referencia": "9b626828e85ae8d4ac09caf7ad186e0677f03d3812151a179eecebdb815fad43",
+          "vm": "943770ea9d00e68c9ddbe9598f101fec5d6335c026d063e48807c33bcc287149"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "OK",
+  "checagens": [
+    "contagens binárias e nominais",
+    "antes - excluídas = depois e percentuais",
+    "exclusão por par corresponde às linhas posteriores afetadas",
+    "conflitos nominais abrangem binários e linhas estão contidas no cruzamento"
+  ],
+  "csvs_identicos_a_execucao_anterior": [
+    {
+      "arquivo": "chaves_por_conjunto.csv",
+      "sha256": "a490e7425a46ece88ef03d7dc55aaa04fb966eba500d479d2ec8b94bdeb72a4f"
+    },
+    {
+      "arquivo": "conflitos.csv",
+      "sha256": "da401f5124ebb64232ff3e9b05252bfd7e90e6761a81f0a2f735ad685b023850"
+    },
+    {
+      "arquivo": "cruzamentos.csv",
+      "sha256": "7edb3180fa0bd8383cfbe6d577e7302f1febd60ad563e86fc187e229e1892693"
+    },
+    {
+      "arquivo": "linhas_afetadas_por_classe.csv",
+      "sha256": "e0e1aee3aea988f081e8a02458b4123a305cacb1cabb3a2921b4ad794a3eb928"
+    },
+    {
+      "arquivo": "pares_rotulos_conflitantes.csv",
+      "sha256": "c9be5f11f210a992928b7a3afbbdd6c0c69049e6ba8f3eb45e3407298a33e3de"
+    },
+    {
+      "arquivo": "qualidade_por_feature.csv",
+      "sha256": "fd68b60512fa5ca964bbde6668a99dc9d2f3204329d65b061f817d5d6e149236"
+    },
+    {
+      "arquivo": "simulacoes_por_classe.csv",
+      "sha256": "70b26ce141ae5bd1d67df781f93003b853652c18d4df8bebfc3df04ec9e604b3"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+fedavg_sgd: SHA de referência reproduzido alterando só configuracao_sha256 em cópia temporária (2e1a9fd5f7e4f0850d5216776e7e37a1b0e273d8e1d870a8c617c0ff263606e5)
+scaffold: SHA de referência reproduzido alterando só configuracao_sha256 em cópia temporária (9b626828e85ae8d4ac09caf7ad186e0677f03d3812151a179eecebdb815fad43)

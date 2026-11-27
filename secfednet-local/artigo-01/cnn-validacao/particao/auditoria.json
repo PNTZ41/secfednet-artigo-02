@@ -1,0 +1,49 @@
+{
+  "pool": {
+    "BENIGN": 203880,
+    "DDoS": 50194
+  },
+  "ajuste": {
+    "BENIGN": 163096,
+    "DDoS": 40155
+  },
+  "validacao": {
+    "BENIGN": 40776,
+    "DDoS": 10039
+  },
+  "excluidos_do_ajuste": {
+    "BENIGN": 8,
+    "DDoS": 0
+  },
+  "expurgo_historico": [
+    {
+      "vetores_em_comum": 10,
+      "treino_removido": {
+        "BENIGN": 29,
+        "DDoS": 0
+      }
+    }
+  ],
+  "colisoes_float64": [
+    {
+      "vetores_em_comum": 5,
+      "treino_removido": {
+        "BENIGN": 8,
+        "DDoS": 0
+      }
+    }
+  ],
+  "colisoes_float32": [],
+  "grupos_pool": 195559,
+  "blocos_pool": 186738,
+  "intersecoes_ajuste_validacao": {
+    "linhas": 0,
+    "grupos": 0,
+    "vetores_brutos": 0
+  },
+  "grupos_compartilhados_pool_teste": 0,
+  "vetores_float32_ajuste_validacao": 0,
+  "ajuste_sha256": "cb0efb2247e8ceba3184fdcd008ab61e34f852fa5cc3ac844f39dba5487496b4",
+  "validacao_sha256": "dd30783769a3cca48eabac5a72f37d62cd8bcb986ef0a1c01e724e96c55b3bfd",
+  "manifesto_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f"
+}

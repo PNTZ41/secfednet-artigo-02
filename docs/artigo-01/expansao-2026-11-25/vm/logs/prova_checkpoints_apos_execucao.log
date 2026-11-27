@@ -1,0 +1,22 @@
+{
+  "prova": [
+    {
+      "modelo": "baseline",
+      "sha_vm": "53c4fdedaf28a5a6464e1f4ece2cdc4c31e44995e5f8d9db40052b5f252fc961",
+      "resserializacao_igual_vm": true,
+      "sha_com_apenas_manifesto_historico": "59401542d3e6512e57b9c6d37a8fc64bf1b6983762b7db57a215de8dbd869c5d",
+      "sha_kubuntu": "59401542d3e6512e57b9c6d37a8fc64bf1b6983762b7db57a215de8dbd869c5d",
+      "reproduz_sha_kubuntu_mudando_so_manifesto_sha256": true
+    },
+    {
+      "modelo": "fedavg_integracao",
+      "sha_vm": "522533cc0c0d2b4ec11989bcb2ffbbaa229d174580a23f6868dcd6385324e3b0",
+      "resserializacao_igual_vm": true,
+      "sha_com_apenas_manifesto_historico": "e3dd0d3fe55d66b7a9e74d091d283d039526d8e06f91b136b498d6511747cb8c",
+      "sha_kubuntu": "e3dd0d3fe55d66b7a9e74d091d283d039526d8e06f91b136b498d6511747cb8c",
+      "reproduz_sha_kubuntu_mudando_so_manifesto_sha256": true
+    }
+  ],
+  "arquivos_originais_alterados": false,
+  "previsoes_geradas": false
+}

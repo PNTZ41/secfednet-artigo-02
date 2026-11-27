@@ -1,0 +1,96 @@
+Recarga dos checkpoints e scores: iguais bit a bit em outro processo.
+{
+  "teste_global_avaliado": false,
+  "uso": "exploratorio: mesmo conjunto calibra limiar e mede recall",
+  "teto_fpr": 0.01,
+  "resultados": [
+    {
+      "nome": "fedavg_sgd",
+      "calibrado_validacao": {
+        "limiar": 0.41333019733428955,
+        "orcamento_fp": 407,
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40375,
+            401
+          ],
+          [
+            10032,
+            7
+          ]
+        ],
+        "fpr": 0.009834216205611144,
+        "recall_ddos": 0.0006972806056380117,
+        "macro_f1_binario": 0.44346091992320197
+      },
+      "limiar_05": {
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40776,
+            0
+          ],
+          [
+            10039,
+            0
+          ]
+        ],
+        "fpr": 0.0,
+        "recall_ddos": 0.0,
+        "macro_f1_binario": 0.44519658045004423
+      },
+      "scores_sha256": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e"
+    },
+    {
+      "nome": "scaffold",
+      "calibrado_validacao": {
+        "limiar": 0.4026653468608857,
+        "orcamento_fp": 407,
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40776,
+            0
+          ],
+          [
+            10039,
+            0
+          ]
+        ],
+        "fpr": 0.0,
+        "recall_ddos": 0.0,
+        "macro_f1_binario": 0.44519658045004423
+      },
+      "limiar_05": {
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40776,
+            0
+          ],
+          [
+            10039,
+            0
+          ]
+        ],
+        "fpr": 0.0,
+        "recall_ddos": 0.0,
+        "macro_f1_binario": 0.44519658045004423
+      },
+      "scores_sha256": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf"
+    }
+  ]
+}

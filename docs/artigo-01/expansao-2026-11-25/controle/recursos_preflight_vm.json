@@ -1,0 +1,53 @@
+{
+  "hostname": "secfednet-repro",
+  "user": "williian",
+  "cpus": 4,
+  "cpu_model": [
+    "model name\t: Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz"
+  ],
+  "meminfo": [
+    "MemTotal:        7602160 kB",
+    "MemAvailable:    3082012 kB"
+  ],
+  "disco": {
+    "total": 52518420480,
+    "used": 16109961216,
+    "free": 33707487232
+  },
+  "plataforma": "Linux-7.0.0-44-generic-x86_64-desconhecido-with-glibc2.43",
+  "python": "3.14.4",
+  "macs": {
+    "lo": "00:00:00:00:00:00",
+    "enp1s0": "52:54:00:16:cd:d7"
+  },
+  "uv": null,
+  "python3.14": "/usr/bin/python3.14",
+  "timeout": "/usr/bin/timeout",
+  "nohup": "/usr/bin/nohup",
+  "zip_path": "/home/williian/secfednet-repro/codigo/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+  "zip_presente": true,
+  "zip_sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+  "git_status": {
+    "exit": 0,
+    "stdout": "## HEAD (no branch)\n",
+    "stderr": ""
+  },
+  "git_head": {
+    "exit": 0,
+    "stdout": "0b38f255af6f22e4642c584c0f0e09b15ef9263e\n",
+    "stderr": ""
+  },
+  "cache_uv": true,
+  "complementares": {
+    "uvs": {
+      "/home/williian/.local/bin/uv": "uv 0.13.10 (x86_64-unknown-linux-gnu)",
+      "/home/williian/secfednet-repro/codigo/secfednet-local/artigo-01/cnn-flower/.venv/bin/uv": "uv 0.11.33 (x86_64-unknown-linux-gnu)"
+    },
+    "meminfo": [
+      "MemTotal:        7602160 kB",
+      "MemAvailable:    3024024 kB",
+      "SwapTotal:       4194300 kB",
+      "SwapFree:        2049196 kB"
+    ]
+  }
+}

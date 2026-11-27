@@ -1,0 +1,564 @@
+{
+  "zip_sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+  "csvs": [
+    {
+      "arquivo": "monday.csv",
+      "sha256": "51fe5dc962626efb4ae70dce0303072fb780da0932822b651202ee9c2fbc1aff",
+      "bytes": 207875155,
+      "linhas": 371624,
+      "classes_brutas": {
+        "BENIGN": 371624
+      },
+      "nao_attempted": {
+        "BENIGN": 371624
+      },
+      "attempted": {},
+      "attempted_category": {
+        "-1": 371624
+      },
+      "datas": {
+        "2017-07-03": 371624
+      },
+      "primeiro_timestamp": "2017-07-03T11:55:58.598308",
+      "ultimo_timestamp": "2017-07-03T20:01:34.352593",
+      "problemas": {}
+    },
+    {
+      "arquivo": "tuesday.csv",
+      "sha256": "e2a0a5b631dfc6b455cc9f9a88b944110637d70a7f74171473925f76f38b6b0c",
+      "bytes": 178397720,
+      "linhas": 322078,
+      "classes_brutas": {
+        "BENIGN": 315106,
+        "FTP-Patator - Attempted": 12,
+        "FTP-Patator": 3972,
+        "SSH-Patator": 2961,
+        "SSH-Patator - Attempted": 27
+      },
+      "nao_attempted": {
+        "BENIGN": 315106,
+        "FTP-Patator": 3972,
+        "SSH-Patator": 2961
+      },
+      "attempted": {
+        "FTP-Patator - Attempted": 12,
+        "SSH-Patator - Attempted": 27
+      },
+      "attempted_category": {
+        "-1": 322039,
+        "2": 2,
+        "0": 10,
+        "3": 27
+      },
+      "datas": {
+        "2017-07-04": 322078
+      },
+      "primeiro_timestamp": "2017-07-04T11:53:44.398274",
+      "ultimo_timestamp": "2017-07-04T20:00:30.041663",
+      "problemas": {}
+    },
+    {
+      "arquivo": "wednesday.csv",
+      "sha256": "bf46c5f3c792e8817381f724511229569606918eaf07ac986d7a2592b6341bc2",
+      "bytes": 291290505,
+      "linhas": 496641,
+      "classes_brutas": {
+        "BENIGN": 319120,
+        "DoS Slowloris": 3859,
+        "DoS Slowloris - Attempted": 1847,
+        "DoS Slowhttptest": 1740,
+        "DoS Slowhttptest - Attempted": 3368,
+        "DoS Hulk": 158468,
+        "DoS Hulk - Attempted": 581,
+        "DoS GoldenEye": 7567,
+        "Heartbleed": 11,
+        "DoS GoldenEye - Attempted": 80
+      },
+      "nao_attempted": {
+        "BENIGN": 319120,
+        "DoS Slowloris": 3859,
+        "DoS Slowhttptest": 1740,
+        "DoS Hulk": 158468,
+        "DoS GoldenEye": 7567,
+        "Heartbleed": 11
+      },
+      "attempted": {
+        "DoS Slowloris - Attempted": 1847,
+        "DoS Slowhttptest - Attempted": 3368,
+        "DoS Hulk - Attempted": 581,
+        "DoS GoldenEye - Attempted": 80
+      },
+      "attempted_category": {
+        "-1": 490765,
+        "0": 2927,
+        "5": 138,
+        "4": 4,
+        "6": 2804,
+        "2": 3
+      },
+      "datas": {
+        "2017-07-05": 496641
+      },
+      "primeiro_timestamp": "2017-07-05T11:42:42.084372",
+      "ultimo_timestamp": "2017-07-05T20:10:14.557249",
+      "problemas": {}
+    },
+    {
+      "arquivo": "thursday.csv",
+      "sha256": "78a4d11eaf473d099e30e71ddb01e0f38218e844c0a9cdd36602145d674af482",
+      "bytes": 189519159,
+      "linhas": 362076,
+      "classes_brutas": {
+        "BENIGN": 288172,
+        "Web Attack - Brute Force - Attempted": 1292,
+        "Web Attack - Brute Force": 73,
+        "Infiltration - Attempted": 45,
+        "Infiltration": 36,
+        "Infiltration - Portscan": 71767,
+        "Web Attack - XSS - Attempted": 655,
+        "Web Attack - XSS": 18,
+        "Web Attack - SQL Injection - Attempted": 5,
+        "Web Attack - SQL Injection": 13
+      },
+      "nao_attempted": {
+        "BENIGN": 288172,
+        "Web Attack - Brute Force": 73,
+        "Infiltration": 36,
+        "Infiltration - Portscan": 71767,
+        "Web Attack - XSS": 18,
+        "Web Attack - SQL Injection": 13
+      },
+      "attempted": {
+        "Web Attack - Brute Force - Attempted": 1292,
+        "Infiltration - Attempted": 45,
+        "Web Attack - XSS - Attempted": 655,
+        "Web Attack - SQL Injection - Attempted": 5
+      },
+      "attempted_category": {
+        "-1": 360079,
+        "2": 18,
+        "0": 1908,
+        "4": 71
+      },
+      "datas": {
+        "2017-07-06": 362076
+      },
+      "primeiro_timestamp": "2017-07-06T11:59:00.490140",
+      "ultimo_timestamp": "2017-07-06T20:04:36.513760",
+      "problemas": {}
+    },
+    {
+      "arquivo": "friday.csv",
+      "sha256": "ebd499e6f23bd59f9cb81bec28178491b02b925fa5640a24215c9437d79482d0",
+      "bytes": 285188226,
+      "linhas": 547557,
+      "classes_brutas": {
+        "BENIGN": 288544,
+        "Botnet - Attempted": 4067,
+        "Botnet": 736,
+        "Portscan": 159066,
+        "DDoS": 95144
+      },
+      "nao_attempted": {
+        "BENIGN": 288544,
+        "Botnet": 736,
+        "Portscan": 159066,
+        "DDoS": 95144
+      },
+      "attempted": {
+        "Botnet - Attempted": 4067
+      },
+      "attempted_category": {
+        "-1": 543490,
+        "1": 4067
+      },
+      "datas": {
+        "2017-07-07": 547557
+      },
+      "primeiro_timestamp": "2017-07-07T11:59:50.315195",
+      "ultimo_timestamp": "2017-07-07T20:02:40.977798",
+      "problemas": {}
+    }
+  ],
+  "ordem_features": [
+    "Flow Duration",
+    "Total Fwd Packet",
+    "Total Bwd packets",
+    "Total Length of Fwd Packet",
+    "Total Length of Bwd Packet",
+    "Fwd Packet Length Max",
+    "Fwd Packet Length Min",
+    "Fwd Packet Length Mean",
+    "Fwd Packet Length Std",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Total",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Total",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Fwd PSH Flags",
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "Fwd RST Flags",
+    "Bwd RST Flags",
+    "Fwd Header Length",
+    "Bwd Header Length",
+    "Fwd Packets/s",
+    "Bwd Packets/s",
+    "Packet Length Min",
+    "Packet Length Max",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "FIN Flag Count",
+    "SYN Flag Count",
+    "RST Flag Count",
+    "PSH Flag Count",
+    "ACK Flag Count",
+    "URG Flag Count",
+    "CWR Flag Count",
+    "ECE Flag Count",
+    "Down/Up Ratio",
+    "Average Packet Size",
+    "Fwd Segment Size Avg",
+    "Bwd Segment Size Avg",
+    "Fwd Bytes/Bulk Avg",
+    "Fwd Packet/Bulk Avg",
+    "Fwd Bulk Rate Avg",
+    "Bwd Bytes/Bulk Avg",
+    "Bwd Packet/Bulk Avg",
+    "Bwd Bulk Rate Avg",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Bwd Bytes",
+    "FWD Init Win Bytes",
+    "Bwd Init Win Bytes",
+    "Fwd Act Data Pkts",
+    "Fwd Seg Size Min",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min",
+    "ICMP Code",
+    "ICMP Type",
+    "Total TCP Flow Time"
+  ],
+  "numero_features": 81,
+  "rotulos_attempted": "flag diferente de -1 OU sufixo ' - Attempted'; separados, nao recodificados como ataque bem-sucedido",
+  "suporte_por_captura": {
+    "BENIGN": {
+      "monday.csv": 371624,
+      "tuesday.csv": 315106,
+      "wednesday.csv": 319120,
+      "thursday.csv": 288172,
+      "friday.csv": 288544
+    },
+    "Botnet": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 0,
+      "friday.csv": 736
+    },
+    "DDoS": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 0,
+      "friday.csv": 95144
+    },
+    "DoS GoldenEye": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 7567,
+      "thursday.csv": 0,
+      "friday.csv": 0
+    },
+    "DoS Hulk": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 158468,
+      "thursday.csv": 0,
+      "friday.csv": 0
+    },
+    "DoS Slowhttptest": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 1740,
+      "thursday.csv": 0,
+      "friday.csv": 0
+    },
+    "DoS Slowloris": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 3859,
+      "thursday.csv": 0,
+      "friday.csv": 0
+    },
+    "FTP-Patator": {
+      "monday.csv": 0,
+      "tuesday.csv": 3972,
+      "wednesday.csv": 0,
+      "thursday.csv": 0,
+      "friday.csv": 0
+    },
+    "Heartbleed": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 11,
+      "thursday.csv": 0,
+      "friday.csv": 0
+    },
+    "Infiltration": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 36,
+      "friday.csv": 0
+    },
+    "Infiltration - Portscan": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 71767,
+      "friday.csv": 0
+    },
+    "Portscan": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 0,
+      "friday.csv": 159066
+    },
+    "SSH-Patator": {
+      "monday.csv": 0,
+      "tuesday.csv": 2961,
+      "wednesday.csv": 0,
+      "thursday.csv": 0,
+      "friday.csv": 0
+    },
+    "Web Attack - Brute Force": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 73,
+      "friday.csv": 0
+    },
+    "Web Attack - SQL Injection": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 13,
+      "friday.csv": 0
+    },
+    "Web Attack - XSS": {
+      "monday.csv": 0,
+      "tuesday.csv": 0,
+      "wednesday.csv": 0,
+      "thursday.csv": 18,
+      "friday.csv": 0
+    }
+  },
+  "capturas_proposta": {
+    "treino": [
+      "monday.csv",
+      "tuesday.csv",
+      "wednesday.csv"
+    ],
+    "validacao": [
+      "thursday.csv"
+    ],
+    "teste": [
+      "friday.csv"
+    ]
+  },
+  "suporte_treino_validacao_teste_capturas": {
+    "BENIGN": {
+      "treino": 1005850,
+      "validacao": 288172,
+      "teste": 288544
+    },
+    "Botnet": {
+      "treino": 0,
+      "validacao": 0,
+      "teste": 736
+    },
+    "DDoS": {
+      "treino": 0,
+      "validacao": 0,
+      "teste": 95144
+    },
+    "DoS GoldenEye": {
+      "treino": 7567,
+      "validacao": 0,
+      "teste": 0
+    },
+    "DoS Hulk": {
+      "treino": 158468,
+      "validacao": 0,
+      "teste": 0
+    },
+    "DoS Slowhttptest": {
+      "treino": 1740,
+      "validacao": 0,
+      "teste": 0
+    },
+    "DoS Slowloris": {
+      "treino": 3859,
+      "validacao": 0,
+      "teste": 0
+    },
+    "FTP-Patator": {
+      "treino": 3972,
+      "validacao": 0,
+      "teste": 0
+    },
+    "Heartbleed": {
+      "treino": 11,
+      "validacao": 0,
+      "teste": 0
+    },
+    "Infiltration": {
+      "treino": 0,
+      "validacao": 36,
+      "teste": 0
+    },
+    "Infiltration - Portscan": {
+      "treino": 0,
+      "validacao": 71767,
+      "teste": 0
+    },
+    "Portscan": {
+      "treino": 0,
+      "validacao": 0,
+      "teste": 159066
+    },
+    "SSH-Patator": {
+      "treino": 2961,
+      "validacao": 0,
+      "teste": 0
+    },
+    "Web Attack - Brute Force": {
+      "treino": 0,
+      "validacao": 73,
+      "teste": 0
+    },
+    "Web Attack - SQL Injection": {
+      "treino": 0,
+      "validacao": 13,
+      "teste": 0
+    },
+    "Web Attack - XSS": {
+      "treino": 0,
+      "validacao": 18,
+      "teste": 0
+    }
+  },
+  "cortes_periodos_por_captura": {
+    "monday.csv": {
+      "inicio_validacao": "2017-07-03T17:15:00",
+      "inicio_teste": "2017-07-03T19:00:00",
+      "regra": "cortes por quantis 70/85% do total nao-Attempted, em fronteiras de blocos de 15 min, sem usar classes"
+    },
+    "tuesday.csv": {
+      "inicio_validacao": "2017-07-04T17:45:00",
+      "inicio_teste": "2017-07-04T19:00:00",
+      "regra": "cortes por quantis 70/85% do total nao-Attempted, em fronteiras de blocos de 15 min, sem usar classes"
+    },
+    "wednesday.csv": {
+      "inicio_validacao": "2017-07-05T16:45:00",
+      "inicio_teste": "2017-07-05T18:15:00",
+      "regra": "cortes por quantis 70/85% do total nao-Attempted, em fronteiras de blocos de 15 min, sem usar classes"
+    },
+    "thursday.csv": {
+      "inicio_validacao": "2017-07-06T18:30:00",
+      "inicio_teste": "2017-07-06T18:45:00",
+      "regra": "cortes por quantis 70/85% do total nao-Attempted, em fronteiras de blocos de 15 min, sem usar classes"
+    },
+    "friday.csv": {
+      "inicio_validacao": "2017-07-07T18:30:00",
+      "inicio_teste": "2017-07-07T19:15:00",
+      "regra": "cortes por quantis 70/85% do total nao-Attempted, em fronteiras de blocos de 15 min, sem usar classes"
+    }
+  },
+  "suporte_treino_validacao_teste_periodos": {
+    "BENIGN": {
+      "treino": 1128551,
+      "validacao": 223614,
+      "teste": 230401
+    },
+    "Botnet": {
+      "treino": 736
+    },
+    "DDoS": {
+      "validacao": 89233,
+      "teste": 5911
+    },
+    "DoS GoldenEye": {
+      "treino": 7567
+    },
+    "DoS Hulk": {
+      "treino": 158468
+    },
+    "DoS Slowhttptest": {
+      "treino": 1740
+    },
+    "DoS Slowloris": {
+      "treino": 3859
+    },
+    "FTP-Patator": {
+      "treino": 3972
+    },
+    "Heartbleed": {
+      "validacao": 2,
+      "teste": 9
+    },
+    "Infiltration": {
+      "treino": 30,
+      "validacao": 6
+    },
+    "Infiltration - Portscan": {
+      "treino": 45371,
+      "validacao": 26334,
+      "teste": 62
+    },
+    "Portscan": {
+      "treino": 159066
+    },
+    "SSH-Patator": {
+      "validacao": 1233,
+      "treino": 1727,
+      "teste": 1
+    },
+    "Web Attack - Brute Force": {
+      "treino": 73
+    },
+    "Web Attack - SQL Injection": {
+      "treino": 13
+    },
+    "Web Attack - XSS": {
+      "treino": 18
+    }
+  },
+  "limite": "Suporte bruto sem Attempted; antes de filtros numericos e expurgo de grupos/vetores. Nenhum split final foi congelado. Periodos por captura nao sao uma cronologia global entre dias."
+}

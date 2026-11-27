@@ -1,0 +1,193 @@
+seed,metodo,cenario,tipo,suporte,recall_classe_binaria
+23,central,principal,BENIGN,288171,0.9993371990935938
+23,central,principal,Botnet,0,NA
+23,central,principal,DDoS,0,NA
+23,central,principal,DoS GoldenEye,0,NA
+23,central,principal,DoS Hulk,0,NA
+23,central,principal,DoS Slowhttptest,0,NA
+23,central,principal,DoS Slowloris,0,NA
+23,central,principal,FTP-Patator,0,NA
+23,central,principal,Heartbleed,0,NA
+23,central,principal,Infiltration,36,0.0
+23,central,principal,Infiltration - Portscan,71767,0.07025513118842923
+23,central,principal,Portscan,0,NA
+23,central,principal,SSH-Patator,0,NA
+23,central,principal,Web Attack - Brute Force,73,0.0
+23,central,principal,Web Attack - SQL Injection,13,0.0
+23,central,principal,Web Attack - XSS,18,0.0
+23,central,sensibilidade_raw64,BENIGN,256522,0.999255424486009
+23,central,sensibilidade_raw64,Botnet,0,NA
+23,central,sensibilidade_raw64,DDoS,0,NA
+23,central,sensibilidade_raw64,DoS GoldenEye,0,NA
+23,central,sensibilidade_raw64,DoS Hulk,0,NA
+23,central,sensibilidade_raw64,DoS Slowhttptest,0,NA
+23,central,sensibilidade_raw64,DoS Slowloris,0,NA
+23,central,sensibilidade_raw64,FTP-Patator,0,NA
+23,central,sensibilidade_raw64,Heartbleed,0,NA
+23,central,sensibilidade_raw64,Infiltration,36,0.0
+23,central,sensibilidade_raw64,Infiltration - Portscan,71767,0.07025513118842923
+23,central,sensibilidade_raw64,Portscan,0,NA
+23,central,sensibilidade_raw64,SSH-Patator,0,NA
+23,central,sensibilidade_raw64,Web Attack - Brute Force,73,0.0
+23,central,sensibilidade_raw64,Web Attack - SQL Injection,13,0.0
+23,central,sensibilidade_raw64,Web Attack - XSS,18,0.0
+23,fedavg,principal,BENIGN,288171,0.9992539152100662
+23,fedavg,principal,Botnet,0,NA
+23,fedavg,principal,DDoS,0,NA
+23,fedavg,principal,DoS GoldenEye,0,NA
+23,fedavg,principal,DoS Hulk,0,NA
+23,fedavg,principal,DoS Slowhttptest,0,NA
+23,fedavg,principal,DoS Slowloris,0,NA
+23,fedavg,principal,FTP-Patator,0,NA
+23,fedavg,principal,Heartbleed,0,NA
+23,fedavg,principal,Infiltration,36,0.0
+23,fedavg,principal,Infiltration - Portscan,71767,0.09482073933702119
+23,fedavg,principal,Portscan,0,NA
+23,fedavg,principal,SSH-Patator,0,NA
+23,fedavg,principal,Web Attack - Brute Force,73,0.0
+23,fedavg,principal,Web Attack - SQL Injection,13,0.0
+23,fedavg,principal,Web Attack - XSS,18,0.0
+23,fedavg,sensibilidade_raw64,BENIGN,256522,0.9991618652591201
+23,fedavg,sensibilidade_raw64,Botnet,0,NA
+23,fedavg,sensibilidade_raw64,DDoS,0,NA
+23,fedavg,sensibilidade_raw64,DoS GoldenEye,0,NA
+23,fedavg,sensibilidade_raw64,DoS Hulk,0,NA
+23,fedavg,sensibilidade_raw64,DoS Slowhttptest,0,NA
+23,fedavg,sensibilidade_raw64,DoS Slowloris,0,NA
+23,fedavg,sensibilidade_raw64,FTP-Patator,0,NA
+23,fedavg,sensibilidade_raw64,Heartbleed,0,NA
+23,fedavg,sensibilidade_raw64,Infiltration,36,0.0
+23,fedavg,sensibilidade_raw64,Infiltration - Portscan,71767,0.09482073933702119
+23,fedavg,sensibilidade_raw64,Portscan,0,NA
+23,fedavg,sensibilidade_raw64,SSH-Patator,0,NA
+23,fedavg,sensibilidade_raw64,Web Attack - Brute Force,73,0.0
+23,fedavg,sensibilidade_raw64,Web Attack - SQL Injection,13,0.0
+23,fedavg,sensibilidade_raw64,Web Attack - XSS,18,0.0
+41,central,principal,BENIGN,288171,0.9945483757907632
+41,central,principal,Botnet,0,NA
+41,central,principal,DDoS,0,NA
+41,central,principal,DoS GoldenEye,0,NA
+41,central,principal,DoS Hulk,0,NA
+41,central,principal,DoS Slowhttptest,0,NA
+41,central,principal,DoS Slowloris,0,NA
+41,central,principal,FTP-Patator,0,NA
+41,central,principal,Heartbleed,0,NA
+41,central,principal,Infiltration,36,0.027777777777777776
+41,central,principal,Infiltration - Portscan,71767,0.0002786796159794892
+41,central,principal,Portscan,0,NA
+41,central,principal,SSH-Patator,0,NA
+41,central,principal,Web Attack - Brute Force,73,0.0
+41,central,principal,Web Attack - SQL Injection,13,0.0
+41,central,principal,Web Attack - XSS,18,0.0
+41,central,sensibilidade_raw64,BENIGN,256522,0.993875768939896
+41,central,sensibilidade_raw64,Botnet,0,NA
+41,central,sensibilidade_raw64,DDoS,0,NA
+41,central,sensibilidade_raw64,DoS GoldenEye,0,NA
+41,central,sensibilidade_raw64,DoS Hulk,0,NA
+41,central,sensibilidade_raw64,DoS Slowhttptest,0,NA
+41,central,sensibilidade_raw64,DoS Slowloris,0,NA
+41,central,sensibilidade_raw64,FTP-Patator,0,NA
+41,central,sensibilidade_raw64,Heartbleed,0,NA
+41,central,sensibilidade_raw64,Infiltration,36,0.027777777777777776
+41,central,sensibilidade_raw64,Infiltration - Portscan,71767,0.0002786796159794892
+41,central,sensibilidade_raw64,Portscan,0,NA
+41,central,sensibilidade_raw64,SSH-Patator,0,NA
+41,central,sensibilidade_raw64,Web Attack - Brute Force,73,0.0
+41,central,sensibilidade_raw64,Web Attack - SQL Injection,13,0.0
+41,central,sensibilidade_raw64,Web Attack - XSS,18,0.0
+41,fedavg,principal,BENIGN,288171,0.999736267702163
+41,fedavg,principal,Botnet,0,NA
+41,fedavg,principal,DDoS,0,NA
+41,fedavg,principal,DoS GoldenEye,0,NA
+41,fedavg,principal,DoS Hulk,0,NA
+41,fedavg,principal,DoS Slowhttptest,0,NA
+41,fedavg,principal,DoS Slowloris,0,NA
+41,fedavg,principal,FTP-Patator,0,NA
+41,fedavg,principal,Heartbleed,0,NA
+41,fedavg,principal,Infiltration,36,0.0
+41,fedavg,principal,Infiltration - Portscan,71767,0.018002703192275
+41,fedavg,principal,Portscan,0,NA
+41,fedavg,principal,SSH-Patator,0,NA
+41,fedavg,principal,Web Attack - Brute Force,73,0.0273972602739726
+41,fedavg,principal,Web Attack - SQL Injection,13,0.0
+41,fedavg,principal,Web Attack - XSS,18,0.0
+41,fedavg,sensibilidade_raw64,BENIGN,256522,0.9997037291148517
+41,fedavg,sensibilidade_raw64,Botnet,0,NA
+41,fedavg,sensibilidade_raw64,DDoS,0,NA
+41,fedavg,sensibilidade_raw64,DoS GoldenEye,0,NA
+41,fedavg,sensibilidade_raw64,DoS Hulk,0,NA
+41,fedavg,sensibilidade_raw64,DoS Slowhttptest,0,NA
+41,fedavg,sensibilidade_raw64,DoS Slowloris,0,NA
+41,fedavg,sensibilidade_raw64,FTP-Patator,0,NA
+41,fedavg,sensibilidade_raw64,Heartbleed,0,NA
+41,fedavg,sensibilidade_raw64,Infiltration,36,0.0
+41,fedavg,sensibilidade_raw64,Infiltration - Portscan,71767,0.018002703192275
+41,fedavg,sensibilidade_raw64,Portscan,0,NA
+41,fedavg,sensibilidade_raw64,SSH-Patator,0,NA
+41,fedavg,sensibilidade_raw64,Web Attack - Brute Force,73,0.0273972602739726
+41,fedavg,sensibilidade_raw64,Web Attack - SQL Injection,13,0.0
+41,fedavg,sensibilidade_raw64,Web Attack - XSS,18,0.0
+89,central,principal,BENIGN,288171,0.994079903945921
+89,central,principal,Botnet,0,NA
+89,central,principal,DDoS,0,NA
+89,central,principal,DoS GoldenEye,0,NA
+89,central,principal,DoS Hulk,0,NA
+89,central,principal,DoS Slowhttptest,0,NA
+89,central,principal,DoS Slowloris,0,NA
+89,central,principal,FTP-Patator,0,NA
+89,central,principal,Heartbleed,0,NA
+89,central,principal,Infiltration,36,0.0
+89,central,principal,Infiltration - Portscan,71767,0.048211573564451625
+89,central,principal,Portscan,0,NA
+89,central,principal,SSH-Patator,0,NA
+89,central,principal,Web Attack - Brute Force,73,0.0
+89,central,principal,Web Attack - SQL Injection,13,0.07692307692307693
+89,central,principal,Web Attack - XSS,18,0.0
+89,central,sensibilidade_raw64,BENIGN,256522,0.9933494982886458
+89,central,sensibilidade_raw64,Botnet,0,NA
+89,central,sensibilidade_raw64,DDoS,0,NA
+89,central,sensibilidade_raw64,DoS GoldenEye,0,NA
+89,central,sensibilidade_raw64,DoS Hulk,0,NA
+89,central,sensibilidade_raw64,DoS Slowhttptest,0,NA
+89,central,sensibilidade_raw64,DoS Slowloris,0,NA
+89,central,sensibilidade_raw64,FTP-Patator,0,NA
+89,central,sensibilidade_raw64,Heartbleed,0,NA
+89,central,sensibilidade_raw64,Infiltration,36,0.0
+89,central,sensibilidade_raw64,Infiltration - Portscan,71767,0.048211573564451625
+89,central,sensibilidade_raw64,Portscan,0,NA
+89,central,sensibilidade_raw64,SSH-Patator,0,NA
+89,central,sensibilidade_raw64,Web Attack - Brute Force,73,0.0
+89,central,sensibilidade_raw64,Web Attack - SQL Injection,13,0.07692307692307693
+89,central,sensibilidade_raw64,Web Attack - XSS,18,0.0
+89,fedavg,principal,BENIGN,288171,0.999823021747504
+89,fedavg,principal,Botnet,0,NA
+89,fedavg,principal,DDoS,0,NA
+89,fedavg,principal,DoS GoldenEye,0,NA
+89,fedavg,principal,DoS Hulk,0,NA
+89,fedavg,principal,DoS Slowhttptest,0,NA
+89,fedavg,principal,DoS Slowloris,0,NA
+89,fedavg,principal,FTP-Patator,0,NA
+89,fedavg,principal,Heartbleed,0,NA
+89,fedavg,principal,Infiltration,36,0.0
+89,fedavg,principal,Infiltration - Portscan,71767,0.006381763205930302
+89,fedavg,principal,Portscan,0,NA
+89,fedavg,principal,SSH-Patator,0,NA
+89,fedavg,principal,Web Attack - Brute Force,73,0.0
+89,fedavg,principal,Web Attack - SQL Injection,13,0.0
+89,fedavg,principal,Web Attack - XSS,18,0.0
+89,fedavg,sensibilidade_raw64,BENIGN,256522,0.999801186642861
+89,fedavg,sensibilidade_raw64,Botnet,0,NA
+89,fedavg,sensibilidade_raw64,DDoS,0,NA
+89,fedavg,sensibilidade_raw64,DoS GoldenEye,0,NA
+89,fedavg,sensibilidade_raw64,DoS Hulk,0,NA
+89,fedavg,sensibilidade_raw64,DoS Slowhttptest,0,NA
+89,fedavg,sensibilidade_raw64,DoS Slowloris,0,NA
+89,fedavg,sensibilidade_raw64,FTP-Patator,0,NA
+89,fedavg,sensibilidade_raw64,Heartbleed,0,NA
+89,fedavg,sensibilidade_raw64,Infiltration,36,0.0
+89,fedavg,sensibilidade_raw64,Infiltration - Portscan,71767,0.006381763205930302
+89,fedavg,sensibilidade_raw64,Portscan,0,NA
+89,fedavg,sensibilidade_raw64,SSH-Patator,0,NA
+89,fedavg,sensibilidade_raw64,Web Attack - Brute Force,73,0.0
+89,fedavg,sensibilidade_raw64,Web Attack - SQL Injection,13,0.0
+89,fedavg,sensibilidade_raw64,Web Attack - XSS,18,0.0

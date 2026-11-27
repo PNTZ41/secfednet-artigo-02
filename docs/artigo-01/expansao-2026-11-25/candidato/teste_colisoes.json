@@ -1,0 +1,9 @@
+{
+  "status": "OK",
+  "casos": [
+    "colisao nova versus fonte igual",
+    "multiplicidade de linhas e pares",
+    "colapso float64 por subtracao/escala",
+    "colapso adicional na conversao float32"
+  ]
+}

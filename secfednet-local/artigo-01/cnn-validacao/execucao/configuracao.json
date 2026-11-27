@@ -1,0 +1,335 @@
+{
+  "ensaios": [
+    {
+      "nome": "fedavg",
+      "mu": null
+    },
+    {
+      "nome": "fedprox_mu0001",
+      "mu": 0.001
+    },
+    {
+      "nome": "fedprox_mu001",
+      "mu": 0.01
+    },
+    {
+      "nome": "fedprox_mu01",
+      "mu": 0.1
+    }
+  ],
+  "rodadas": 3,
+  "epocas_locais": 1,
+  "clientes": 5,
+  "seed_modelo": 23,
+  "seed_particao": 2305,
+  "alpha_dirichlet": 0.5,
+  "tentativa_particao": 1,
+  "pesos_iniciais_sha256": "7951f7ebfdbd15c5c93439853b255f2555495cc0b6de8f02a11bf1a2b84a2a8a",
+  "minibatches": [
+    {
+      "rodada": 1,
+      "cliente": 0,
+      "seed": 123,
+      "ordem_sha256": "4a5f3c1a568313d7c79f27537f33f42b5cb2ceb055cc57bfd08009bb168ec31f",
+      "passos": 9
+    },
+    {
+      "rodada": 1,
+      "cliente": 1,
+      "seed": 124,
+      "ordem_sha256": "8d6bd6d7ac78825d057a7b2d0d631942dee28a667d75b6628475c867cd0a4b40",
+      "passos": 40
+    },
+    {
+      "rodada": 1,
+      "cliente": 2,
+      "seed": 125,
+      "ordem_sha256": "5cf7d9de3fcbde54d9a6acc80d006b5ca4099dd9ad12424d8395d560c3aee26b",
+      "passos": 13
+    },
+    {
+      "rodada": 1,
+      "cliente": 3,
+      "seed": 126,
+      "ordem_sha256": "1593064ef6e656e70ecea51addbc01b1432b2f533d048264bc1f44de2c67bd86",
+      "passos": 100
+    },
+    {
+      "rodada": 1,
+      "cliente": 4,
+      "seed": 127,
+      "ordem_sha256": "e4d9ee53d33bb8e4d829faacc2113dd2eb40c9b4587a78924c3f502230ee588d",
+      "passos": 238
+    },
+    {
+      "rodada": 2,
+      "cliente": 0,
+      "seed": 223,
+      "ordem_sha256": "5312f59f46d193a3219c9c7524ddb314f86ef549e412ee1512affeeedf1fa4e5",
+      "passos": 9
+    },
+    {
+      "rodada": 2,
+      "cliente": 1,
+      "seed": 224,
+      "ordem_sha256": "c254a3bf7ca1345bb12634f493f2928379e2407b24f793698866a6d9ba44e0a3",
+      "passos": 40
+    },
+    {
+      "rodada": 2,
+      "cliente": 2,
+      "seed": 225,
+      "ordem_sha256": "763cd46ea1a8908a3d0eda877a0c269612af2286bb7a1331dde766c9ebc29a1f",
+      "passos": 13
+    },
+    {
+      "rodada": 2,
+      "cliente": 3,
+      "seed": 226,
+      "ordem_sha256": "9e1997b3d63fbda12a4a359c2d510df2f07e9d844905a37b679d5fb8597e6364",
+      "passos": 100
+    },
+    {
+      "rodada": 2,
+      "cliente": 4,
+      "seed": 227,
+      "ordem_sha256": "3d9311228480c393f68a2c32513755114a6973f1b597fa85adc4344e72f6b51e",
+      "passos": 238
+    },
+    {
+      "rodada": 3,
+      "cliente": 0,
+      "seed": 323,
+      "ordem_sha256": "ba32553e403d851cfc7dc7ecfebc4a98b6d5e73a2cd4c764d487b17716f2f706",
+      "passos": 9
+    },
+    {
+      "rodada": 3,
+      "cliente": 1,
+      "seed": 324,
+      "ordem_sha256": "e6e149872fcbb71f74b7d9aa25e7872879297a024eb4de4e7b896ea2de4e3c1d",
+      "passos": 40
+    },
+    {
+      "rodada": 3,
+      "cliente": 2,
+      "seed": 325,
+      "ordem_sha256": "f0698bfcd294a4f09b38a4aa373e9e1b2cdfc22939bdd42e53b0c0f93f24a019",
+      "passos": 13
+    },
+    {
+      "rodada": 3,
+      "cliente": 3,
+      "seed": 326,
+      "ordem_sha256": "bd25d5123633796084ec2451958a3447bb4fc6f00835632a44552f1de56340c4",
+      "passos": 100
+    },
+    {
+      "rodada": 3,
+      "cliente": 4,
+      "seed": 327,
+      "ordem_sha256": "32a8e41a2cefed4501a31d042d3d44b4b130ed50215e2203b4ee1d65fedf4e47",
+      "passos": 238
+    }
+  ],
+  "particoes": [
+    {
+      "cliente": 0,
+      "total": 4605,
+      "suporte": {
+        "BENIGN": 4388,
+        "DDoS": 217
+      },
+      "indices_no_treino_sha256": "2e19c809734d465a938841c153c5c9210beab339c19adde373b5caf11a302025"
+    },
+    {
+      "cliente": 1,
+      "total": 19982,
+      "suporte": {
+        "BENIGN": 14293,
+        "DDoS": 5689
+      },
+      "indices_no_treino_sha256": "c1b98c5e41ab99715a9f8e34dc81c4de7593b5211ba18aacda14049734df4847"
+    },
+    {
+      "cliente": 2,
+      "total": 6300,
+      "suporte": {
+        "BENIGN": 6097,
+        "DDoS": 203
+      },
+      "indices_no_treino_sha256": "c1a0f5534ad710e9633f8db75d8db39b3adb91853f92906609dd350939327f0d"
+    },
+    {
+      "cliente": 3,
+      "total": 50749,
+      "suporte": {
+        "BENIGN": 43289,
+        "DDoS": 7460
+      },
+      "indices_no_treino_sha256": "368831900782480caf43bda841cb9baa1f7806bc82e92c31ec69488d94c52c69"
+    },
+    {
+      "cliente": 4,
+      "total": 121615,
+      "suporte": {
+        "BENIGN": 95029,
+        "DDoS": 26586
+      },
+      "indices_no_treino_sha256": "0ec407cf93f599f50e515b50b3939c818ae3c9a39faf208391140f16fc9281d5"
+    }
+  ],
+  "otimizador": "Adam reinicializado por cliente e rodada",
+  "lr": 0.001,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0,
+  "lote": 512,
+  "exemplos_por_rodada": 203251,
+  "exposicoes_por_metodo": 609753,
+  "passos_otimizador_por_metodo": 1200,
+  "torch_threads": 2,
+  "torch_interop_threads": 1,
+  "dispositivo": "cpu",
+  "limiar": 0.5,
+  "contrato": {
+    "formato": "secfednet-cnn1d-v1",
+    "ordem_features": [
+      "Flow Duration",
+      "Total Fwd Packet",
+      "Total Bwd packets",
+      "Total Length of Fwd Packet",
+      "Total Length of Bwd Packet",
+      "Fwd Packet Length Max",
+      "Fwd Packet Length Min",
+      "Fwd Packet Length Mean",
+      "Fwd Packet Length Std",
+      "Bwd Packet Length Max",
+      "Bwd Packet Length Min",
+      "Bwd Packet Length Mean",
+      "Bwd Packet Length Std",
+      "Flow Bytes/s",
+      "Flow Packets/s",
+      "Flow IAT Mean",
+      "Flow IAT Std",
+      "Flow IAT Max",
+      "Flow IAT Min",
+      "Fwd IAT Total",
+      "Fwd IAT Mean",
+      "Fwd IAT Std",
+      "Fwd IAT Max",
+      "Fwd IAT Min",
+      "Bwd IAT Total",
+      "Bwd IAT Mean",
+      "Bwd IAT Std",
+      "Bwd IAT Max",
+      "Bwd IAT Min",
+      "Fwd PSH Flags",
+      "Bwd PSH Flags",
+      "Fwd URG Flags",
+      "Bwd URG Flags",
+      "Fwd RST Flags",
+      "Bwd RST Flags",
+      "Fwd Header Length",
+      "Bwd Header Length",
+      "Fwd Packets/s",
+      "Bwd Packets/s",
+      "Packet Length Min",
+      "Packet Length Max",
+      "Packet Length Mean",
+      "Packet Length Std",
+      "Packet Length Variance",
+      "FIN Flag Count",
+      "SYN Flag Count",
+      "RST Flag Count",
+      "PSH Flag Count",
+      "ACK Flag Count",
+      "URG Flag Count",
+      "CWR Flag Count",
+      "ECE Flag Count",
+      "Down/Up Ratio",
+      "Average Packet Size",
+      "Fwd Segment Size Avg",
+      "Bwd Segment Size Avg",
+      "Fwd Bytes/Bulk Avg",
+      "Fwd Packet/Bulk Avg",
+      "Fwd Bulk Rate Avg",
+      "Bwd Bytes/Bulk Avg",
+      "Bwd Packet/Bulk Avg",
+      "Bwd Bulk Rate Avg",
+      "Subflow Fwd Packets",
+      "Subflow Fwd Bytes",
+      "Subflow Bwd Packets",
+      "Subflow Bwd Bytes",
+      "FWD Init Win Bytes",
+      "Bwd Init Win Bytes",
+      "Fwd Act Data Pkts",
+      "Fwd Seg Size Min",
+      "Active Mean",
+      "Active Std",
+      "Active Max",
+      "Active Min",
+      "Idle Mean",
+      "Idle Std",
+      "Idle Max",
+      "Idle Min",
+      "ICMP Code",
+      "ICMP Type",
+      "Total TCP Flow Time"
+    ],
+    "classes": {
+      "0": "BENIGN",
+      "1": "DDoS"
+    },
+    "limiar": 0.5,
+    "normalizacao": "media e desvio ddof=0 somente no subconjunto de ajuste, escala constante vira 1",
+    "manifesto_validacao_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f",
+    "ajuste_sha256": "cb0efb2247e8ceba3184fdcd008ab61e34f852fa5cc3ac844f39dba5487496b4",
+    "validacao_sha256": "dd30783769a3cca48eabac5a72f37d62cd8bcb986ef0a1c01e724e96c55b3bfd"
+  },
+  "selecao_mu": "apenas recall calibrado na validacao dentro do teto de FPR do protocolo",
+  "versoes": {
+    "python": "3.14.4",
+    "torch": "2.12.1+cpu",
+    "flower": "1.32.0",
+    "numpy": "2.3.5"
+  },
+  "protocolo": {
+    "formato": "secfednet-validacao-v1",
+    "seed_validacao": 2505,
+    "fracao_validacao_por_classe_alvo": 0.2,
+    "fpr_maxima_validacao": 0.01,
+    "grade": [
+      {
+        "nome": "fedavg",
+        "mu": null
+      },
+      {
+        "nome": "fedprox_mu0001",
+        "mu": 0.001
+      },
+      {
+        "nome": "fedprox_mu001",
+        "mu": 0.01
+      },
+      {
+        "nome": "fedprox_mu01",
+        "mu": 0.1
+      }
+    ],
+    "rodadas": 3,
+    "seed_modelo": 23,
+    "seed_clientes": 2305,
+    "alpha_clientes": 0.5,
+    "regra_limiar": "maior recall dentro do teto empirico de FPR; empate por menor FP e depois maior limiar",
+    "regra_selecao": "maior recall calibrado na validacao; empate por menor FPR e depois menor mu (FedAvg equivale a zero)",
+    "url_dados": "https://intrusion-detection.distrinet-research.be/CNS2022/Datasets/CICIDS2017_improved.zip",
+    "zip_sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+    "split_global_sha256": "5511442dcb01580d7cd327f312ca2c651e7ed194f4628f2246387de0bd779447",
+    "pool_treino_original_sha256": "b1a7e316661ebe6e0d5bb87ec712e989739a9768c38baad2096d91042a9d2247"
+  },
+  "protocolo_sha256": "e69c9b762adff44bea5a54069e1a43a5a37f388de862c6a217fe37f88fcf2a1b"
+}

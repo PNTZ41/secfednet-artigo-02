@@ -1,0 +1,17 @@
+# Artigo 01 · expansão experimental de 25/11/2026
+
+Entrada para a escrita: [relatório consolidado](RELATORIO_CONSOLIDADO.md), [método executado](METODOLOGIA.md) e [tabelas da CNN por seed](vm/tabelas/resultados_por_seed.csv). **BENIGN × ATTACK; protocolo candidato; resultados exploratórios na quinta-feira. A avaliação de desempenho na sexta-feira permanece pendente de revisão.**
+
+- [Reprodução, comandos e ambiente](REPRODUCAO.md).
+- [Auditoria das cinco capturas](METODO_AUDITORIA.md), [cruzamentos](fonte/auditoria_referencia/cruzamentos.csv), [conflitos](fonte/auditoria_referencia/conflitos.csv) e [simulações por classe](fonte/auditoria_referencia/simulacoes_por_classe.csv).
+- [Manifesto candidato](candidato/manifesto_candidato.json), [contrato BENIGN/ATTACK e 81 features ordenadas](fonte/contrato_candidato.json), [parâmetros do treino](candidato/preprocessamento_por_feature.csv), [impacto por tipo](candidato/impacto_sensibilidade_por_tipo.csv) e [colisões float32](candidato/colisoes_incrementais_float32.csv).
+- [Baseline logístico e integração CNN de uma rodada](baseline-kubuntu/metricas_quinta.csv), [recall nominal](baseline-kubuntu/recall_nominal_quinta.csv).
+- CNN centralizada × FedAvg: [configuração prévia](controle/config.json), [resultados/matrizes](vm/tabelas/resultados_por_seed.csv), [recall nominal](vm/tabelas/recall_por_tipo.csv), [médias/DP](vm/tabelas/variacao_entre_seeds.csv), [orçamento e hashes pareados](vm/tabelas/orcamento_por_seed.csv), [231 checks Kubuntu/VM](vm/tabelas/reproducao_checks.csv), [tempo/ambiente](vm/tabelas/reproducao_tempo_ambiente.csv).
+- [Acervo completo e hashes externos](ACERVO.json), [origem de cada cópia e adaptações editoriais](PROVENIENCIA.json), [lista exata entregue](LISTA_ARQUIVOS.txt), [manifesto fechado desta seleção](SHA256_EXPERIMENTOS) e [verificação em cópia limpa](VERIFICACOES.md).
+- [Caracterização parcial de Gabriel](GABRIEL.md). Não foi transformada em resultado do benchmark corrigido.
+
+A entrega anterior está preservada: [baseline de integração](../../../README.md) e [46 evidências de reprodução histórica](../../reproducao-vm/2026-11-24/README.md). O piloto histórico **BENIGN × DDoS**, inclusive o ZIP CNN de três rodadas, usa outro alvo e outra divisão dentro da captura de sexta; não é comparador desta expansão. [Contrato histórico](../../../integracao/artigo-01/contrato-cnn/CONTRATO.md). Não reaplicar o mapa 1=DDoS ao contrato novo 1=ATTACK.
+
+Insumo principal: [distribuição corrigida dos autores](https://intrusion-detection.distrinet-research.be/CNS2022/Datasets/CICIDS2017_improved.zip), SHA-256 `97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883`. O ZIP, dados, modelos, scores e índices NPZ ficam no acervo local/VM e são regenerados pelos comandos documentados. O manifesto novo confere somente os arquivos desta pasta, exceto ele próprio. Manifestos em `historicos/` são snapshots dos acervos originais, preservados byte a byte, com escopo diferente desta cópia editorial.
+
+Os diffs preexistentes de README/INDEX foram revisados e preservados no checkout original. Seus conteúdos pertinentes (acesso à integração, cronologia e separação histórica) foram incorporados nesta entrada. As 90 entradas da baseline e as 46 evidências de `d27c89de` não foram reescritas nem duplicadas. Esta pasta usa uma única cópia compartilhada das tabelas de auditoria e das fontes executadas pelo candidato/VM.

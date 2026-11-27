@@ -1,0 +1,48 @@
+monday.csv 100000
+monday.csv 200000
+monday.csv 300000
+monday.csv materializado 371621
+tuesday.csv 100000
+tuesday.csv 200000
+tuesday.csv 300000
+tuesday.csv materializado 322039
+wednesday.csv 100000
+wednesday.csv 200000
+wednesday.csv 300000
+wednesday.csv 400000
+wednesday.csv materializado 490764
+thursday.csv 100000
+thursday.csv 200000
+thursday.csv 300000
+thursday.csv materializado 360078
+friday.csv 100000
+friday.csv 200000
+friday.csv 300000
+friday.csv 400000
+friday.csv 500000
+friday.csv materializado 543490
+treino normalizado_float64 auditado
+validacao normalizado_float64 auditado
+teste normalizado_float64 auditado
+treino modelo_float32 auditado
+validacao modelo_float32 auditado
+teste modelo_float32 auditado
+principal treino validacao vetor_float64 19965 adicionais 0
+principal treino validacao normalizado_float64 19916 adicionais 125
+principal treino validacao modelo_float32 19919 adicionais 132
+principal treino teste vetor_float64 20437 adicionais 0
+principal treino teste normalizado_float64 20387 adicionais 140
+principal treino teste modelo_float32 20392 adicionais 147
+principal validacao teste vetor_float64 10728 adicionais 0
+principal validacao teste normalizado_float64 10701 adicionais 89
+principal validacao teste modelo_float32 10701 adicionais 89
+sensibilidade_raw64 treino validacao vetor_float64 0 adicionais 0
+sensibilidade_raw64 treino validacao normalizado_float64 39 adicionais 39
+sensibilidade_raw64 treino validacao modelo_float32 44 adicionais 44
+sensibilidade_raw64 treino teste vetor_float64 0 adicionais 0
+sensibilidade_raw64 treino teste normalizado_float64 40 adicionais 40
+sensibilidade_raw64 treino teste modelo_float32 46 adicionais 46
+sensibilidade_raw64 validacao teste vetor_float64 0 adicionais 0
+sensibilidade_raw64 validacao teste normalizado_float64 9 adicionais 9
+sensibilidade_raw64 validacao teste modelo_float32 9 adicionais 9
+MANIFESTO CANDIDATO CONCLUÍDO

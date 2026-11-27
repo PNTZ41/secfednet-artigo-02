@@ -1,0 +1,1362 @@
+{
+  "origem": {
+    "root": "/home/williian/secfednet-repro",
+    "hostname": "secfednet-repro",
+    "usuario": "williian",
+    "mac": "52:54:00:16:cd:d7",
+    "ip": "192.168.122.8",
+    "head": "0b38f255af6f22e4642c584c0f0e09b15ef9263e",
+    "status": "## HEAD (no branch)\n",
+    "excluidos": [
+      "codigo/.git",
+      "codigo/secfednet-local/artigo-01/cnn-flower/.venv",
+      "pacote-inferencia/cnn1d/.venv"
+    ]
+  },
+  "backup_completo": "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/reproducao-vm/2026-11-25_15-41-13/backup-vm/secfednet-repro",
+  "copia": {
+    "backup": "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/reproducao-vm/2026-11-25_15-41-13/backup-vm/secfednet-repro",
+    "arquivos": 256,
+    "bytes_totais": 360713297,
+    "reutilizados_localmente": {
+      "codigo/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip": "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+      "pacote-inferencia/secfednet-cnn1d-v1.zip": "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower-entrega/secfednet-cnn1d-v1.zip",
+      "secfednet-artigo01.bundle": "/home/willian/secfednet-artigo01.bundle"
+    },
+    "transferidos_ssh": 253,
+    "bytes_transferidos_payload": 15782781,
+    "todos_sha256_origem_destino_conferem": true,
+    "lacunas_regulares": [],
+    "fora_escopo_reconstruivel": [
+      "codigo/.git",
+      "codigo/secfednet-local/artigo-01/cnn-flower/.venv",
+      "pacote-inferencia/cnn1d/.venv"
+    ]
+  },
+  "arquivos": [
+    {
+      "path": "RELATORIO_REPRODUCAO_VM_20_RODADAS.md",
+      "bytes": 9424,
+      "sha256": "05bd3234a85a084c67cf73d948ed12e17b818f7d76fe5a657360a05f7399738c"
+    },
+    {
+      "path": "RELATORIO_REPRODUCAO_VM.md",
+      "bytes": 9227,
+      "sha256": "8eb419a7c22d5735cf3f34ab198e77c5ff8e0b25da976d42e82b5a4575782328"
+    },
+    {
+      "path": "secfednet-artigo01.bundle",
+      "bytes": 1368014,
+      "sha256": "67b121886f947ee5b9eb13f4b10501b713bd777f1cdc619b075bd625af1676d7"
+    },
+    {
+      "path": "codigo/README.md",
+      "bytes": 7385,
+      "sha256": "0e0a308f8fc706d15514142d739d6929b30b1d0bee9dc494cb7dcf9b00712bba"
+    },
+    {
+      "path": "codigo/SHA256_ENTREGA",
+      "bytes": 11342,
+      "sha256": "69efd5365b4003509bd75425f8105fae10c68ff17ce16e0946d8c7b82347a40a"
+    },
+    {
+      "path": "codigo/.gitignore",
+      "bytes": 18,
+      "sha256": "6555139f1d7ea1c49103912213e0b45982b378a5a96e516d36875fa9655df9e2"
+    },
+    {
+      "path": "codigo/AGENTS.md",
+      "bytes": 1887,
+      "sha256": "96b8584a0d54463c4b988943d23e9f3ca7e16858999b4288d3a1623612439e1c"
+    },
+    {
+      "path": "codigo/LISTA_ARQUIVOS.txt",
+      "bytes": 5483,
+      "sha256": "a1ff61a86fd1a4d21184e6e0d58ca99f9ca225ffb26a133708219012e75d6b9d"
+    },
+    {
+      "path": "codigo/SELECAO_FINAL.md",
+      "bytes": 1851,
+      "sha256": "65d1f153fb8a657346f6542d1b352fb33b391cc9e3140811078f2075d312a94b"
+    },
+    {
+      "path": "codigo/SecFedNet_CICIDS2017_entrega/ficha_CICIDS2017.md",
+      "bytes": 9970,
+      "sha256": "56212421ba280e48bbe2ccc92657faa476a6690b89b54ec1ba9026f49587bce6"
+    },
+    {
+      "path": "codigo/SecFedNet_CICIDS2017_entrega/caracterizar_csv.py",
+      "bytes": 4111,
+      "sha256": "208e30964f91c1a69b9ef31f4efdba2159efb7e51313e2b7bd9eb539543f8ea2"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/requirements.txt",
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/README.md",
+      "bytes": 3814,
+      "sha256": "1787d32ec9eeaa4d31441b7caab78e892c0f6b22a5d9234d88fda1992eaf575c"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/piloto_fedavg.py",
+      "bytes": 7969,
+      "sha256": "a4c499eb78c6106466de13e0cae153a4ee99da257d7bcb7f92d68d2bdbf09055"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/avaliar_piloto.py",
+      "bytes": 11053,
+      "sha256": "fe4c2697cf0598355996b74de736635fd2c0b20296400968ed74b98c7d6f4491"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/contrato-cnn/exemplo_entrada.json",
+      "bytes": 1139,
+      "sha256": "c94082b983a81580cdf56e6636f9f11fb076e7c2ca9623d7e7400a72a778a4e6"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/contrato-cnn/exemplo_saida.json",
+      "bytes": 314,
+      "sha256": "7a8ffd5f9629aab22d4a4dca7c0bd87a7537a85e0749aad6e5ecf32fe371ed00"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/contrato-cnn/contrato.json",
+      "bytes": 2791,
+      "sha256": "e5114198735db8e583fd0ef7549c932726ec99a41f6621433d008c1de9e919f1"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/contrato-cnn/pacote_inferencia.json",
+      "bytes": 730,
+      "sha256": "e994d4c4d0726d57975346ec7de12f8fa528c8678f861cc3572b9418b4a5befe"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/contrato-cnn/CONTRATO.md",
+      "bytes": 4667,
+      "sha256": "c65c09a091fd250dd1f6afb8f2e2e0e88b9fd942a46c299f2c5e547408044b56"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/artefatos/exemplo_entrada.json",
+      "bytes": 961,
+      "sha256": "b0295f354647f236b5fbc580bdbbb3d3600d6edb06bc2d1353ab51d9a0ce293d"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/artefatos/caracterizacao.json",
+      "bytes": 5368,
+      "sha256": "81c5de7e05ef7217f77415a26e6b070099bc679afa6c6a72a5808a176a6fec16"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/artefatos/origem.json",
+      "bytes": 987,
+      "sha256": "e8e57bb1bd302638a2da0609a78a8e2a4acc5f395cc12a0eff1d1fd9d404aed3"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/artefatos/exemplo_saida.json",
+      "bytes": 64,
+      "sha256": "7488b45443dbffccdd98422264b6d9ca56a0385a44a1c1b76c085160a469f797"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/artefatos/metricas.json",
+      "bytes": 2974,
+      "sha256": "874ba3637fcc62410c91f5cf347d9f4f296a373186c9474f970491affedde6ba"
+    },
+    {
+      "path": "codigo/integracao/artigo-01/artefatos/checkpoint.npz",
+      "bytes": 12932,
+      "sha256": "a1e80b6314fcd1eb06e9fa0a9fd042388ed82b32035623948db30f4567d9d189"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/INDEX.md",
+      "bytes": 1027,
+      "sha256": "2f8834a5cba8b74b767ac04234d8288b3a741b40fc680d9a170170af225f56f7"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cicids2017-corrigido/split_cronologico.npz",
+      "bytes": 459384,
+      "sha256": "5511442dcb01580d7cd327f312ca2c651e7ed194f4628f2246387de0bd779447"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+      "bytes": 343549013,
+      "sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cicids2017-corrigido/avaliar_corrigido.py",
+      "bytes": 12623,
+      "sha256": "e15b053e1ff6dc9d466cd8909618442067f6d574c4e1b34f1b45b84034ebe889"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-fedprox/experimentar_fedprox.py",
+      "bytes": 14710,
+      "sha256": "5a3e6b84d5f395a248255aa0e3e33a9df78a943880512f4af0f53587452f8d28"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/protocolo.json",
+      "bytes": 1030,
+      "sha256": "ca24a71bd5748d6d27a67905e532eae06ba93994102db5f22af227f739779a94"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/PRIMEIRO_COMMIT.md",
+      "bytes": 6903,
+      "sha256": "59699f76314d687603197de9061645cdf3f4c6ee56a700b46b4f3a76850c88de"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/reproduzir.sh",
+      "bytes": 1734,
+      "sha256": "87741ef956de8dd9aa665dc582a5928fe8d184b577a72297c358d70054f03d8d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/SHA256_FONTES",
+      "bytes": 2256,
+      "sha256": "bd7c41a1b4bb2f4e251512aafafd48ba3c756bf1af2eb4c82d96a2333c3ed4b7"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/validar_mu.py",
+      "bytes": 13334,
+      "sha256": "1969b8c0dbb1dd53c79496e5cdce7a99bf070485b0b2715ece61c03847721fa7"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/teste_calibracao.json",
+      "bytes": 670,
+      "sha256": "49b045dc3c94ec02ca571957d5f9c6496a87e4ac145969d6c0ffadbfb7a4b5c4"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/selecao.json",
+      "bytes": 4114,
+      "sha256": "46c191a75f39d3d0734b18222952bd3c37e869cbf45e25f4a121b8968e335aad"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/configuracao.json",
+      "bytes": 8844,
+      "sha256": "329ff979534079324ed939c499dda5d90f8f05b22d72404b204d7e3811515762"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedavg/validacao.json",
+      "bytes": 756,
+      "sha256": "6afe7cc8c78c8ac0ed4220f0fcf67e595585d1ae5b1e33d13446c6998380b2fc"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedavg/treino.json",
+      "bytes": 5422,
+      "sha256": "ee6552512aae1062c336365a6b0d40e6dd81eb606f4c69dd1f4a215b7bdbd388"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedprox_mu001/validacao.json",
+      "bytes": 763,
+      "sha256": "3c0c08f73e9ee2c36309ad05cf8b7b8a895d62b649535050d1b57f2c04200283"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedprox_mu001/treino.json",
+      "bytes": 5416,
+      "sha256": "4c421368a0c3e86579c2052869876132a248079e5a87f4ae7a3efbf66bd655d0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedprox_mu0001/validacao.json",
+      "bytes": 765,
+      "sha256": "cae26420881c80cb49f58fd9dfdd330ce8a5d7d05a1a13aa206ec34693f305a9"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedprox_mu0001/treino.json",
+      "bytes": 5423,
+      "sha256": "af0779bd80f700f297125b0ff7e66fc57184b07f2e72c4282f0a43166c1b48e9"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedprox_mu01/validacao.json",
+      "bytes": 763,
+      "sha256": "3d37164b4f00a81a0d63b4bdc19616154aca6edbab9be5f2c2cc8fa556ded472"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/execucao/fedprox_mu01/treino.json",
+      "bytes": 5417,
+      "sha256": "05215168ee68f725b137011b927fa828b4587b688887e29329d3ee678bf81817"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/particao/protocolo.json",
+      "bytes": 1102,
+      "sha256": "e69c9b762adff44bea5a54069e1a43a5a37f388de862c6a217fe37f88fcf2a1b"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/particao/manifesto_validacao.npz",
+      "bytes": 778933,
+      "sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-validacao/particao/auditoria.json",
+      "bytes": 1058,
+      "sha256": "06dfd04137ee8f52eadd8d5ee3c4a8bd445d3e8a7c087a76f5da471be9ddf1ca"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-flower-entrega/treinar_instrumentado.py",
+      "bytes": 2565,
+      "sha256": "58a1f4dd5bd186dd45f125c82d41faaacfbe7cd148f4c658fb6e8c12a4097e89"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-flower-entrega/prever_suporte_clientes.py",
+      "bytes": 5434,
+      "sha256": "4dfe90e0286e16547b811f02eb05628a9994003c6f3adda07309cb666994528d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/protocolo.json",
+      "bytes": 1217,
+      "sha256": "8664255a8149c63fc6fd61962fdcc9f74aac3723faddf92e735ec6e7e12ba30d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/protocolo_20.json",
+      "bytes": 1731,
+      "sha256": "36e00a46d61667b84874feb76ef8864fcd219aa64a5112667f4a24a31b4e333f"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/experimentar_20.py",
+      "bytes": 14723,
+      "sha256": "cebe2a546a8b05da725c858d94fb4d83a2936892cff7bb6b65ffc83ec9680080"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/testar_controles.py",
+      "bytes": 3447,
+      "sha256": "bb0ff3c3f6c6c3e4ce3725ab1b33c947717d96676485caddaa617f19b1379551"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/reproduzir_20.sh",
+      "bytes": 1725,
+      "sha256": "ea7da2077fa62d4b6973d1e81d6265594af8868f244569f2fc6138a422937dee"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/README.md",
+      "bytes": 4895,
+      "sha256": "9afd0c21e5d0911662acb93264f95f70d7850abcc4095f272b7e8f5f96eb4378"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/SHA256_FONTES_20",
+      "bytes": 4475,
+      "sha256": "a4015caf946610e3bf2644c85c5ced3de0b4716865632ef3aa92298a5aebd196"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/SHA256_ARTEFATOS",
+      "bytes": 3880,
+      "sha256": "1880b9bb2e42f20f19d4032d33c72b3827040e26d4a477073344260181c6722e"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/SHA256_ARTEFATOS_20",
+      "bytes": 17811,
+      "sha256": "87982179d499fd6afbbc4d069a6c2e18ecd52842558a7f4373d3e43ce404b65b"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/SHA256_PRESERVADOS",
+      "bytes": 4019,
+      "sha256": "5d781ac4487ce4ed164896b10ef65b8d6764e8768a158bc9643194a8ca003e5b"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/experimentar_scaffold.py",
+      "bytes": 15024,
+      "sha256": "d2b735042d59e948e4d9c6d84fe5408579de9ba57980eb63926ebe31daba8af6"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/README_20.md",
+      "bytes": 4673,
+      "sha256": "75dd94100b02fec69d74d570a0d011ec841b39400bef962fd0da4042a5c2a332"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/scaffold.py",
+      "bytes": 4176,
+      "sha256": "97e0228cfca4dca07df578216a0292d0dea3140db722e8cca180eaa932851252"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/SHA256_PRESERVADOS_20",
+      "bytes": 9912,
+      "sha256": "c5dbc18c57befed03acce28916a224e19a54aed1172b1a37fefe0ee4af21d198"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/reproduzir.sh",
+      "bytes": 1609,
+      "sha256": "8dd00f9ad791adee2b10351ca59784ed6e699627e25285d044172716336cc106"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/SHA256_FONTES",
+      "bytes": 2982,
+      "sha256": "dfdc8a941271a5973421e17a10f3ab1991ba5695c0bd7c80cf7cc24b7d940a72"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/clientes.npz",
+      "bytes": 314443,
+      "sha256": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/curvas.csv",
+      "bytes": 8342,
+      "sha256": "f9a282f9e8a1ff7fbf4f7d602fcb72107e20344599e117e5bb2b4fb5e1ef7fbe"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/tempo.json",
+      "bytes": 35,
+      "sha256": "4e368a39bd5eec7206b1c1eb7f3adfcba33d9c2647b347bbb1a0634a68b2eeeb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/comparacoes.json",
+      "bytes": 7392,
+      "sha256": "c1a6fb11fe8c8040aa8cea14b4a17e878f8ee3477138d45c9b83f9f2722acbb3"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/resultados.json",
+      "bytes": 2158,
+      "sha256": "c0711f3318fd5ebf342cd9aa30bf8d6d0a828a4168d91e1bdabafba4a434882a"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/verificacao_independente.json",
+      "bytes": 244,
+      "sha256": "af9c85c9d02c86dff556d7b3364ad9eb2ec099c22056d4bbbc5a9065b613b50d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/pareamento.json",
+      "bytes": 299,
+      "sha256": "0fa959b5c762ad1d52037bf1d02a0f37b2252214a0e5211c0c511b931b1887f8"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/configuracao.json",
+      "bytes": 26020,
+      "sha256": "c92f6b40c53b6df12f8afecbe53336c7ac6f8631cbfa1a952070d82808460c20"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/fedavg_sgd/curva.json",
+      "bytes": 29263,
+      "sha256": "0338e3dd038460dafa7de0229f470b6bcda3df315af0522e564b90d98ddf23fb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/fedavg_sgd/curva.csv",
+      "bytes": 4093,
+      "sha256": "aee293786e740c16a134396e654d7ae1da009247b05963c1d0cf85554de7d9ed"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/fedavg_sgd/rodadas.json",
+      "bytes": 95415,
+      "sha256": "2c2b417b4b43d2420d6c13c44603d2e6af65ed218f99e2a7757d519c641f8ad0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/fedavg_sgd/treino.json",
+      "bytes": 100085,
+      "sha256": "3948520a6fd76de11f4bd1cabb3e6086ef7b73b8d6fb9fe1a62553930cc28800"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/scaffold/curva.json",
+      "bytes": 29252,
+      "sha256": "99668712a88d0c57631bbca338fb8c4d21e7c4bac16b389080f2f34b1e158636"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/scaffold/curva.csv",
+      "bytes": 4130,
+      "sha256": "5e0b7357b7ddbad9ad07a39e6f898c88a16bf89a1f072c3637c3a7e1461b2099"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/scaffold/rodadas.json",
+      "bytes": 96833,
+      "sha256": "1b955268fd8d03977dcda322a3140ff17e97518e98079103f5dac141318bd6e3"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-20-rodadas/execucao/scaffold/treino.json",
+      "bytes": 101500,
+      "sha256": "c6c69a43fec3e81291ae1f42e183db3e724f3c3589cbf3a6cd232a5dd3e19094"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-01/execucao/clientes.npz",
+      "bytes": 314443,
+      "sha256": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-01/execucao/configuracao.json",
+      "bytes": 9176,
+      "sha256": "8b6de3e14fb6011891bbf9c6da6d8a73017a43db575ad9d0a985bed7d420d72a"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-01/execucao/fedavg_sgd/scores_validacao.npy",
+      "bytes": 203388,
+      "sha256": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-01/execucao/fedavg_sgd/treino.json",
+      "bytes": 10272,
+      "sha256": "a96eccf1acffe603ba7c285b29d752a0b96c37c8bf171a95eb7b8fdc53c21f02"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-01/execucao/scaffold/scores_validacao.npy",
+      "bytes": 203388,
+      "sha256": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-scaffold/ensaio-01/execucao/scaffold/treino.json",
+      "bytes": 10395,
+      "sha256": "dcc5b40ad1eb8196ef6f87a85147c597f6b3bd9ee8f34984a51956b7527b9d08"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/INDEX.md",
+      "bytes": 330,
+      "sha256": "706be81c646d2aead1e09e205db912cf2a1a17f7ffd01200ecfa4b7961100a6c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/STATUS.md",
+      "bytes": 796,
+      "sha256": "d5dadd7817bc0b5876c6bd05a132d000d256780c93de6edde533e0763c315142"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/verificacao.log",
+      "bytes": 2390,
+      "sha256": "d8d4ffbc57fc5301079ef2ace2e55d2778936a6eb1e39dd9add8d8523b96be57"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/RELATORIO_REPRODUCAO_VM_20_RODADAS.md",
+      "bytes": 9424,
+      "sha256": "05bd3234a85a084c67cf73d948ed12e17b818f7d76fe5a657360a05f7399738c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/comparacao_referencia.json",
+      "bytes": 52602,
+      "sha256": "7d7ecebabe9d2c7e4a2f35b3572e5a6e67230b7a2d1f23d6ff8cd4fac0f6c128"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/tempo-processo.txt",
+      "bytes": 866,
+      "sha256": "0e95ba7a7fb8115586ce84a914033e1dc1387cb4472a40078dfbb4de205f505c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/preservacao-execucao-curta.sha256",
+      "bytes": 5410,
+      "sha256": "cad43cf511b4d636854eb6b873ad5dc2c811c835337dd8cb51cb001404b55a66"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/teste_controles.log",
+      "bytes": 436,
+      "sha256": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/comparar_referencia.py",
+      "bytes": 5156,
+      "sha256": "ad8d0749c5c7ea9fd5627996867b1d730f9050e7987a8eea1b198bfe23b343ef"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/treino.log",
+      "bytes": 15376,
+      "sha256": "47273593b2560e31c25d62445b75189386fd3b3e7e53bf59aa88ded633ef38bc"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/pesos_iniciais.pt",
+      "bytes": 7855,
+      "sha256": "871163ef08d667f769082f9b111a7a27e6f0d39ea0f56a0920781b48a8a8a41c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/clientes.npz",
+      "bytes": 314443,
+      "sha256": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/curvas.csv",
+      "bytes": 8342,
+      "sha256": "f9a282f9e8a1ff7fbf4f7d602fcb72107e20344599e117e5bb2b4fb5e1ef7fbe"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/tempo.json",
+      "bytes": 36,
+      "sha256": "68838c693017ffa5aee3464291efe7e5fc1b2dc60dd47820a73a2fd1dde4c703"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/comparacoes.json",
+      "bytes": 7390,
+      "sha256": "cbbdf9f52fb2e5768e08f6e433da6f6254c1515b76c0e49608f4f574e16de187"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/resultados.json",
+      "bytes": 2158,
+      "sha256": "c0711f3318fd5ebf342cd9aa30bf8d6d0a828a4168d91e1bdabafba4a434882a"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/verificacao_independente.json",
+      "bytes": 244,
+      "sha256": "af9c85c9d02c86dff556d7b3364ad9eb2ec099c22056d4bbbc5a9065b613b50d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/pareamento.json",
+      "bytes": 299,
+      "sha256": "0fa959b5c762ad1d52037bf1d02a0f37b2252214a0e5211c0c511b931b1887f8"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/configuracao.json",
+      "bytes": 26020,
+      "sha256": "c93b96cf68f68b030177e85e21caee8cfce8c8678ad90bb2f4ad9a9691bea2ca"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-16.pt",
+      "bytes": 46903,
+      "sha256": "47999f6845c7da51c35d0b7367c189c2142c06c058592206b368ce899aed119f"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_19.npy",
+      "bytes": 203388,
+      "sha256": "0e5538fb2f61298885ea7efc83aa2f3eb5d72610bdc8ebc949ef3a577495e9cf"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-18.pt",
+      "bytes": 46903,
+      "sha256": "11b345302ca9cec3fb03751eb34aed2fd341337d0518a4967653a39737997646"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_16.npy",
+      "bytes": 203388,
+      "sha256": "e39f36d762725ebc616f4ac15b1f134bc9be213624b26b1c25c15aa3f9886c9c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-14.pt",
+      "bytes": 46903,
+      "sha256": "804cf31bb5bb61de8a3882667304cc591d4f2987fa8f7e94cccc14ca33ee6529"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-07.pt",
+      "bytes": 46903,
+      "sha256": "8207d03db045a4a57dc24f805f1900628eb1dcd850978f2086af3c4a75c1f747"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-19.pt",
+      "bytes": 46903,
+      "sha256": "e0e73c2f9714252ed031f4762eda3d3954c4de16c56c112abc961018b4d667c8"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_10.npy",
+      "bytes": 203388,
+      "sha256": "56506368572736c705ac4f94bb4b9c6c4a905fbcea72d858387ceddeb550e198"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_08.npy",
+      "bytes": 203388,
+      "sha256": "e2fc8695806df2d1a5929cafdf8d63c3830b4e83ec43940f43f37d6b07e15b73"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-10.pt",
+      "bytes": 46903,
+      "sha256": "8be0ec6a061c77d5c3e806d4c6ca8b3983b514ab89cff374011d392e914808da"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_20.npy",
+      "bytes": 203388,
+      "sha256": "65049dd1a1e6628c8d4bf5e039e7d7b130ba93f2cde6c3fe2e3f48cfebe96143"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-04.pt",
+      "bytes": 46903,
+      "sha256": "79cdd6a19d748e287410da9b4136fa23ec530a56b2f9153d16e9460273d51af2"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_15.npy",
+      "bytes": 203388,
+      "sha256": "0d53f19f1fa9a3818c51292869e9839ffd63be37d95f97760b3ff2d3623b4fdb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_01.npy",
+      "bytes": 203388,
+      "sha256": "57d9fce7b3160bc4643150450dff2428c388fdf117641e27e2cc1d3e86fd8c4d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/checkpoint.pt",
+      "bytes": 12789,
+      "sha256": "4e73b24cf7042eace103969787d86f07084ddc4eb558a01fe3bcf32562898922"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-05.pt",
+      "bytes": 46903,
+      "sha256": "721c3e0bee72c636e302da5ce424dacec63b3b0869544b2d19609391400ffe52"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-02.pt",
+      "bytes": 46903,
+      "sha256": "01488dd86ca26725b4064b1bf782817fba42148f35fa5672176b92ba7993969d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/curva.json",
+      "bytes": 29253,
+      "sha256": "82653ed73b90c14d53e6e5f161dc75bd6d25e00303d04ab20d449a4648bb60d0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-12.pt",
+      "bytes": 46903,
+      "sha256": "4038b568916149d6a7863ab6c9b1a613a6e650bbfaba1085a0379ea5d5636e8a"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-00.pt",
+      "bytes": 46903,
+      "sha256": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_05.npy",
+      "bytes": 203388,
+      "sha256": "a4dbede9ae37793369b0ee5929c2f7ce65760ba255b96a2adc1a3a7db063f7b9"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-06.pt",
+      "bytes": 46903,
+      "sha256": "c4e8729f461c256b72e54b8bf9d95b8e263e64a38af3c06eef7ecd6d6dc6edf1"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_07.npy",
+      "bytes": 203388,
+      "sha256": "ad36ffc2b53d848e519a30972a6458c1dc1253429d7ffb881a1c1a38249caef8"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/curva.csv",
+      "bytes": 4093,
+      "sha256": "aee293786e740c16a134396e654d7ae1da009247b05963c1d0cf85554de7d9ed"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-03.pt",
+      "bytes": 46903,
+      "sha256": "56cd83543f37aa8b17a204b087dfb663a6505495aadd1bea8d606550084da229"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-17.pt",
+      "bytes": 46903,
+      "sha256": "3f3ab20140542c9bc43ce87ccb7dd5e63842b924641439f37684acd4d43d5b14"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-15.pt",
+      "bytes": 46903,
+      "sha256": "2b67ac30ad12d7f75d011f7f48ea7f80f723aff030fb37c0fe40c2d4eedacc9c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodadas.json",
+      "bytes": 95415,
+      "sha256": "2c2b417b4b43d2420d6c13c44603d2e6af65ed218f99e2a7757d519c641f8ad0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_17.npy",
+      "bytes": 203388,
+      "sha256": "e35b4c2fe6d93a1f7744f4e8087da16a3a6e563ec96cbef667269b4a8082f9ff"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao.npy",
+      "bytes": 203388,
+      "sha256": "65049dd1a1e6628c8d4bf5e039e7d7b130ba93f2cde6c3fe2e3f48cfebe96143"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_12.npy",
+      "bytes": 203388,
+      "sha256": "3e0a938225bb832a3280cc70ed185edc3af925141f6d08dab99cc78de0563347"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-20.pt",
+      "bytes": 46903,
+      "sha256": "142064a63d95363767470dd17802643dea9abad1ef5dd7e905caa6b521fb2b86"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_04.npy",
+      "bytes": 203388,
+      "sha256": "e66b9318967c614f593fd6cd04f86e0d36173303ee654b8bc7e676a2375094bd"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-11.pt",
+      "bytes": 46903,
+      "sha256": "516da1f6bfa9b02faca29018bb2fd47a7c5842cabd29908ba850682f68925bf0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_03.npy",
+      "bytes": 203388,
+      "sha256": "5f470bcac29f487e0e809bc557b221c29a5a46bac3ea0a8e321c25ae407c2368"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-08.pt",
+      "bytes": 46903,
+      "sha256": "6bfc265c889cb3d154cf5dee273d7854506cb01bf73d87cc32f2c11982816149"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_18.npy",
+      "bytes": 203388,
+      "sha256": "d08db61a4d77fa13e37e495baaf94f16537be38164c0aafe6adb6952b0aa5844"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_13.npy",
+      "bytes": 203388,
+      "sha256": "46b3bf34aee84b78deca353ba05962259c37f9d2fbc099ec8bf87730595f74b9"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_02.npy",
+      "bytes": 203388,
+      "sha256": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/treino.json",
+      "bytes": 100084,
+      "sha256": "642b0e54a17ac20c8563442a6dba5bf356e6c7d3b47acf0e4b91899540c149fc"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-09.pt",
+      "bytes": 46903,
+      "sha256": "2bd04013797041c291013ac82c32ad2e25ce3e8110b5d80f24cf97bf1ffdd062"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_06.npy",
+      "bytes": 203388,
+      "sha256": "adcaf1baeb93b53da6f6d2dfe264e0b9f78f1d57814fcd4a63fe788c31852b89"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-13.pt",
+      "bytes": 46903,
+      "sha256": "dacfedb2d2a9e2ce262866d8f31992542f86e5dc9675077f2b51d2677501bb9d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_09.npy",
+      "bytes": 203388,
+      "sha256": "b26cab70d6ca11817b011c6950b9317f18cb1bf9822fc4ca94361e27ebdede11"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_11.npy",
+      "bytes": 203388,
+      "sha256": "fb17bb799eb5332761ff16b94d61524becb880fff69e9310d40772f719455ab8"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodada-01.pt",
+      "bytes": 46903,
+      "sha256": "e6c87b14efd0f0828dd8df1161d2c0ceb7e1e570d5782dbfe1ec6b7fea611234"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/scores_validacao_14.npy",
+      "bytes": 203388,
+      "sha256": "e4c9abf4d51f61e6c3e6803509d2bf12284f7af1f6932052587de20c35a788e4"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-16.pt",
+      "bytes": 46903,
+      "sha256": "800c8425f60c3c25fa46137e8b053333781af181a4e30216eeca2e7576364852"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_19.npy",
+      "bytes": 203388,
+      "sha256": "6c72e47759b46532771534bc0d18dd278f4dd56bf8fe72b659641c7b3da463f0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-18.pt",
+      "bytes": 46903,
+      "sha256": "fcbe8394b1b5c5814b9757a039294daf77b4da5912eb3eef1077a0931dd07a9e"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_16.npy",
+      "bytes": 203388,
+      "sha256": "99b958f305bc86f5ec000a7d393af2ca1376c94218ec7736da01ea29f24988a6"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-14.pt",
+      "bytes": 46903,
+      "sha256": "221a8f41f7ab335399957de2960832609b7c4a9277ed2a42b7d0292889f45a62"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-07.pt",
+      "bytes": 46903,
+      "sha256": "56cf4e3f248d06c499747abf05fa42b6bb32ad3871a75c606dddc03ff8ac9830"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-19.pt",
+      "bytes": 46903,
+      "sha256": "e01018ad865354f9967cd9bedcaa4e9406385bbe683559246dd34ca24e7c2d91"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_10.npy",
+      "bytes": 203388,
+      "sha256": "f73609ac833697dcc0737a6ba5cb2dd7da9110ff415fd692a6cccaad6f8a7ef9"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_08.npy",
+      "bytes": 203388,
+      "sha256": "e88eed2dae097aec61284229c164fc6d4133c15b801a4fb727f2ec9ce5b9c702"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-10.pt",
+      "bytes": 46903,
+      "sha256": "f10013f5b4249c1b4ca5b8420055b729581565f531863e7cc9764a7b983173d3"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_20.npy",
+      "bytes": 203388,
+      "sha256": "b627ec5effb614ecc0bad5bc22c21b9a062ef24b92dd680e6570eb3e60317619"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-04.pt",
+      "bytes": 46903,
+      "sha256": "4abd6cbeb77fca9a0e8a43ad8fe3785fa2d5a07c726e8ea8e4d44b3609bc2eb1"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_15.npy",
+      "bytes": 203388,
+      "sha256": "cad5151eee09a438b9a14789c66eb0dee0239d717f90579f28f6edcf1fc87897"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_01.npy",
+      "bytes": 203388,
+      "sha256": "57d9fce7b3160bc4643150450dff2428c388fdf117641e27e2cc1d3e86fd8c4d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/checkpoint.pt",
+      "bytes": 12789,
+      "sha256": "6669abdcb53f74dc93ff7dccbcc8c7fa9eca0c43acaf3573a86ae20967c3fc33"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-05.pt",
+      "bytes": 46903,
+      "sha256": "47ef6f563c30bf2df05ee8ab7eb922f571d1edb0d1961344567f700e9c4b94c0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-02.pt",
+      "bytes": 46903,
+      "sha256": "5f205c785618947a3ff49396f85d9bc47cb82a113935615be73c0efb6052948d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/curva.json",
+      "bytes": 29243,
+      "sha256": "e38e47a2fc152be899d14a74a26501ddbc5ffe54e7c9f5cc33a7745cc814abb9"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-12.pt",
+      "bytes": 46903,
+      "sha256": "b789ce12d7f77fd912b6708c7421253543d893c4f697e759b3f88bbe64dfa556"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-00.pt",
+      "bytes": 46903,
+      "sha256": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_05.npy",
+      "bytes": 203388,
+      "sha256": "405c06907d1436cd725b72fe2be9eb9d851018a780a3f416f29fc03feb2c5f2d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-06.pt",
+      "bytes": 46903,
+      "sha256": "bc626f27746aa5ea6eab998f2f6bc3e1cd7c959c56ed5e7dc0d2608180bd4cfb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_07.npy",
+      "bytes": 203388,
+      "sha256": "0673404dc64a438277a3e18798bc583c90ed011dfccab6e8656b040d35cd00c0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/curva.csv",
+      "bytes": 4130,
+      "sha256": "5e0b7357b7ddbad9ad07a39e6f898c88a16bf89a1f072c3637c3a7e1461b2099"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-03.pt",
+      "bytes": 46903,
+      "sha256": "e242ce0686cf6ba473bc2db11379c27455ef16631eab6e7ba07c8e50d014aec5"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-17.pt",
+      "bytes": 46903,
+      "sha256": "28925ebe004bf925c0cf2de6262845d88358e68d3d38084d4bd58c92cc3e996b"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-15.pt",
+      "bytes": 46903,
+      "sha256": "2903a48230bcc25d2309f0905bcbb44e79b3100506cf6a32b6f1ae0e5a6c74db"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodadas.json",
+      "bytes": 96833,
+      "sha256": "1b955268fd8d03977dcda322a3140ff17e97518e98079103f5dac141318bd6e3"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_17.npy",
+      "bytes": 203388,
+      "sha256": "a610d1a76c5f22ad120f9d8a4ad0834c6acb7db1efcaad88035ff53b445d6f10"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao.npy",
+      "bytes": 203388,
+      "sha256": "b627ec5effb614ecc0bad5bc22c21b9a062ef24b92dd680e6570eb3e60317619"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_12.npy",
+      "bytes": 203388,
+      "sha256": "bab068e5b70047677f8b335a2db6cd76a184caac0713fc6bc4ce643348a07b5f"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-20.pt",
+      "bytes": 46903,
+      "sha256": "7de9542ff3aa7164335cb8e571145022cbc42d0164d820a297f6f998bd3eccf5"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_04.npy",
+      "bytes": 203388,
+      "sha256": "5f46d7d7436ea811013ac57dbdb0dfa66ae61917431f61f431be46e92e017098"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-11.pt",
+      "bytes": 46903,
+      "sha256": "5515a182c8d4ecaae494a20c35611b13c4ca4c68827be77f8b0f7a9576b86c50"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_03.npy",
+      "bytes": 203388,
+      "sha256": "f32c2bc7f2ca7b9f6eaa3a4e02af80fe8e21ab942e3b8550d08c352200a6f0cf"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-08.pt",
+      "bytes": 46903,
+      "sha256": "5a094d60fde0139f0c5ae33c71deafabf720cde55782489be97ea3b904672e2c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_18.npy",
+      "bytes": 203388,
+      "sha256": "70b915407a0ca2c3f138ba4144098e80bcda4e24e97ee0ac7c336107f6ebb8c0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_13.npy",
+      "bytes": 203388,
+      "sha256": "008e38a9f0d9ab7f529af88d4689bc718b04934d339b00ad1f85a5ae3a001188"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_02.npy",
+      "bytes": 203388,
+      "sha256": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/treino.json",
+      "bytes": 101500,
+      "sha256": "37b127cc743a3ef23d7c8bf40e0df40441c00458f032bb85c7e426b94ede98bf"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-09.pt",
+      "bytes": 46903,
+      "sha256": "0ce69b7c0dbfde012c54b4b711f0801933ef4372d36d35a00689acad45723c8c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_06.npy",
+      "bytes": 203388,
+      "sha256": "03b76893aa44431a6ff1153ed5f79a11677fb36680905d3f1012c771e8a9c885"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-13.pt",
+      "bytes": 46903,
+      "sha256": "5ed68d158b4a237be88d7016fc556afb711ebe184866e1b7aacda7b8218d41b0"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_09.npy",
+      "bytes": 203388,
+      "sha256": "72bc7ba20a8ed66943680b272a17cdb72c7c96c37738208adc2bab72082b19a5"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_11.npy",
+      "bytes": 203388,
+      "sha256": "b12ae2e2fc8f93bd246782982e9a90276145d58fec5ae78ccfc1a444c45b6b76"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodada-01.pt",
+      "bytes": 46903,
+      "sha256": "2907bb452842d460273c9128a372a8339fe92106c47a228a5f2cea8b39b49fcd"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/scores_validacao_14.npy",
+      "bytes": 203388,
+      "sha256": "d0200f06a1c94bd526ab7f6fb10e385f1dc710834afc3dafffae376805f264fa"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/teste_controles/resultado.json",
+      "bytes": 436,
+      "sha256": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/teste_controles/retomado-02.pt",
+      "bytes": 2437,
+      "sha256": "8091cac7353638ff7f1a2acd25418b0636507830605792f02d97731bd64cfbbe"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/teste_controles/continuo-02.pt",
+      "bytes": 2437,
+      "sha256": "eb02617010e01b5ff98c14ff1f084b45a9e2ecc4feb81aa2a4abf4ef8bffec00"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/teste_controles/rodada-01.pt",
+      "bytes": 2417,
+      "sha256": "8e659880a9709b833625b41a70119d22f4d3d61a37357f4069e2c88842dfb295"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/recarga.log",
+      "bytes": 2163,
+      "sha256": "a7316bfa9f55ca5d260dde54b47e99d22d7d4507344ad7484b98ddd461e4166e"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/verificar_checkpoints.py",
+      "bytes": 1206,
+      "sha256": "f3397cba11da26b4b675c5312da22d2aaa44b2aa7c12b6846949a9206eca2691"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/dependencias-instaladas.txt",
+      "bytes": 766,
+      "sha256": "af00bc8c6bf5cd033462e8d2a5ac1ce6bada4e22dde698d85380183941ca5d44"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/verificacao_checkpoints.txt",
+      "bytes": 330,
+      "sha256": "4ff5afecb00c6daa67e858db920fdc1a1ac4c6d1141af7f92fdb05d9a2de5d1b"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/comparar.py",
+      "bytes": 3934,
+      "sha256": "b074604c614c50f0fa1af7f4b7d15ea5d52071b279401c71b82256fad4d20fa7"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/comparacao_referencia.json",
+      "bytes": 12533,
+      "sha256": "1464eff99898e4e7f09cf7f9c67dfed235312d2342e89be6839102b6c8b7e059"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/RELATORIO_REPRODUCAO_VM.md",
+      "bytes": 9227,
+      "sha256": "8eb419a7c22d5735cf3f34ab198e77c5ff8e0b25da976d42e82b5a4575782328"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/teste_controles.log",
+      "bytes": 436,
+      "sha256": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/treino.log",
+      "bytes": 3489,
+      "sha256": "7dacdcd41712f57558fe9c0b882d6abc282a09ee5ad720f01d2861580c7aeb75"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/pesos_iniciais.pt",
+      "bytes": 7855,
+      "sha256": "871163ef08d667f769082f9b111a7a27e6f0d39ea0f56a0920781b48a8a8a41c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/clientes.npz",
+      "bytes": 314443,
+      "sha256": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/tempo.json",
+      "bytes": 36,
+      "sha256": "3a54746d3717fb14ac62f0a3b609022feb3ae2afc9d86823204ffd6b89a67f36"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/resultados.json",
+      "bytes": 2093,
+      "sha256": "0d70a70be849261bee037d11fafdfa37548eb871beb44195b32ebc5811b656cf"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/pareamento.json",
+      "bytes": 227,
+      "sha256": "350fcc319a5fe8ab5d4dc7e24c087aa5e6992d58ee1b5e0a190af25503ae2f97"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/configuracao.json",
+      "bytes": 9176,
+      "sha256": "6fc93f7fda5e65c8959ae20f0bec7d68c243cb67456607ac8a20ca45ae39cdd6"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/checkpoint.pt",
+      "bytes": 12789,
+      "sha256": "3b08b3e72caaeeb44cc789af9cac5c7ba26d5acdb51beb501f9a7728aba3a715"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/rodada-02.pt",
+      "bytes": 46903,
+      "sha256": "01488dd86ca26725b4064b1bf782817fba42148f35fa5672176b92ba7993969d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/rodada-00.pt",
+      "bytes": 46903,
+      "sha256": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/rodadas.json",
+      "bytes": 9526,
+      "sha256": "062a13cb162ac79c6aedf81591d1063dcddc6f1628eee2e7b3bf183eedfcf2cb"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/scores_validacao.npy",
+      "bytes": 203388,
+      "sha256": "4e2a9cbf5bb639b3574242c99e99412301da1c916464eed28e349cd1b9df3d0e"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/treino.json",
+      "bytes": 10272,
+      "sha256": "20292414c3a805491ff758b41e4a4740306d50a3d4f5ae252fa1d3ff633e8b7d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/rodada-01.pt",
+      "bytes": 46903,
+      "sha256": "e6c87b14efd0f0828dd8df1161d2c0ceb7e1e570d5782dbfe1ec6b7fea611234"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/checkpoint.pt",
+      "bytes": 12789,
+      "sha256": "943770ea9d00e68c9ddbe9598f101fec5d6335c026d063e48807c33bcc287149"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/rodada-02.pt",
+      "bytes": 46903,
+      "sha256": "5f205c785618947a3ff49396f85d9bc47cb82a113935615be73c0efb6052948d"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/rodada-00.pt",
+      "bytes": 46903,
+      "sha256": "2d659b0194b30993a993e23e71911f895401f430c46daeb1e4d6c6232e74e91c"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/rodadas.json",
+      "bytes": 9651,
+      "sha256": "a6c2b68415a809fd20eb13917f099707018ee29617b282e884390961b472aa07"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/scores_validacao.npy",
+      "bytes": 203388,
+      "sha256": "cec597cd029c7be5bba355abd1ee7164fd34ebbbf9cbbf4c11120846c17767cf"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/treino.json",
+      "bytes": 10395,
+      "sha256": "e6af2057c473bec581b49b6143d97be570623a8726c72c2c655a1c3ce3d8603b"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/rodada-01.pt",
+      "bytes": 46903,
+      "sha256": "2907bb452842d460273c9128a372a8339fe92106c47a228a5f2cea8b39b49fcd"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/teste_controles/resultado.json",
+      "bytes": 436,
+      "sha256": "db6890276cabf1f5af286a586d768c66504bedbd7928c92af6e3b623f5105db5"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/teste_controles/retomado-02.pt",
+      "bytes": 2437,
+      "sha256": "8091cac7353638ff7f1a2acd25418b0636507830605792f02d97731bd64cfbbe"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/teste_controles/continuo-02.pt",
+      "bytes": 2437,
+      "sha256": "eb02617010e01b5ff98c14ff1f084b45a9e2ecc4feb81aa2a4abf4ef8bffec00"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/teste_controles/rodada-01.pt",
+      "bytes": 2417,
+      "sha256": "8e659880a9709b833625b41a70119d22f4d3d61a37357f4069e2c88842dfb295"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/2026-11-24/RELATORIO_2026-11-24_22-24-49_BRT_scaffold-20-vm.md",
+      "bytes": 9064,
+      "sha256": "a967a1a02d8a5e6478bd390c1d9672a7981bd70b6d31e04414ebf2a9c810e1d1"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/execucoes/2026-11-24/RELATORIO_2026-11-24_22-14-39_BRT_scaffold-curto-vm.md",
+      "bytes": 8947,
+      "sha256": "7e0dad41d2c24ad5008331650d4ddcfecf846cb127cfcc24591725bb1fb6c389"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-flower/requirements.lock",
+      "bytes": 766,
+      "sha256": "af00bc8c6bf5cd033462e8d2a5ac1ce6bada4e22dde698d85380183941ca5d44"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-flower/treinar_cnn.py",
+      "bytes": 11571,
+      "sha256": "8fe82fcf8c016c1f2cfedc20f5e245c8ad25d43e0355f2d3bd4e2c6e8a4b54c6"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-flower/cnn1d.py",
+      "bytes": 2573,
+      "sha256": "ed4f90225d3bbb765f9dc3bf461362ba7bdae6c47e70ac1c3333bbe8b0598861"
+    },
+    {
+      "path": "codigo/secfednet-local/artigo-01/cnn-flower-clientes/avaliar_clientes.py",
+      "bytes": 8747,
+      "sha256": "477d65ea06605e4ad3bff00d4cac0cbfc17de36cc75812869bb9f32d4af4cb1f"
+    },
+    {
+      "path": "pacote-inferencia/secfednet-cnn1d-v1.zip",
+      "bytes": 13489,
+      "sha256": "e7d042b38c77b96bef54533302bef817d6b8a4a8e55b717bac7b32f98b5b6014"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/exemplo_entrada.json",
+      "bytes": 1139,
+      "sha256": "c94082b983a81580cdf56e6636f9f11fb076e7c2ca9623d7e7400a72a778a4e6"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/requirements.lock",
+      "bytes": 270,
+      "sha256": "a02b1c3534785c41322265e49ab70d4314a10656e7a05bb5ea6b15d4cd47045c"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/saida_verificada.json",
+      "bytes": 314,
+      "sha256": "7a8ffd5f9629aab22d4a4dca7c0bd87a7537a85e0749aad6e5ecf32fe371ed00"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/checkpoint_cnn1d.pt",
+      "bytes": 12949,
+      "sha256": "37db7d4f6d0123786cc4ed5227d670edb1344c07089e8ff6910c6446e57400f3"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/cnn1d.py",
+      "bytes": 2573,
+      "sha256": "ed4f90225d3bbb765f9dc3bf461362ba7bdae6c47e70ac1c3333bbe8b0598861"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/README.md",
+      "bytes": 1497,
+      "sha256": "d51fc31c956367de1bf58cc33f29da38ac2754e76b3c538870f616a57cf872e0"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/exemplo_saida.json",
+      "bytes": 314,
+      "sha256": "7a8ffd5f9629aab22d4a4dca7c0bd87a7537a85e0749aad6e5ecf32fe371ed00"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/contrato.json",
+      "bytes": 2791,
+      "sha256": "e5114198735db8e583fd0ef7549c932726ec99a41f6621433d008c1de9e919f1"
+    },
+    {
+      "path": "pacote-inferencia/cnn1d/SHA256SUMS",
+      "bytes": 573,
+      "sha256": "e7c923711adaaa81712714b0c7e73189ac6032d26d0681b6afeb18953006b6e3"
+    }
+  ],
+  "selecionados_da_vm": [
+    "RELATORIO_REPRODUCAO_VM.md",
+    "RELATORIO_REPRODUCAO_VM_20_RODADAS.md",
+    "pacote-inferencia/cnn1d/saida_verificada.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/comparacao_referencia.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/comparar.py",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/dependencias-instaladas.txt",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/configuracao.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/rodadas.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/fedavg_sgd/treino.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/pareamento.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/resultados.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/rodadas.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/scaffold/treino.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/execucao/tempo.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/recarga.log",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/teste_controles/resultado.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/teste_controles.log",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/verificacao_checkpoints.txt",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-curto-vm-20261124-221130/verificar_checkpoints.py",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/comparacao_referencia.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/comparar_referencia.py",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/comparacoes.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/configuracao.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/curvas.csv",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/curva.csv",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/curva.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/rodadas.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/fedavg_sgd/treino.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/pareamento.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/resultados.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/curva.csv",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/curva.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/rodadas.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/scaffold/treino.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/tempo.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/execucao/verificacao_independente.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/preservacao-execucao-curta.sha256",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/tempo-processo.txt",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/teste_controles/resultado.json",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/teste_controles.log",
+    "codigo/secfednet-local/artigo-01/execucoes/scaffold-20-vm-20261124-222013/verificacao.log"
+  ],
+  "limite": "Acervo local completo fora de .git e virtualenvs listados; não é backup do disco inteiro da VM."
+}

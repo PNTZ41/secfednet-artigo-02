@@ -1,0 +1,7 @@
+cenario,par,referencia,representacao,chaves_com_colisao_adicional,linhas_a_colisao_adicional,linhas_b_colisao_adicional,pares_adicionais_raw_diferente
+principal,treino_x_validacao,normalizado_float64,modelo_float32,14,163,49,309
+principal,treino_x_teste,normalizado_float64,modelo_float32,12,17,46,71
+principal,validacao_x_teste,normalizado_float64,modelo_float32,2,3,48,84
+sensibilidade_raw64,treino_x_validacao,normalizado_float64,modelo_float32,6,153,7,254
+sensibilidade_raw64,treino_x_teste,normalizado_float64,modelo_float32,7,10,7,10
+sensibilidade_raw64,validacao_x_teste,normalizado_float64,modelo_float32,0,0,0,0

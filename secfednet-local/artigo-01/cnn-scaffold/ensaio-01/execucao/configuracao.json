@@ -1,0 +1,318 @@
+{
+  "formato": "secfednet-scaffold-piloto-v1",
+  "metodos": [
+    "fedavg_sgd",
+    "scaffold"
+  ],
+  "rodadas": 2,
+  "clientes": 5,
+  "epocas_locais": 1,
+  "lote": 512,
+  "otimizador": "SGD",
+  "lr": 0.01,
+  "momentum": 0,
+  "weight_decay": 0,
+  "seed_modelo": 23,
+  "seed_clientes": 2305,
+  "alpha_dirichlet": 0.5,
+  "seed_minibatches": "23 + 100 * rodada + cliente",
+  "agregacao_modelo": "uniforme por cliente, eta_global=1, nos dois metodos",
+  "scaffold": "opcao II; c_i persistente; c inicial e c_i inicial iguais a zero",
+  "regra_particao_insuficiente": "repetir Dirichlet/multinomial se algum cliente vazio; aceitar classe ausente",
+  "manifesto_validacao_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f",
+  "fpr_maxima_validacao": 0.01,
+  "regra_limiar": "maior recall dentro do teto empirico de FPR; empate por menor FP e maior limiar; score >= limiar",
+  "avaliou_teste_global": false,
+  "ajustar_hiperparametros_neste_ensaio": false,
+  "atol_controles_float32": 1e-06,
+  "rtol_controles_float32": 1e-05,
+  "tolerancia_primeira_rodada": 0.0,
+  "atol_teste_escalar_float64": 1e-12,
+  "fonte_algoritmo": "https://proceedings.mlr.press/v119/karimireddy20a/karimireddy20a.pdf",
+  "pesos_iniciais_sha256": "7951f7ebfdbd15c5c93439853b255f2555495cc0b6de8f02a11bf1a2b84a2a8a",
+  "particoes": [
+    {
+      "cliente": 0,
+      "total": 4605,
+      "suporte": {
+        "BENIGN": 4388,
+        "DDoS": 217
+      },
+      "indices_no_treino_sha256": "2e19c809734d465a938841c153c5c9210beab339c19adde373b5caf11a302025"
+    },
+    {
+      "cliente": 1,
+      "total": 19982,
+      "suporte": {
+        "BENIGN": 14293,
+        "DDoS": 5689
+      },
+      "indices_no_treino_sha256": "c1b98c5e41ab99715a9f8e34dc81c4de7593b5211ba18aacda14049734df4847"
+    },
+    {
+      "cliente": 2,
+      "total": 6300,
+      "suporte": {
+        "BENIGN": 6097,
+        "DDoS": 203
+      },
+      "indices_no_treino_sha256": "c1a0f5534ad710e9633f8db75d8db39b3adb91853f92906609dd350939327f0d"
+    },
+    {
+      "cliente": 3,
+      "total": 50749,
+      "suporte": {
+        "BENIGN": 43289,
+        "DDoS": 7460
+      },
+      "indices_no_treino_sha256": "368831900782480caf43bda841cb9baa1f7806bc82e92c31ec69488d94c52c69"
+    },
+    {
+      "cliente": 4,
+      "total": 121615,
+      "suporte": {
+        "BENIGN": 95029,
+        "DDoS": 26586
+      },
+      "indices_no_treino_sha256": "0ec407cf93f599f50e515b50b3939c818ae3c9a39faf208391140f16fc9281d5"
+    }
+  ],
+  "minibatches": [
+    {
+      "rodada": 1,
+      "cliente": 0,
+      "seed": 123,
+      "ordem_sha256": "4a5f3c1a568313d7c79f27537f33f42b5cb2ceb055cc57bfd08009bb168ec31f",
+      "passos": 9
+    },
+    {
+      "rodada": 1,
+      "cliente": 1,
+      "seed": 124,
+      "ordem_sha256": "8d6bd6d7ac78825d057a7b2d0d631942dee28a667d75b6628475c867cd0a4b40",
+      "passos": 40
+    },
+    {
+      "rodada": 1,
+      "cliente": 2,
+      "seed": 125,
+      "ordem_sha256": "5cf7d9de3fcbde54d9a6acc80d006b5ca4099dd9ad12424d8395d560c3aee26b",
+      "passos": 13
+    },
+    {
+      "rodada": 1,
+      "cliente": 3,
+      "seed": 126,
+      "ordem_sha256": "1593064ef6e656e70ecea51addbc01b1432b2f533d048264bc1f44de2c67bd86",
+      "passos": 100
+    },
+    {
+      "rodada": 1,
+      "cliente": 4,
+      "seed": 127,
+      "ordem_sha256": "e4d9ee53d33bb8e4d829faacc2113dd2eb40c9b4587a78924c3f502230ee588d",
+      "passos": 238
+    },
+    {
+      "rodada": 2,
+      "cliente": 0,
+      "seed": 223,
+      "ordem_sha256": "5312f59f46d193a3219c9c7524ddb314f86ef549e412ee1512affeeedf1fa4e5",
+      "passos": 9
+    },
+    {
+      "rodada": 2,
+      "cliente": 1,
+      "seed": 224,
+      "ordem_sha256": "c254a3bf7ca1345bb12634f493f2928379e2407b24f793698866a6d9ba44e0a3",
+      "passos": 40
+    },
+    {
+      "rodada": 2,
+      "cliente": 2,
+      "seed": 225,
+      "ordem_sha256": "763cd46ea1a8908a3d0eda877a0c269612af2286bb7a1331dde766c9ebc29a1f",
+      "passos": 13
+    },
+    {
+      "rodada": 2,
+      "cliente": 3,
+      "seed": 226,
+      "ordem_sha256": "9e1997b3d63fbda12a4a359c2d510df2f07e9d844905a37b679d5fb8597e6364",
+      "passos": 100
+    },
+    {
+      "rodada": 2,
+      "cliente": 4,
+      "seed": 227,
+      "ordem_sha256": "3d9311228480c393f68a2c32513755114a6973f1b597fa85adc4344e72f6b51e",
+      "passos": 238
+    }
+  ],
+  "tentativa_particao": 1,
+  "exemplos_por_rodada": 203251,
+  "exposicoes_por_metodo": 406502,
+  "passos_por_metodo": 800,
+  "bytes_por_vetor_de_parametros": 4596,
+  "contrato": {
+    "formato": "secfednet-cnn1d-v1",
+    "ordem_features": [
+      "Flow Duration",
+      "Total Fwd Packet",
+      "Total Bwd packets",
+      "Total Length of Fwd Packet",
+      "Total Length of Bwd Packet",
+      "Fwd Packet Length Max",
+      "Fwd Packet Length Min",
+      "Fwd Packet Length Mean",
+      "Fwd Packet Length Std",
+      "Bwd Packet Length Max",
+      "Bwd Packet Length Min",
+      "Bwd Packet Length Mean",
+      "Bwd Packet Length Std",
+      "Flow Bytes/s",
+      "Flow Packets/s",
+      "Flow IAT Mean",
+      "Flow IAT Std",
+      "Flow IAT Max",
+      "Flow IAT Min",
+      "Fwd IAT Total",
+      "Fwd IAT Mean",
+      "Fwd IAT Std",
+      "Fwd IAT Max",
+      "Fwd IAT Min",
+      "Bwd IAT Total",
+      "Bwd IAT Mean",
+      "Bwd IAT Std",
+      "Bwd IAT Max",
+      "Bwd IAT Min",
+      "Fwd PSH Flags",
+      "Bwd PSH Flags",
+      "Fwd URG Flags",
+      "Bwd URG Flags",
+      "Fwd RST Flags",
+      "Bwd RST Flags",
+      "Fwd Header Length",
+      "Bwd Header Length",
+      "Fwd Packets/s",
+      "Bwd Packets/s",
+      "Packet Length Min",
+      "Packet Length Max",
+      "Packet Length Mean",
+      "Packet Length Std",
+      "Packet Length Variance",
+      "FIN Flag Count",
+      "SYN Flag Count",
+      "RST Flag Count",
+      "PSH Flag Count",
+      "ACK Flag Count",
+      "URG Flag Count",
+      "CWR Flag Count",
+      "ECE Flag Count",
+      "Down/Up Ratio",
+      "Average Packet Size",
+      "Fwd Segment Size Avg",
+      "Bwd Segment Size Avg",
+      "Fwd Bytes/Bulk Avg",
+      "Fwd Packet/Bulk Avg",
+      "Fwd Bulk Rate Avg",
+      "Bwd Bytes/Bulk Avg",
+      "Bwd Packet/Bulk Avg",
+      "Bwd Bulk Rate Avg",
+      "Subflow Fwd Packets",
+      "Subflow Fwd Bytes",
+      "Subflow Bwd Packets",
+      "Subflow Bwd Bytes",
+      "FWD Init Win Bytes",
+      "Bwd Init Win Bytes",
+      "Fwd Act Data Pkts",
+      "Fwd Seg Size Min",
+      "Active Mean",
+      "Active Std",
+      "Active Max",
+      "Active Min",
+      "Idle Mean",
+      "Idle Std",
+      "Idle Max",
+      "Idle Min",
+      "ICMP Code",
+      "ICMP Type",
+      "Total TCP Flow Time"
+    ],
+    "classes": {
+      "0": "BENIGN",
+      "1": "DDoS"
+    },
+    "limiar": 0.5,
+    "normalizacao": "media e desvio ddof=0 somente no subconjunto de ajuste, escala constante vira 1",
+    "manifesto_validacao_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f",
+    "ajuste_sha256": "cb0efb2247e8ceba3184fdcd008ab61e34f852fa5cc3ac844f39dba5487496b4",
+    "validacao_sha256": "dd30783769a3cca48eabac5a72f37d62cd8bcb986ef0a1c01e724e96c55b3bfd",
+    "score": "sigmoid do logit DDoS; nao calibrado como probabilidade",
+    "embedding": "ReLU da camada linear 48 -> 16"
+  },
+  "auditoria_reutilizada": {
+    "pool": {
+      "BENIGN": 203880,
+      "DDoS": 50194
+    },
+    "ajuste": {
+      "BENIGN": 163096,
+      "DDoS": 40155
+    },
+    "validacao": {
+      "BENIGN": 40776,
+      "DDoS": 10039
+    },
+    "excluidos_do_ajuste": {
+      "BENIGN": 8,
+      "DDoS": 0
+    },
+    "expurgo_historico": [
+      {
+        "vetores_em_comum": 10,
+        "treino_removido": {
+          "BENIGN": 29,
+          "DDoS": 0
+        }
+      }
+    ],
+    "colisoes_float64": [
+      {
+        "vetores_em_comum": 5,
+        "treino_removido": {
+          "BENIGN": 8,
+          "DDoS": 0
+        }
+      }
+    ],
+    "colisoes_float32": [],
+    "grupos_pool": 195559,
+    "blocos_pool": 186738,
+    "intersecoes_ajuste_validacao": {
+      "linhas": 0,
+      "grupos": 0,
+      "vetores_brutos": 0
+    },
+    "grupos_compartilhados_pool_teste": 0,
+    "vetores_float32_ajuste_validacao": 0,
+    "ajuste_sha256": "cb0efb2247e8ceba3184fdcd008ab61e34f852fa5cc3ac844f39dba5487496b4",
+    "validacao_sha256": "dd30783769a3cca48eabac5a72f37d62cd8bcb986ef0a1c01e724e96c55b3bfd",
+    "manifesto_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f"
+  },
+  "normalizacao_media_sha256": "e7e9d309135e77b7f5b52927fc308f7c309a4d7a6afc95d7fefd05ac41528ad4",
+  "normalizacao_escala_sha256": "ba674fa6edf9f9e89a4d085937db2397d1e702298c4dfa1900090f8b30b44d70",
+  "clientes_npz_sha256": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb",
+  "protocolo_scaffold_sha256": "8664255a8149c63fc6fd61962fdcc9f74aac3723faddf92e735ec6e7e12ba30d",
+  "versoes": {
+    "python": "3.14.4",
+    "torch": "2.12.1+cpu",
+    "flower": "1.32.0",
+    "numpy": "2.3.5",
+    "plataforma": "Linux-7.0.0-43-generic-x86_64-desconhecido-with-glibc2.43"
+  },
+  "torch_threads": 2,
+  "torch_interop_threads": 1,
+  "deterministico": true,
+  "diferencas_ensaio_09h04": "SGD lr=0.01, 2 rodadas, media uniforme nos dois metodos; anterior Adam, 3 rodadas, media ponderada por exemplos"
+}

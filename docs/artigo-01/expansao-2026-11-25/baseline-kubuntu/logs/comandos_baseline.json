@@ -1,0 +1,34 @@
+[
+  [
+    "verificacao_candidato",
+    [
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+      "-B",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/verificar_candidato.py",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato"
+    ]
+  ],
+  [
+    "baseline_treino",
+    [
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+      "-B",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline.py",
+      "treinar",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline_config.json",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline"
+    ]
+  ],
+  [
+    "baseline_recarga",
+    [
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+      "-B",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline.py",
+      "verificar",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato",
+      "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline"
+    ]
+  ]
+]

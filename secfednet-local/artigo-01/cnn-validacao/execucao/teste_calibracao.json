@@ -1,0 +1,44 @@
+{
+  "sem_fp": {
+    "limiar": 0.9,
+    "orcamento_fp": 0,
+    "suporte": {
+      "BENIGN": 2,
+      "DDoS": 3
+    },
+    "matriz_real_por_previsto": [
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "fpr": 0.0,
+    "recall_ddos": 0.3333333333333333,
+    "macro_f1_binario": 0.5833333333333333
+  },
+  "um_fp": {
+    "limiar": 0.8,
+    "orcamento_fp": 1,
+    "suporte": {
+      "BENIGN": 2,
+      "DDoS": 3
+    },
+    "matriz_real_por_previsto": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "fpr": 0.5,
+    "recall_ddos": 0.6666666666666666,
+    "macro_f1_binario": 0.5833333333333333
+  }
+}

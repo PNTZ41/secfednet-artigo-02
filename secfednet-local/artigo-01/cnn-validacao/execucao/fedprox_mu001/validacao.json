@@ -1,0 +1,44 @@
+{
+  "nome": "fedprox_mu001",
+  "mu": 0.01,
+  "limiar_05": {
+    "suporte": {
+      "BENIGN": 40776,
+      "DDoS": 10039
+    },
+    "matriz_real_por_previsto": [
+      [
+        40754,
+        22
+      ],
+      [
+        4,
+        10035
+      ]
+    ],
+    "fpr": 0.000539533058661958,
+    "recall_ddos": 0.9996015539396355,
+    "macro_f1_binario": 0.9991936624090548
+  },
+  "calibrado": {
+    "limiar": 0.20939026772975922,
+    "orcamento_fp": 407,
+    "suporte": {
+      "BENIGN": 40776,
+      "DDoS": 10039
+    },
+    "matriz_real_por_previsto": [
+      [
+        40644,
+        132
+      ],
+      [
+        1,
+        10038
+      ]
+    ],
+    "fpr": 0.003237198351971748,
+    "recall_ddos": 0.9999003884849088,
+    "macro_f1_binario": 0.9958926442974232
+  }
+}

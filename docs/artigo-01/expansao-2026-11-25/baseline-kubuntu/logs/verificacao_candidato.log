@@ -1,0 +1,8 @@
+{
+  "status": "OK",
+  "estado": "CANDIDATO_NAO_FINAL",
+  "hashes_dados_conferidos": 12,
+  "mascaras_reconciliadas_com_auditoria": true,
+  "representacao_float32_verificada_todos_registros": true,
+  "sexta": "somente verificacao de arrays/mascaras/intersecoes; nenhuma previsao ou metrica de desempenho"
+}

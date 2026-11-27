@@ -1,0 +1,16 @@
+{
+  "arquivo_distribuicao": "pacote-inferencia/secfednet-cnn1d-v1.zip",
+  "zip_sha256": "e7d042b38c77b96bef54533302bef817d6b8a4a8e55b717bac7b32f98b5b6014",
+  "checkpoint_membro": "checkpoint_cnn1d.pt",
+  "checkpoint_sha256": "37db7d4f6d0123786cc4ed5227d670edb1344c07089e8ff6910c6446e57400f3",
+  "modelo": "CNN-1D FedAvg original, tres rodadas, Adam lr=0.001; piloto das 00h59",
+  "treino": {
+    "BENIGN": 203880,
+    "DDoS": 50194,
+    "total": 254074
+  },
+  "limiar": 0.5,
+  "formato": "secfednet-cnn1d-v1",
+  "contrato_json_sha256": "e5114198735db8e583fd0ef7549c932726ec99a41f6621433d008c1de9e919f1",
+  "referencia_ensaios": "Os modelos FedAvg-SGD/SCAFFOLD posteriores sao gerados separadamente pelas rotinas de reproducao."
+}

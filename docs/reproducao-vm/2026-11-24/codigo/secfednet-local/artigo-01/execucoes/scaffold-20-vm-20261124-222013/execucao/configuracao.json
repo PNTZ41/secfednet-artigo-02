@@ -1,0 +1,963 @@
+{
+  "formato": "secfednet-scaffold-20rodadas-v1",
+  "metodos": [
+    "fedavg_sgd",
+    "scaffold"
+  ],
+  "rodadas": 20,
+  "clientes": 5,
+  "epocas_locais": 1,
+  "lote": 512,
+  "otimizador": "SGD",
+  "lr": 0.01,
+  "momentum": 0,
+  "weight_decay": 0,
+  "seed_modelo": 23,
+  "seed_clientes": 2305,
+  "alpha_dirichlet": 0.5,
+  "seed_minibatches": "23 + 100 * rodada + cliente",
+  "agregacao_modelo": "uniforme por cliente, eta_global=1, nos dois metodos",
+  "scaffold": "opcao II; c_i persistente; c inicial e c_i inicial iguais a zero",
+  "regra_particao_insuficiente": "repetir Dirichlet/multinomial se algum cliente vazio; aceitar classe ausente",
+  "manifesto_validacao_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f",
+  "fpr_maxima_validacao": 0.01,
+  "regra_limiar": "maior recall dentro do teto empirico de FPR; empate por menor FP e maior limiar; score >= limiar",
+  "avaliou_teste_global": false,
+  "ajustar_hiperparametros_neste_ensaio": false,
+  "atol_controles_float32": 1e-06,
+  "rtol_controles_float32": 1e-05,
+  "tolerancia_primeira_rodada": 0.0,
+  "atol_teste_escalar_float64": 1e-12,
+  "fonte_algoritmo": "https://proceedings.mlr.press/v119/karimireddy20a/karimireddy20a.pdf",
+  "comparacoes": [
+    {
+      "fedavg_sgd_rodada": 20,
+      "scaffold_rodada": 20,
+      "eixo": "rodadas"
+    },
+    {
+      "fedavg_sgd_rodada": 20,
+      "scaffold_rodada": 10,
+      "eixo": "bytes_brutos_parametros_e_controles"
+    }
+  ],
+  "metricas_por_rodada": true,
+  "selecao_rodada": "pontos 20/20 e 20/10 fixados antes da execucao, sem early stopping",
+  "perda_treino": "BCE do modelo global apos agregacao; media por exemplos e media uniforme das perdas por cliente; perda online local separada",
+  "particoes": [
+    {
+      "cliente": 0,
+      "total": 4605,
+      "suporte": {
+        "BENIGN": 4388,
+        "DDoS": 217
+      },
+      "indices_no_treino_sha256": "2e19c809734d465a938841c153c5c9210beab339c19adde373b5caf11a302025"
+    },
+    {
+      "cliente": 1,
+      "total": 19982,
+      "suporte": {
+        "BENIGN": 14293,
+        "DDoS": 5689
+      },
+      "indices_no_treino_sha256": "c1b98c5e41ab99715a9f8e34dc81c4de7593b5211ba18aacda14049734df4847"
+    },
+    {
+      "cliente": 2,
+      "total": 6300,
+      "suporte": {
+        "BENIGN": 6097,
+        "DDoS": 203
+      },
+      "indices_no_treino_sha256": "c1a0f5534ad710e9633f8db75d8db39b3adb91853f92906609dd350939327f0d"
+    },
+    {
+      "cliente": 3,
+      "total": 50749,
+      "suporte": {
+        "BENIGN": 43289,
+        "DDoS": 7460
+      },
+      "indices_no_treino_sha256": "368831900782480caf43bda841cb9baa1f7806bc82e92c31ec69488d94c52c69"
+    },
+    {
+      "cliente": 4,
+      "total": 121615,
+      "suporte": {
+        "BENIGN": 95029,
+        "DDoS": 26586
+      },
+      "indices_no_treino_sha256": "0ec407cf93f599f50e515b50b3939c818ae3c9a39faf208391140f16fc9281d5"
+    }
+  ],
+  "minibatches": [
+    {
+      "rodada": 1,
+      "cliente": 0,
+      "seed": 123,
+      "ordem_sha256": "4a5f3c1a568313d7c79f27537f33f42b5cb2ceb055cc57bfd08009bb168ec31f",
+      "passos": 9
+    },
+    {
+      "rodada": 1,
+      "cliente": 1,
+      "seed": 124,
+      "ordem_sha256": "8d6bd6d7ac78825d057a7b2d0d631942dee28a667d75b6628475c867cd0a4b40",
+      "passos": 40
+    },
+    {
+      "rodada": 1,
+      "cliente": 2,
+      "seed": 125,
+      "ordem_sha256": "5cf7d9de3fcbde54d9a6acc80d006b5ca4099dd9ad12424d8395d560c3aee26b",
+      "passos": 13
+    },
+    {
+      "rodada": 1,
+      "cliente": 3,
+      "seed": 126,
+      "ordem_sha256": "1593064ef6e656e70ecea51addbc01b1432b2f533d048264bc1f44de2c67bd86",
+      "passos": 100
+    },
+    {
+      "rodada": 1,
+      "cliente": 4,
+      "seed": 127,
+      "ordem_sha256": "e4d9ee53d33bb8e4d829faacc2113dd2eb40c9b4587a78924c3f502230ee588d",
+      "passos": 238
+    },
+    {
+      "rodada": 2,
+      "cliente": 0,
+      "seed": 223,
+      "ordem_sha256": "5312f59f46d193a3219c9c7524ddb314f86ef549e412ee1512affeeedf1fa4e5",
+      "passos": 9
+    },
+    {
+      "rodada": 2,
+      "cliente": 1,
+      "seed": 224,
+      "ordem_sha256": "c254a3bf7ca1345bb12634f493f2928379e2407b24f793698866a6d9ba44e0a3",
+      "passos": 40
+    },
+    {
+      "rodada": 2,
+      "cliente": 2,
+      "seed": 225,
+      "ordem_sha256": "763cd46ea1a8908a3d0eda877a0c269612af2286bb7a1331dde766c9ebc29a1f",
+      "passos": 13
+    },
+    {
+      "rodada": 2,
+      "cliente": 3,
+      "seed": 226,
+      "ordem_sha256": "9e1997b3d63fbda12a4a359c2d510df2f07e9d844905a37b679d5fb8597e6364",
+      "passos": 100
+    },
+    {
+      "rodada": 2,
+      "cliente": 4,
+      "seed": 227,
+      "ordem_sha256": "3d9311228480c393f68a2c32513755114a6973f1b597fa85adc4344e72f6b51e",
+      "passos": 238
+    },
+    {
+      "rodada": 3,
+      "cliente": 0,
+      "seed": 323,
+      "ordem_sha256": "ba32553e403d851cfc7dc7ecfebc4a98b6d5e73a2cd4c764d487b17716f2f706",
+      "passos": 9
+    },
+    {
+      "rodada": 3,
+      "cliente": 1,
+      "seed": 324,
+      "ordem_sha256": "e6e149872fcbb71f74b7d9aa25e7872879297a024eb4de4e7b896ea2de4e3c1d",
+      "passos": 40
+    },
+    {
+      "rodada": 3,
+      "cliente": 2,
+      "seed": 325,
+      "ordem_sha256": "f0698bfcd294a4f09b38a4aa373e9e1b2cdfc22939bdd42e53b0c0f93f24a019",
+      "passos": 13
+    },
+    {
+      "rodada": 3,
+      "cliente": 3,
+      "seed": 326,
+      "ordem_sha256": "bd25d5123633796084ec2451958a3447bb4fc6f00835632a44552f1de56340c4",
+      "passos": 100
+    },
+    {
+      "rodada": 3,
+      "cliente": 4,
+      "seed": 327,
+      "ordem_sha256": "32a8e41a2cefed4501a31d042d3d44b4b130ed50215e2203b4ee1d65fedf4e47",
+      "passos": 238
+    },
+    {
+      "rodada": 4,
+      "cliente": 0,
+      "seed": 423,
+      "ordem_sha256": "fea2483a8528d8c01aff85f87f0816568f388b486fe3a7ddf6390d3a4b301f45",
+      "passos": 9
+    },
+    {
+      "rodada": 4,
+      "cliente": 1,
+      "seed": 424,
+      "ordem_sha256": "fec3622fa7db8a197dc7442b6b14001f90b77d04fec9fe73bc3ade597e7e6bcc",
+      "passos": 40
+    },
+    {
+      "rodada": 4,
+      "cliente": 2,
+      "seed": 425,
+      "ordem_sha256": "9c1e0e73d98d45899ac3dcd09c29c5bf96a7c5d29b00b6cabfd6f8b33ef1faf4",
+      "passos": 13
+    },
+    {
+      "rodada": 4,
+      "cliente": 3,
+      "seed": 426,
+      "ordem_sha256": "9ffd26cae1e052e5471acb72306126545cf7e1e980841317638675b3162d179f",
+      "passos": 100
+    },
+    {
+      "rodada": 4,
+      "cliente": 4,
+      "seed": 427,
+      "ordem_sha256": "aaa418babc21ece1c271694a2542b672967f4307af371a6c8a4a278f91759a58",
+      "passos": 238
+    },
+    {
+      "rodada": 5,
+      "cliente": 0,
+      "seed": 523,
+      "ordem_sha256": "f643c66200251a227c3c7aca2b2c82b004624adc665dc18f5084f50c55f7c544",
+      "passos": 9
+    },
+    {
+      "rodada": 5,
+      "cliente": 1,
+      "seed": 524,
+      "ordem_sha256": "19b5b48da0cdff8a7638e5fbc375e6c1cbd491f3739c480c7894296a08c98a7e",
+      "passos": 40
+    },
+    {
+      "rodada": 5,
+      "cliente": 2,
+      "seed": 525,
+      "ordem_sha256": "3c058a0ea9261afb3c9ce6399d0c4e87afb4cea0b1ad121b0583330e456d6e46",
+      "passos": 13
+    },
+    {
+      "rodada": 5,
+      "cliente": 3,
+      "seed": 526,
+      "ordem_sha256": "eba2890fa5d9aef84f3f12993dd4389822258d1dfab539896be9c84cf420da07",
+      "passos": 100
+    },
+    {
+      "rodada": 5,
+      "cliente": 4,
+      "seed": 527,
+      "ordem_sha256": "bbbeba40e0362be5120416ee335d8a8f8b7f470054fe30f2f239943835ce1897",
+      "passos": 238
+    },
+    {
+      "rodada": 6,
+      "cliente": 0,
+      "seed": 623,
+      "ordem_sha256": "724594c31d8e07428cd6205b561bc75b238d1fb6ae01c8a9bb568172c5903551",
+      "passos": 9
+    },
+    {
+      "rodada": 6,
+      "cliente": 1,
+      "seed": 624,
+      "ordem_sha256": "1d44dd7ec1bee1e66b93c62cdbd5aab8ef669012ec46d87527b159c6ef05900c",
+      "passos": 40
+    },
+    {
+      "rodada": 6,
+      "cliente": 2,
+      "seed": 625,
+      "ordem_sha256": "1342430cd5290521f1bc869f3b335605bbb82c92ceb9f2d6eddebad3a57b8907",
+      "passos": 13
+    },
+    {
+      "rodada": 6,
+      "cliente": 3,
+      "seed": 626,
+      "ordem_sha256": "11165522b1d38390a552f8b3c54b7fcd71bfe08e8073d713761c4384fe9448b5",
+      "passos": 100
+    },
+    {
+      "rodada": 6,
+      "cliente": 4,
+      "seed": 627,
+      "ordem_sha256": "188402d08c2285170c04fa40489e1cd954fcf8232272d614965df5b3746af957",
+      "passos": 238
+    },
+    {
+      "rodada": 7,
+      "cliente": 0,
+      "seed": 723,
+      "ordem_sha256": "a49de1dc184785c6a68b8675e9f3b5facf9092b0781eebe8937f773059454525",
+      "passos": 9
+    },
+    {
+      "rodada": 7,
+      "cliente": 1,
+      "seed": 724,
+      "ordem_sha256": "789f4f4191182f343c33c9b607fba98511201347742da48624eda3ee00937010",
+      "passos": 40
+    },
+    {
+      "rodada": 7,
+      "cliente": 2,
+      "seed": 725,
+      "ordem_sha256": "0c09cdbcdccb8ee4368712d3680e187bbc50de9ed92398b062d8a9586fd97996",
+      "passos": 13
+    },
+    {
+      "rodada": 7,
+      "cliente": 3,
+      "seed": 726,
+      "ordem_sha256": "06fd4a52a8ba74c0fbb885014b688eefc6a6468e81fe3f77b06504b47d1e04a2",
+      "passos": 100
+    },
+    {
+      "rodada": 7,
+      "cliente": 4,
+      "seed": 727,
+      "ordem_sha256": "c9f0d88fc30fff1a322d5f31fa3dab805b76f070ef71adeaddb498c3457ffdf0",
+      "passos": 238
+    },
+    {
+      "rodada": 8,
+      "cliente": 0,
+      "seed": 823,
+      "ordem_sha256": "4b2fa5bb32b4c418ef9f98f56274c46e6f165670d3fcec06dd8b52554ede1cb9",
+      "passos": 9
+    },
+    {
+      "rodada": 8,
+      "cliente": 1,
+      "seed": 824,
+      "ordem_sha256": "d47832bc11e20ac20de69af6e7e7cbae44224787ed93eb08bfd5d68cc8222923",
+      "passos": 40
+    },
+    {
+      "rodada": 8,
+      "cliente": 2,
+      "seed": 825,
+      "ordem_sha256": "be1c3ecc6bbc3a0978555b500e7c140b0435c2ce9e330f7597f928b3fdad5f96",
+      "passos": 13
+    },
+    {
+      "rodada": 8,
+      "cliente": 3,
+      "seed": 826,
+      "ordem_sha256": "608f17c2457ed0f7e5228515431b08574ee2e7e085c5a5f42ed2614b3162fbb1",
+      "passos": 100
+    },
+    {
+      "rodada": 8,
+      "cliente": 4,
+      "seed": 827,
+      "ordem_sha256": "36ae6d8d1f188e7585339de443156f40623c3dd11d9ffe9f24ce495902ff29a9",
+      "passos": 238
+    },
+    {
+      "rodada": 9,
+      "cliente": 0,
+      "seed": 923,
+      "ordem_sha256": "f495cedaba58d077fd0d1f983ea98e5a51238f8dbfc86d4affe27d67bef93df3",
+      "passos": 9
+    },
+    {
+      "rodada": 9,
+      "cliente": 1,
+      "seed": 924,
+      "ordem_sha256": "f5c87b048f4f86fd37d97824a07ca9d7a11c78ac3071b573f121c7c63bd5aec6",
+      "passos": 40
+    },
+    {
+      "rodada": 9,
+      "cliente": 2,
+      "seed": 925,
+      "ordem_sha256": "6d3f0f4b3a77fc051be769e5a302f6b5347b1d94f20e7a0444a985a7679d20da",
+      "passos": 13
+    },
+    {
+      "rodada": 9,
+      "cliente": 3,
+      "seed": 926,
+      "ordem_sha256": "0641df82f27cae0e277bfb652ffa53fb0731a92c490c4b58ed99c932b6f0e407",
+      "passos": 100
+    },
+    {
+      "rodada": 9,
+      "cliente": 4,
+      "seed": 927,
+      "ordem_sha256": "a29d3f9f0d58cba870e36f5af49178fbe21e2d6d4d326b91975d331dceb23531",
+      "passos": 238
+    },
+    {
+      "rodada": 10,
+      "cliente": 0,
+      "seed": 1023,
+      "ordem_sha256": "60af30dc7437c139fb01b9936b3cd2d6057a1daa721690111a61f447ea65b4fd",
+      "passos": 9
+    },
+    {
+      "rodada": 10,
+      "cliente": 1,
+      "seed": 1024,
+      "ordem_sha256": "777e135ee0512328576d169ce39f1aaaccf7972d0d06bb0bb03c70d12e7fecd9",
+      "passos": 40
+    },
+    {
+      "rodada": 10,
+      "cliente": 2,
+      "seed": 1025,
+      "ordem_sha256": "4dab3252622520bb4db26bb1187f03b415b2a4110a1b8218d1cb49385b5db8a7",
+      "passos": 13
+    },
+    {
+      "rodada": 10,
+      "cliente": 3,
+      "seed": 1026,
+      "ordem_sha256": "e02ced4d3f5a680cac919202336f490c3636f3766c44020c266f3e3f5113cb81",
+      "passos": 100
+    },
+    {
+      "rodada": 10,
+      "cliente": 4,
+      "seed": 1027,
+      "ordem_sha256": "e51d8a3212ab7f0263ff1c0787b56661527b73b172605c2bc8478f8c7a064a0f",
+      "passos": 238
+    },
+    {
+      "rodada": 11,
+      "cliente": 0,
+      "seed": 1123,
+      "ordem_sha256": "e41aeb7e5ee0a49ee6247febb031c2812917d6eafdff5f2e82b6eca9a519f14c",
+      "passos": 9
+    },
+    {
+      "rodada": 11,
+      "cliente": 1,
+      "seed": 1124,
+      "ordem_sha256": "bbaee6ae8ea22f519b2269233f088fb895cc7bdfecea0adb4ed8de0e32919ad3",
+      "passos": 40
+    },
+    {
+      "rodada": 11,
+      "cliente": 2,
+      "seed": 1125,
+      "ordem_sha256": "2587c301c311215ee83a323c1fdf2814bc7b021105568b225005cd92ee74ab01",
+      "passos": 13
+    },
+    {
+      "rodada": 11,
+      "cliente": 3,
+      "seed": 1126,
+      "ordem_sha256": "b90f100796c9a08a44fd1c181b9b010a374c72ccc8ede2fe8e1136ff938374f0",
+      "passos": 100
+    },
+    {
+      "rodada": 11,
+      "cliente": 4,
+      "seed": 1127,
+      "ordem_sha256": "231ce4f03e70e7b1208b6639d20feae948f1c257af8798f8eb758adb78e419c8",
+      "passos": 238
+    },
+    {
+      "rodada": 12,
+      "cliente": 0,
+      "seed": 1223,
+      "ordem_sha256": "6ea785495fd65aca7600a785c090589f30378f32e2946d53474343d90f613949",
+      "passos": 9
+    },
+    {
+      "rodada": 12,
+      "cliente": 1,
+      "seed": 1224,
+      "ordem_sha256": "b48aec71958ca866acf6ee2be64884dbaac52da8d5fe0e583c275ee3e27005b9",
+      "passos": 40
+    },
+    {
+      "rodada": 12,
+      "cliente": 2,
+      "seed": 1225,
+      "ordem_sha256": "fbc926e7bec127ae85b9d32f0c7a57bd3ad352e6159fb7cad3f06a4d53a3d62f",
+      "passos": 13
+    },
+    {
+      "rodada": 12,
+      "cliente": 3,
+      "seed": 1226,
+      "ordem_sha256": "2a62b146ff0e8602038e4a8c232eecfd5c4a770e5688d85b9ccffb5b89c9ebcb",
+      "passos": 100
+    },
+    {
+      "rodada": 12,
+      "cliente": 4,
+      "seed": 1227,
+      "ordem_sha256": "88e7c00a71133f0f92caa32f348cb6e4faf01ee1ff3d505a9eaac18b4bf7f221",
+      "passos": 238
+    },
+    {
+      "rodada": 13,
+      "cliente": 0,
+      "seed": 1323,
+      "ordem_sha256": "e0d60876b84468641827aab3a1ee31cee4144bfc09342efe1d06a2fe30d354d2",
+      "passos": 9
+    },
+    {
+      "rodada": 13,
+      "cliente": 1,
+      "seed": 1324,
+      "ordem_sha256": "25a5b17b92ed5d35da57a94c06c90ec335368210ff7ae3d90b866405fc1e4ab0",
+      "passos": 40
+    },
+    {
+      "rodada": 13,
+      "cliente": 2,
+      "seed": 1325,
+      "ordem_sha256": "806537298c7e5e6dc2564f22bf008c6cd4a000e7adab2598bb5ef0d262c1fe76",
+      "passos": 13
+    },
+    {
+      "rodada": 13,
+      "cliente": 3,
+      "seed": 1326,
+      "ordem_sha256": "79790b88cf697a486a67c48e2cc17cc93c17d1a4b3f1e3783ca0a5f0ef8f4553",
+      "passos": 100
+    },
+    {
+      "rodada": 13,
+      "cliente": 4,
+      "seed": 1327,
+      "ordem_sha256": "4a5567a6db8950cf98ea9cd6b2d5ff2951f09a905f46b6ab905fef34e5bf94bd",
+      "passos": 238
+    },
+    {
+      "rodada": 14,
+      "cliente": 0,
+      "seed": 1423,
+      "ordem_sha256": "ddc60fd0cadb5ce260f4bc107ca34c4cea4a3219c6f33ed892b545ddb75b105b",
+      "passos": 9
+    },
+    {
+      "rodada": 14,
+      "cliente": 1,
+      "seed": 1424,
+      "ordem_sha256": "a768c03f241ccf1bdcef72d32ced2224a200935615b50b0715ffef48c5f38111",
+      "passos": 40
+    },
+    {
+      "rodada": 14,
+      "cliente": 2,
+      "seed": 1425,
+      "ordem_sha256": "cacf4cd8fe06183555b489c57345bb3e6b132a6afaa2bd4be8fba7fbdaf12e79",
+      "passos": 13
+    },
+    {
+      "rodada": 14,
+      "cliente": 3,
+      "seed": 1426,
+      "ordem_sha256": "6ddccd5fb9cb9808a846d5d3bf8fd9737c3927e99080a0d9a53bf43066ec2c40",
+      "passos": 100
+    },
+    {
+      "rodada": 14,
+      "cliente": 4,
+      "seed": 1427,
+      "ordem_sha256": "90e9cdfb1e8d8677eb3d485af81df3574081b793bddc7cc8614b421d55d3bbb4",
+      "passos": 238
+    },
+    {
+      "rodada": 15,
+      "cliente": 0,
+      "seed": 1523,
+      "ordem_sha256": "4b596884b093d28f2b2f1c7148405dff73276296ee5d87df55003e93662b1b20",
+      "passos": 9
+    },
+    {
+      "rodada": 15,
+      "cliente": 1,
+      "seed": 1524,
+      "ordem_sha256": "7dd43418ef7e8a4765fc778b95bb62080a4350c3078e397708c92b8a9a3b8447",
+      "passos": 40
+    },
+    {
+      "rodada": 15,
+      "cliente": 2,
+      "seed": 1525,
+      "ordem_sha256": "91ce4ce298230285b7e3998eb133605d62268b23b826d1bbaf0f72a584922b05",
+      "passos": 13
+    },
+    {
+      "rodada": 15,
+      "cliente": 3,
+      "seed": 1526,
+      "ordem_sha256": "72b8743c06f36558e6317329fd0cc323f14f5c5656bcf96aa356b0042638fc77",
+      "passos": 100
+    },
+    {
+      "rodada": 15,
+      "cliente": 4,
+      "seed": 1527,
+      "ordem_sha256": "efd5f5ae9d169f5e315d238d9628a9844b11bc97b2c8c6959272921b69f10925",
+      "passos": 238
+    },
+    {
+      "rodada": 16,
+      "cliente": 0,
+      "seed": 1623,
+      "ordem_sha256": "597ac2b05c217ee900c75eab5583bd7b1434af0857d70a9933003d2b7eba0509",
+      "passos": 9
+    },
+    {
+      "rodada": 16,
+      "cliente": 1,
+      "seed": 1624,
+      "ordem_sha256": "a98705292f72af218ea9a187609638086c7c53ce3476d3c2e739418ff079a02f",
+      "passos": 40
+    },
+    {
+      "rodada": 16,
+      "cliente": 2,
+      "seed": 1625,
+      "ordem_sha256": "f74ee99ee4b9e9ac05427f9b9341f881958a23e286d459abf95e3857bf104bfa",
+      "passos": 13
+    },
+    {
+      "rodada": 16,
+      "cliente": 3,
+      "seed": 1626,
+      "ordem_sha256": "95502c05a1b1330e864ff29865ad08af616f940905d70752be7bd0e67ab3aa6c",
+      "passos": 100
+    },
+    {
+      "rodada": 16,
+      "cliente": 4,
+      "seed": 1627,
+      "ordem_sha256": "72e446ddc2ac509af86222953d570a7bc074c643535e72749f73bde5cf4d6c89",
+      "passos": 238
+    },
+    {
+      "rodada": 17,
+      "cliente": 0,
+      "seed": 1723,
+      "ordem_sha256": "6dcfe7b4722c2ca2769f1d9c05a1908c1221cb89945759190e93d99d01e72055",
+      "passos": 9
+    },
+    {
+      "rodada": 17,
+      "cliente": 1,
+      "seed": 1724,
+      "ordem_sha256": "1954c4b41da91c0a6f2064198cd1a886386a29fe20bd6e5e7d4830f33f58ba60",
+      "passos": 40
+    },
+    {
+      "rodada": 17,
+      "cliente": 2,
+      "seed": 1725,
+      "ordem_sha256": "92206c3b00f786013c9b415af8b0f66732b072316073886c2aef0aa972a651df",
+      "passos": 13
+    },
+    {
+      "rodada": 17,
+      "cliente": 3,
+      "seed": 1726,
+      "ordem_sha256": "efeb1776604dfe0dfae38055e479fc7cc2c4bce3802587d0725dc1e253bfa110",
+      "passos": 100
+    },
+    {
+      "rodada": 17,
+      "cliente": 4,
+      "seed": 1727,
+      "ordem_sha256": "61d5b4a865ad4e0f07f32fdb643ab41cf8acf767a177efa9513c8c365f58968c",
+      "passos": 238
+    },
+    {
+      "rodada": 18,
+      "cliente": 0,
+      "seed": 1823,
+      "ordem_sha256": "4e6765d3446b5e64f3a679aa1d734ce5771a791c933a52a5abdece4a7debee3d",
+      "passos": 9
+    },
+    {
+      "rodada": 18,
+      "cliente": 1,
+      "seed": 1824,
+      "ordem_sha256": "200adbf707f94d7a1d48830c5f30b6e7da160294d2eafa67971cf57c3f4366a6",
+      "passos": 40
+    },
+    {
+      "rodada": 18,
+      "cliente": 2,
+      "seed": 1825,
+      "ordem_sha256": "3cd2893ba33e7377751d3c2f94bb7e565763ddc44406a52163db4777b4e7eaa9",
+      "passos": 13
+    },
+    {
+      "rodada": 18,
+      "cliente": 3,
+      "seed": 1826,
+      "ordem_sha256": "d4a1d45bb3e901371776ead5c2059188e0b0c2a908fc1aff4d557ec304530de5",
+      "passos": 100
+    },
+    {
+      "rodada": 18,
+      "cliente": 4,
+      "seed": 1827,
+      "ordem_sha256": "ffe4fda2f1480ddf42a5184b9156594bf6452e674ace2fc6e2db8066d34df38d",
+      "passos": 238
+    },
+    {
+      "rodada": 19,
+      "cliente": 0,
+      "seed": 1923,
+      "ordem_sha256": "9384fab2ae2cbb2b71f5b0e2e0d314dca38f342f94cbecf39fb7ed28c15ca18d",
+      "passos": 9
+    },
+    {
+      "rodada": 19,
+      "cliente": 1,
+      "seed": 1924,
+      "ordem_sha256": "3524cce945acf5a89604d458ae8d13fb008ba0a201ede54216e40683d76c1020",
+      "passos": 40
+    },
+    {
+      "rodada": 19,
+      "cliente": 2,
+      "seed": 1925,
+      "ordem_sha256": "7ede078fbfe5632bc6b3ad00fda52a847982209657deb059278e5630e8105737",
+      "passos": 13
+    },
+    {
+      "rodada": 19,
+      "cliente": 3,
+      "seed": 1926,
+      "ordem_sha256": "59a0f7c8a149a2d92d1951babd8013021e27f3282e21e61403a1318b2363962e",
+      "passos": 100
+    },
+    {
+      "rodada": 19,
+      "cliente": 4,
+      "seed": 1927,
+      "ordem_sha256": "55d2e7514175ce989bb15b2885566a2a0ddee38278326a5870fbcb8fe3813821",
+      "passos": 238
+    },
+    {
+      "rodada": 20,
+      "cliente": 0,
+      "seed": 2023,
+      "ordem_sha256": "2469edb192c8654662f2152f0c325555f7af946a00f59f3db0532426a453a300",
+      "passos": 9
+    },
+    {
+      "rodada": 20,
+      "cliente": 1,
+      "seed": 2024,
+      "ordem_sha256": "0988af9df8c4f6c82208dcc0376dfab14771866cc3620f168ade48f0b9cc2614",
+      "passos": 40
+    },
+    {
+      "rodada": 20,
+      "cliente": 2,
+      "seed": 2025,
+      "ordem_sha256": "e35ec6d99495265183d1b6f626f9e359e36df82cef097589f32e2d3bed56081e",
+      "passos": 13
+    },
+    {
+      "rodada": 20,
+      "cliente": 3,
+      "seed": 2026,
+      "ordem_sha256": "4702fd6e09589323c2a67a5b1f2f1cb33777b56ad5ba6977cbe831085dcacdb3",
+      "passos": 100
+    },
+    {
+      "rodada": 20,
+      "cliente": 4,
+      "seed": 2027,
+      "ordem_sha256": "79a81a935554c00ffe4c26e3b14924c6fa98d4ff6c9190cd4b5a9cedda056265",
+      "passos": 238
+    }
+  ],
+  "tentativa_particao": 1,
+  "pesos_iniciais_sha256": "7951f7ebfdbd15c5c93439853b255f2555495cc0b6de8f02a11bf1a2b84a2a8a",
+  "contrato": {
+    "formato": "secfednet-cnn1d-v1",
+    "ordem_features": [
+      "Flow Duration",
+      "Total Fwd Packet",
+      "Total Bwd packets",
+      "Total Length of Fwd Packet",
+      "Total Length of Bwd Packet",
+      "Fwd Packet Length Max",
+      "Fwd Packet Length Min",
+      "Fwd Packet Length Mean",
+      "Fwd Packet Length Std",
+      "Bwd Packet Length Max",
+      "Bwd Packet Length Min",
+      "Bwd Packet Length Mean",
+      "Bwd Packet Length Std",
+      "Flow Bytes/s",
+      "Flow Packets/s",
+      "Flow IAT Mean",
+      "Flow IAT Std",
+      "Flow IAT Max",
+      "Flow IAT Min",
+      "Fwd IAT Total",
+      "Fwd IAT Mean",
+      "Fwd IAT Std",
+      "Fwd IAT Max",
+      "Fwd IAT Min",
+      "Bwd IAT Total",
+      "Bwd IAT Mean",
+      "Bwd IAT Std",
+      "Bwd IAT Max",
+      "Bwd IAT Min",
+      "Fwd PSH Flags",
+      "Bwd PSH Flags",
+      "Fwd URG Flags",
+      "Bwd URG Flags",
+      "Fwd RST Flags",
+      "Bwd RST Flags",
+      "Fwd Header Length",
+      "Bwd Header Length",
+      "Fwd Packets/s",
+      "Bwd Packets/s",
+      "Packet Length Min",
+      "Packet Length Max",
+      "Packet Length Mean",
+      "Packet Length Std",
+      "Packet Length Variance",
+      "FIN Flag Count",
+      "SYN Flag Count",
+      "RST Flag Count",
+      "PSH Flag Count",
+      "ACK Flag Count",
+      "URG Flag Count",
+      "CWR Flag Count",
+      "ECE Flag Count",
+      "Down/Up Ratio",
+      "Average Packet Size",
+      "Fwd Segment Size Avg",
+      "Bwd Segment Size Avg",
+      "Fwd Bytes/Bulk Avg",
+      "Fwd Packet/Bulk Avg",
+      "Fwd Bulk Rate Avg",
+      "Bwd Bytes/Bulk Avg",
+      "Bwd Packet/Bulk Avg",
+      "Bwd Bulk Rate Avg",
+      "Subflow Fwd Packets",
+      "Subflow Fwd Bytes",
+      "Subflow Bwd Packets",
+      "Subflow Bwd Bytes",
+      "FWD Init Win Bytes",
+      "Bwd Init Win Bytes",
+      "Fwd Act Data Pkts",
+      "Fwd Seg Size Min",
+      "Active Mean",
+      "Active Std",
+      "Active Max",
+      "Active Min",
+      "Idle Mean",
+      "Idle Std",
+      "Idle Max",
+      "Idle Min",
+      "ICMP Code",
+      "ICMP Type",
+      "Total TCP Flow Time"
+    ],
+    "classes": {
+      "0": "BENIGN",
+      "1": "DDoS"
+    },
+    "limiar": 0.5,
+    "normalizacao": "media e desvio ddof=0 somente no subconjunto de ajuste, escala constante vira 1",
+    "manifesto_validacao_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f",
+    "ajuste_sha256": "cb0efb2247e8ceba3184fdcd008ab61e34f852fa5cc3ac844f39dba5487496b4",
+    "validacao_sha256": "dd30783769a3cca48eabac5a72f37d62cd8bcb986ef0a1c01e724e96c55b3bfd",
+    "score": "sigmoid do logit DDoS; nao calibrado como probabilidade",
+    "embedding": "ReLU da camada linear 48 -> 16"
+  },
+  "auditoria_reutilizada": {
+    "pool": {
+      "BENIGN": 203880,
+      "DDoS": 50194
+    },
+    "ajuste": {
+      "BENIGN": 163096,
+      "DDoS": 40155
+    },
+    "validacao": {
+      "BENIGN": 40776,
+      "DDoS": 10039
+    },
+    "excluidos_do_ajuste": {
+      "BENIGN": 8,
+      "DDoS": 0
+    },
+    "expurgo_historico": [
+      {
+        "vetores_em_comum": 10,
+        "treino_removido": {
+          "BENIGN": 29,
+          "DDoS": 0
+        }
+      }
+    ],
+    "colisoes_float64": [
+      {
+        "vetores_em_comum": 5,
+        "treino_removido": {
+          "BENIGN": 8,
+          "DDoS": 0
+        }
+      }
+    ],
+    "colisoes_float32": [],
+    "grupos_pool": 195559,
+    "blocos_pool": 186738,
+    "intersecoes_ajuste_validacao": {
+      "linhas": 0,
+      "grupos": 0,
+      "vetores_brutos": 0
+    },
+    "grupos_compartilhados_pool_teste": 0,
+    "vetores_float32_ajuste_validacao": 0,
+    "ajuste_sha256": "cb0efb2247e8ceba3184fdcd008ab61e34f852fa5cc3ac844f39dba5487496b4",
+    "validacao_sha256": "dd30783769a3cca48eabac5a72f37d62cd8bcb986ef0a1c01e724e96c55b3bfd",
+    "manifesto_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f"
+  },
+  "normalizacao_media_sha256": "e7e9d309135e77b7f5b52927fc308f7c309a4d7a6afc95d7fefd05ac41528ad4",
+  "normalizacao_escala_sha256": "ba674fa6edf9f9e89a4d085937db2397d1e702298c4dfa1900090f8b30b44d70",
+  "clientes_npz_sha256": "bbb35ecd842ddf7924e6b9d884d096a36bac01a258affaee27af34b592ddaffb",
+  "configuracao_12h37_sha256": "8b6de3e14fb6011891bbf9c6da6d8a73017a43db575ad9d0a985bed7d420d72a",
+  "protocolo_20_sha256": "36e00a46d61667b84874feb76ef8864fcd219aa64a5112667f4a24a31b4e333f",
+  "exemplos_por_rodada": 203251,
+  "exposicoes_por_metodo": 4065020,
+  "passos_por_metodo": 8000,
+  "torch_threads": 2,
+  "torch_interop_threads": 1,
+  "deterministico": true,
+  "versoes": {
+    "python": "3.14.4",
+    "torch": "2.12.1+cpu",
+    "flower": "1.32.0",
+    "numpy": "2.3.5",
+    "plataforma": "Linux-7.0.0-44-generic-x86_64-desconhecido-with-glibc2.43"
+  },
+  "fontes_20_sha256": "a4015caf946610e3bf2644c85c5ced3de0b4716865632ef3aa92298a5aebd196"
+}

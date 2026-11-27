@@ -1,0 +1,16 @@
+conjunto,tipo,linhas_com_chave,chaves_distintas,chaves_repetidas,linhas_em_chaves_repetidas,excesso_de_linhas
+treino,id_local_escopado,1184428,1184428,0,0,0
+treino,flow_id_direcional,1184428,584416,142720,742732,600012
+treino,grupo_bidirecional,1184428,584384,142721,742765,600044
+treino,vetor_float64,1184424,1101978,34212,116658,82446
+treino,flow_id_timestamp,1184428,1184428,0,0,0
+validacao,id_local_escopado,360079,360079,0,0,0
+validacao,flow_id_direcional,360079,256596,39464,142947,103483
+validacao,grupo_bidirecional,360079,256596,39464,142947,103483
+validacao,vetor_float64,360078,278813,10073,91338,81265
+validacao,flow_id_timestamp,360079,360079,0,0,0
+teste,id_local_escopado,543490,543490,0,0,0
+teste,flow_id_direcional,543490,394813,50713,199390,148677
+teste,grupo_bidirecional,543490,394813,50713,199390,148677
+teste,vetor_float64,543490,369173,8837,183154,174317
+teste,flow_id_timestamp,543490,543490,0,0,0

@@ -1,0 +1,18 @@
+{
+  "modelo": "regressao_logistica_torch",
+  "arquitetura": "Linear(81,1) + sigmoide na inferencia",
+  "perda": "BCEWithLogitsLoss sem pesos",
+  "otimizador": "Adam padroes da versao, weight_decay=0",
+  "lr": 0.001,
+  "epocas": 3,
+  "lote": 4096,
+  "seed": 23,
+  "seed_minibatches": "23 + epoca",
+  "limiar": 0.5,
+  "calibracao": false,
+  "threads_torch": 2,
+  "interop_threads": 1,
+  "ajuste_hyperparametros": "nenhum; configuracao definida antes da execucao",
+  "selecao": "ultima epoca fixa; sem early stopping",
+  "avaliacao": "quinta principal e quinta sensibilidade; sexta reservada"
+}

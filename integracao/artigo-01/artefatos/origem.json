@@ -1,0 +1,14 @@
+{
+  "dataset": "CICIDS2017",
+  "instituicao": "Canadian Institute for Cybersecurity, University of New Brunswick",
+  "documentacao": "https://www.unb.ca/cic/datasets/ids-2017.html",
+  "distribuicao": "https://cicresearch.ca/CICDataset/CIC-IDS-2017/browse.php?p=CIC-IDS-2017%2FCSVs",
+  "zip_informado_na_ficha": "MachineLearningCSV.zip",
+  "membro_informado_na_ficha": "MachineLearningCVE/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+  "recorte_informado_na_ficha": "2017-07-07, sexta-feira à tarde, cenário DDoS",
+  "ficha_local": "SecFedNet_CICIDS2017_entrega/ficha_CICIDS2017.md",
+  "csv_local": "SecFedNet_CICIDS2017_entrega/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+  "csv_bytes": 77123859,
+  "csv_sha256_verificado_localmente": "6ff1580f5f81c0ae28a26f7631721018577f5f7c5e0feac28b795fcfe7b411ee",
+  "verificacao": "O SHA-256 do CSV local coincide com a ficha de Gabriel. A procedência do ZIP está documentada na ficha e o ZIP completo não está nesta entrega."
+}

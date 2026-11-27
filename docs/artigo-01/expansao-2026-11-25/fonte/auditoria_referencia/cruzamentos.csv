@@ -1,0 +1,16 @@
+par,tipo,chaves_comuns,linhas_a,linhas_b,pct_linhas_a,pct_linhas_b,linhas_sem_chave_a,linhas_sem_chave_b
+treino_x_validacao,id_local_escopado,0,0,0,0.0,0.0,0,0
+treino_x_validacao,flow_id_direcional,66337,357414,145519,30.176084996302013,40.41307601942907,0,0
+treino_x_validacao,grupo_bidirecional,66350,357709,145624,30.200991533465942,40.44223628703701,0,0
+treino_x_validacao,vetor_float64,19965,62395,31649,5.26794368252017,8.789460090702319,4,1
+treino_x_validacao,flow_id_timestamp,0,0,0,0.0,0.0,0,0
+treino_x_teste,id_local_escopado,0,0,0,0.0,0.0,0,0
+treino_x_teste,flow_id_direcional,80246,498838,178899,42.116363341629885,32.91670499917202,0,0
+treino_x_teste,grupo_bidirecional,80454,501371,179509,42.33022184548153,33.028942574840386,0,0
+treino_x_teste,vetor_float64,20437,64403,33221,5.437476993113975,6.112531969309463,4,0
+treino_x_teste,flow_id_timestamp,0,0,0,0.0,0.0,0,0
+validacao_x_teste,id_local_escopado,0,0,0,0.0,0.0,0,0
+validacao_x_teste,flow_id_direcional,38166,107610,108314,29.88510854562471,19.929345526136636,0,0
+validacao_x_teste,grupo_bidirecional,38175,107623,108325,29.888718864471407,19.93136948241918,0,0
+validacao_x_teste,vetor_float64,10728,34882,96417,9.687318616192558,17.740344808552134,1,0
+validacao_x_teste,flow_id_timestamp,0,0,0,0.0,0.0,0,0

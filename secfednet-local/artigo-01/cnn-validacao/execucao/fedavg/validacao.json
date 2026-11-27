@@ -1,0 +1,44 @@
+{
+  "nome": "fedavg",
+  "mu": null,
+  "limiar_05": {
+    "suporte": {
+      "BENIGN": 40776,
+      "DDoS": 10039
+    },
+    "matriz_real_por_previsto": [
+      [
+        40764,
+        12
+      ],
+      [
+        4,
+        10035
+      ]
+    ],
+    "fpr": 0.0002942907592701589,
+    "recall_ddos": 0.9996015539396355,
+    "macro_f1_binario": 0.9995036060919602
+  },
+  "calibrado": {
+    "limiar": 0.22592271864414215,
+    "orcamento_fp": 407,
+    "suporte": {
+      "BENIGN": 40776,
+      "DDoS": 10039
+    },
+    "matriz_real_por_previsto": [
+      [
+        40739,
+        37
+      ],
+      [
+        1,
+        10038
+      ]
+    ],
+    "fpr": 0.0009073965077496566,
+    "recall_ddos": 0.9999003884849088,
+    "macro_f1_binario": 0.998822301233721
+  }
+}

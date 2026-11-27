@@ -1,0 +1,885 @@
+{
+  "regra": "originais preservados; novas copias editoriais LF/sem brancos finais e links adaptados explicitamente; dados numericos dos CSVs inalterados",
+  "copias": [
+    {
+      "entrega": "fonte/preparar_candidato.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/preparar_candidato.py",
+      "sha256_origem": "065ec650188983c9d3bcf5281e1629589f6c11fbd050e43221638423cc1128d0",
+      "bytes_origem": 12332,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "065ec650188983c9d3bcf5281e1629589f6c11fbd050e43221638423cc1128d0"
+    },
+    {
+      "entrega": "fonte/documentar_candidato.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/documentar_candidato.py",
+      "sha256_origem": "4bab795b7e0741d7e3ccde1b8b49dbc1a53049aaff328c9295884951e59dac67",
+      "bytes_origem": 3082,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "4bab795b7e0741d7e3ccde1b8b49dbc1a53049aaff328c9295884951e59dac67"
+    },
+    {
+      "entrega": "fonte/verificar_candidato.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/verificar_candidato.py",
+      "sha256_origem": "4a083a5bc8000357bd1c6a93a463a4755b753c80b8ab234f432b5077db86a088",
+      "bytes_origem": 3671,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "4a083a5bc8000357bd1c6a93a463a4755b753c80b8ab234f432b5077db86a088"
+    },
+    {
+      "entrega": "fonte/baseline.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline.py",
+      "sha256_origem": "fd7e5ce3ecb390047b9d14deeaca27670eacc510c6065a59b1a86e2ed95adc38",
+      "bytes_origem": 9009,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "fd7e5ce3ecb390047b9d14deeaca27670eacc510c6065a59b1a86e2ed95adc38"
+    },
+    {
+      "entrega": "fonte/baseline_config.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline_config.json",
+      "sha256_origem": "894f75ae7552e9608d70715d22ccf18648e845453cda9734e7e074e7e778f9c3",
+      "bytes_origem": 592,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "894f75ae7552e9608d70715d22ccf18648e845453cda9734e7e074e7e778f9c3"
+    },
+    {
+      "entrega": "fonte/federado_integracao.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/federado_integracao.py",
+      "sha256_origem": "598605ca9e07de144e55f30d85b467181708bd0c6e9489a4ef9ed4ad29bbbfa4",
+      "bytes_origem": 5022,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "598605ca9e07de144e55f30d85b467181708bd0c6e9489a4ef9ed4ad29bbbfa4"
+    },
+    {
+      "entrega": "fonte/reproduzir.sh",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/reproduzir.sh",
+      "sha256_origem": "b44100f2529b5dc3815b6459f8691317c7fd386729d273b97f41e10f642325bc",
+      "bytes_origem": 1789,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "b44100f2529b5dc3815b6459f8691317c7fd386729d273b97f41e10f642325bc"
+    },
+    {
+      "entrega": "fonte/requirements.lock",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/requirements.lock",
+      "sha256_origem": "af00bc8c6bf5cd033462e8d2a5ac1ce6bada4e22dde698d85380183941ca5d44",
+      "bytes_origem": 766,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "af00bc8c6bf5cd033462e8d2a5ac1ce6bada4e22dde698d85380183941ca5d44"
+    },
+    {
+      "entrega": "fonte/contrato_features_referencia.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/contrato_features_referencia.json",
+      "sha256_origem": "e5114198735db8e583fd0ef7549c932726ec99a41f6621433d008c1de9e919f1",
+      "bytes_origem": 2791,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "e5114198735db8e583fd0ef7549c932726ec99a41f6621433d008c1de9e919f1"
+    },
+    {
+      "entrega": "fonte/contrato_candidato.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/contrato_candidato.json",
+      "sha256_origem": "0d3391a42ce7fde29baf15654f7eff88c91d076451f2fd94f39cc0ba033e46e4",
+      "bytes_origem": 2593,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "0d3391a42ce7fde29baf15654f7eff88c91d076451f2fd94f39cc0ba033e46e4"
+    },
+    {
+      "entrega": "fonte/fontes/auditar_split.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fontes/auditar_split.py",
+      "sha256_origem": "70328e008bbbded14ca147d1bf8b6989818f06cbd3608156d2051e6ea2f94ddf",
+      "bytes_origem": 25164,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "70328e008bbbded14ca147d1bf8b6989818f06cbd3608156d2051e6ea2f94ddf"
+    },
+    {
+      "entrega": "fonte/fontes/avaliar_corrigido.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fontes/avaliar_corrigido.py",
+      "sha256_origem": "e15b053e1ff6dc9d466cd8909618442067f6d574c4e1b34f1b45b84034ebe889",
+      "bytes_origem": 12623,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "e15b053e1ff6dc9d466cd8909618442067f6d574c4e1b34f1b45b84034ebe889"
+    },
+    {
+      "entrega": "fonte/fontes/avaliar_piloto.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fontes/avaliar_piloto.py",
+      "sha256_origem": "fe4c2697cf0598355996b74de736635fd2c0b20296400968ed74b98c7d6f4491",
+      "bytes_origem": 11053,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "fe4c2697cf0598355996b74de736635fd2c0b20296400968ed74b98c7d6f4491"
+    },
+    {
+      "entrega": "fonte/fontes/cnn1d.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fontes/cnn1d.py",
+      "sha256_origem": "ed4f90225d3bbb765f9dc3bf461362ba7bdae6c47e70ac1c3333bbe8b0598861",
+      "bytes_origem": 2573,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "ed4f90225d3bbb765f9dc3bf461362ba7bdae6c47e70ac1c3333bbe8b0598861"
+    },
+    {
+      "entrega": "fonte/fontes/piloto_fedavg.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fontes/piloto_fedavg.py",
+      "sha256_origem": "a4c499eb78c6106466de13e0cae153a4ee99da257d7bcb7f92d68d2bdbf09055",
+      "bytes_origem": 7969,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "a4c499eb78c6106466de13e0cae153a4ee99da257d7bcb7f92d68d2bdbf09055"
+    },
+    {
+      "entrega": "fonte/fontes/treinar_cnn.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fontes/treinar_cnn.py",
+      "sha256_origem": "8fe82fcf8c016c1f2cfedc20f5e245c8ad25d43e0355f2d3bd4e2c6e8a4b54c6",
+      "bytes_origem": 11571,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "8fe82fcf8c016c1f2cfedc20f5e245c8ad25d43e0355f2d3bd4e2c6e8a4b54c6"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/chaves_por_conjunto.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/chaves_por_conjunto.csv",
+      "sha256_origem": "a490e7425a46ece88ef03d7dc55aaa04fb966eba500d479d2ec8b94bdeb72a4f",
+      "bytes_origem": 937,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "0c07b3e25075c5103cf18c047f8f52fcfca63eae6191ffb59476deea74ae6f85"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/conflitos.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/conflitos.csv",
+      "sha256_origem": "da401f5124ebb64232ff3e9b05252bfd7e90e6761a81f0a2f735ad685b023850",
+      "bytes_origem": 2117,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "7016cd04a228103d98f0df887e1eb3ebbb67b53c42bb54887904f6da8be975e0"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/cruzamentos.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/cruzamentos.csv",
+      "sha256_origem": "7edb3180fa0bd8383cfbe6d577e7302f1febd60ad563e86fc187e229e1892693",
+      "bytes_origem": 1293,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "1e0608909d54d8df438a2a275f7d5e0a229032186f48428a2c4f1a6947323288"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/linhas_afetadas_por_classe.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/linhas_afetadas_por_classe.csv",
+      "sha256_origem": "e0e1aee3aea988f081e8a02458b4123a305cacb1cabb3a2921b4ad794a3eb928",
+      "bytes_origem": 41988,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "48619116f649832f48ac5cd7d3032ea4e9bf5f8dc45b18d2780b563c761da11f"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/pares_rotulos_conflitantes.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/pares_rotulos_conflitantes.csv",
+      "sha256_origem": "c9be5f11f210a992928b7a3afbbdd6c0c69049e6ba8f3eb45e3407298a33e3de",
+      "bytes_origem": 6436,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "c98d7702f15547064e0956f27934738e4e498e935fa4ac2462127be425087a98"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/qualidade_por_feature.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/qualidade_por_feature.csv",
+      "sha256_origem": "fd68b60512fa5ca964bbde6668a99dc9d2f3204329d65b061f817d5d6e149236",
+      "bytes_origem": 38397,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "3c8e37f540faef82b8192dfc59c07b236fcb2100ca0b3b7b533149f2214fc088"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/resultado.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/resultado.json",
+      "sha256_origem": "3c58f169905ae6a186400a8b8acc3325ecf8030ea1311d2e4393d8ed845294ad",
+      "bytes_origem": 31947,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "3c58f169905ae6a186400a8b8acc3325ecf8030ea1311d2e4393d8ed845294ad"
+    },
+    {
+      "entrega": "fonte/auditoria_referencia/simulacoes_por_classe.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados/simulacoes_por_classe.csv",
+      "sha256_origem": "70b26ce141ae5bd1d67df781f93003b853652c18d4df8bebfc3df04ec9e604b3",
+      "bytes_origem": 65450,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "59a84dd9d73e93b5ed230f54b4f5ee37575826b99de6bc2a4c23413515aa880a"
+    },
+    {
+      "entrega": "METODO_AUDITORIA.md",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/METODO.md",
+      "sha256_origem": "84ad453edd8707c75f5d8929375f1ca7c751d037f46c650ee7671c9b962503c9",
+      "bytes_origem": 6795,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "84ad453edd8707c75f5d8929375f1ca7c751d037f46c650ee7671c9b962503c9"
+    },
+    {
+      "entrega": "verificar_auditoria.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/verificar_resultados.py",
+      "sha256_origem": "e84ff9668e1665e65458df027ef15146af410f2b3747e72a291428a569a93d96",
+      "bytes_origem": 3959,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "e84ff9668e1665e65458df027ef15146af410f2b3747e72a291428a569a93d96"
+    },
+    {
+      "entrega": "auditoria/benchmark_binario.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/benchmark_binario.json",
+      "sha256_origem": "0965cddbdc459ac3bb4226cd105530e7213ab895b503026e250596f3ac6c438d",
+      "bytes_origem": 724,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "0965cddbdc459ac3bb4226cd105530e7213ab895b503026e250596f3ac6c438d"
+    },
+    {
+      "entrega": "auditoria/teste_sintetico_original.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/sintetico/teste.json",
+      "sha256_origem": "239c628943218ed4c17de7cf9c7c657959c8ef8458599ac7b39725c5935272da",
+      "bytes_origem": 451,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "239c628943218ed4c17de7cf9c7c657959c8ef8458599ac7b39725c5935272da"
+    },
+    {
+      "entrega": "auditoria/verificacao_original.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/verificacao_tabelas.json",
+      "sha256_origem": "539bdb19b1a8a14081ecd08ea137f9a2c1b947fb5bbdbdd41ad98338f1477e21",
+      "bytes_origem": 1308,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "539bdb19b1a8a14081ecd08ea137f9a2c1b947fb5bbdbdd41ad98338f1477e21"
+    },
+    {
+      "entrega": "auditoria/auditoria.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/auditoria.log",
+      "sha256_origem": "a3b476cf412c963fa3083fb882a0fccc2aa45b27418701a73adcbe82b942ff59",
+      "bytes_origem": 1867,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "a3b476cf412c963fa3083fb882a0fccc2aa45b27418701a73adcbe82b942ff59"
+    },
+    {
+      "entrega": "auditoria/sintetico.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/sintetico.log",
+      "sha256_origem": "8c7f3e42d2280c717a1d04455df4515fe593442b7e1f5579dc9bcdd880396a57",
+      "bytes_origem": 946,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "8c7f3e42d2280c717a1d04455df4515fe593442b7e1f5579dc9bcdd880396a57"
+    },
+    {
+      "entrega": "auditoria/comando.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/comando.json",
+      "sha256_origem": "24f1ba023d473c629714557fe0e4498a4c7b646c374830e0c56a2c54b161eb1a",
+      "bytes_origem": 1330,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "24f1ba023d473c629714557fe0e4498a4c7b646c374830e0c56a2c54b161eb1a"
+    },
+    {
+      "entrega": "fonte/inventario_cinco_capturas.json",
+      "origem": "secfednet-local/artigo-01/expansao/2026-11-25_15-41-13/cicids2017/inventario_cicids2017.json",
+      "sha256_origem": "02802188f9cca6d189ae4614367daeb2105042a0c8b9d18c6919e58c027aa6cf",
+      "bytes_origem": 13856,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "02802188f9cca6d189ae4614367daeb2105042a0c8b9d18c6919e58c027aa6cf"
+    },
+    {
+      "entrega": "candidato/colisoes_incrementais_float32.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/colisoes_incrementais_float32.csv",
+      "sha256_origem": "f7028334e59409c0010e3ef81776a3f9f06e980bc742363f2b93814ca5b4a4b5",
+      "bytes_origem": 628,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "1382a554198e5a9422b35560457d4f5fc6892154521a580d6fdd5c9763de3502"
+    },
+    {
+      "entrega": "candidato/conflitos_representacoes.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/conflitos_representacoes.csv",
+      "sha256_origem": "1239628a6e687d57a1a8767404987cd6551c07f5502cda6be81df0045d0e0dd2",
+      "bytes_origem": 2894,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "0750955244a0ee4e13780fa74614681a8f94a6f0aafcbd5363a759b14cd40f14"
+    },
+    {
+      "entrega": "candidato/exclusoes_qualidade.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/exclusoes_qualidade.json",
+      "sha256_origem": "d4ff131a97a4787f8d54f5da100526d7517f87dc4024931e71036c1cdb3a31c0",
+      "bytes_origem": 807,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "d4ff131a97a4787f8d54f5da100526d7517f87dc4024931e71036c1cdb3a31c0"
+    },
+    {
+      "entrega": "candidato/impacto_sensibilidade_por_tipo.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/impacto_sensibilidade_por_tipo.csv",
+      "sha256_origem": "408acba51e75117df2d1ccea7689dc6f919685ef12a0780c439e4ce19579e183",
+      "bytes_origem": 1723,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "e8c55a566886cd6c38b019e44433ebbf7d9b1248d291abc0acab13ebd9782215"
+    },
+    {
+      "entrega": "candidato/intersecoes_representacoes.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/intersecoes_representacoes.csv",
+      "sha256_origem": "91700c682703fab9a34bd061a5e27a25b686a48fcc7bd50d053aff10922002b7",
+      "bytes_origem": 2262,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "53166aec4e423c025799a5380d725c700475e1f98f11521773a2eb699beb8510"
+    },
+    {
+      "entrega": "candidato/manifesto_candidato.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/manifesto_candidato.json",
+      "sha256_origem": "00329b9c03f83b9b04fe995231ca18384e3d399e025f9c575d22498081933096",
+      "bytes_origem": 6142,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "00329b9c03f83b9b04fe995231ca18384e3d399e025f9c575d22498081933096"
+    },
+    {
+      "entrega": "candidato/preprocessamento_por_feature.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/preprocessamento_por_feature.csv",
+      "sha256_origem": "ace92539327b568ea1eb4b3f6ead5295dfbcc91a0ecbc2c85378a962f6ef74d5",
+      "bytes_origem": 6587,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "7f3743effe49c34ceca985b8fbd1145eb090013589824d80900183b86e210ae9"
+    },
+    {
+      "entrega": "candidato/teste_colisoes.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/teste_colisoes.json",
+      "sha256_origem": "191dd974c06557ca4103c63d0d4e5833e0e9778f2c30d5c1fbc3d15a6142d01e",
+      "bytes_origem": 207,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "191dd974c06557ca4103c63d0d4e5833e0e9778f2c30d5c1fbc3d15a6142d01e"
+    },
+    {
+      "entrega": "baseline-kubuntu/baseline/configuracao_antes_treino.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline/configuracao_antes_treino.json",
+      "sha256_origem": "e92bbcea898873eabf8352e13fdf07c476409978bc8a90e00d89af2d0ab59bf0",
+      "bytes_origem": 1212,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "e92bbcea898873eabf8352e13fdf07c476409978bc8a90e00d89af2d0ab59bf0"
+    },
+    {
+      "entrega": "baseline-kubuntu/baseline/historico.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline/historico.json",
+      "sha256_origem": "9030afc66527638f04f0b2500ea5158176e5048ef53d5e00d74bba1ffcfc9588",
+      "bytes_origem": 383,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "9030afc66527638f04f0b2500ea5158176e5048ef53d5e00d74bba1ffcfc9588"
+    },
+    {
+      "entrega": "baseline-kubuntu/baseline/validacao.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline/validacao.json",
+      "sha256_origem": "c5bd4fd49df913489d4622fef790269a313bd05da24988dd3c7076413ef277eb",
+      "bytes_origem": 6388,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "c5bd4fd49df913489d4622fef790269a313bd05da24988dd3c7076413ef277eb"
+    },
+    {
+      "entrega": "baseline-kubuntu/baseline/verificacao_recarga.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline/verificacao_recarga.json",
+      "sha256_origem": "27b5952235c4af94cadc8e34d4d77a539bbeec52cca1dc81366280795bffcf26",
+      "bytes_origem": 237,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "27b5952235c4af94cadc8e34d4d77a539bbeec52cca1dc81366280795bffcf26"
+    },
+    {
+      "entrega": "baseline-kubuntu/fedavg_integracao/configuracao_antes_treino.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fedavg_integracao/configuracao_antes_treino.json",
+      "sha256_origem": "3413b10700096f15c0e649cf6d1fc31fdf3162065d8fcc052b1ca8459457a2b0",
+      "bytes_origem": 1319,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "3413b10700096f15c0e649cf6d1fc31fdf3162065d8fcc052b1ca8459457a2b0"
+    },
+    {
+      "entrega": "baseline-kubuntu/fedavg_integracao/validacao_integracao.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fedavg_integracao/validacao_integracao.json",
+      "sha256_origem": "20125488fb0676c0094e9c45a4038bba98cfbadf6cf54184bba08b95d43caa01",
+      "bytes_origem": 6574,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "20125488fb0676c0094e9c45a4038bba98cfbadf6cf54184bba08b95d43caa01"
+    },
+    {
+      "entrega": "baseline-kubuntu/fedavg_integracao/verificacao_recarga.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fedavg_integracao/verificacao_recarga.json",
+      "sha256_origem": "122375455cb94a868c7f0c18d3dd90dcaad382a86c4805ef93da20ba9aed92bc",
+      "bytes_origem": 122,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "122375455cb94a868c7f0c18d3dd90dcaad382a86c4805ef93da20ba9aed92bc"
+    },
+    {
+      "entrega": "baseline-kubuntu/fedavg_integracao/volume_parametros.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fedavg_integracao/volume_parametros.json",
+      "sha256_origem": "346f4283611a706bce88353d318f66e8196981b18d0f2cd99a72ede619aab6a8",
+      "bytes_origem": 279,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "346f4283611a706bce88353d318f66e8196981b18d0f2cd99a72ede619aab6a8"
+    },
+    {
+      "entrega": "baseline-kubuntu/metricas_quinta.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/metricas_quinta.csv",
+      "sha256_origem": "5fdd5ca1e36fa5c786c5c4f8f1e68e6e8290080fb40a07cb97e4e1a133505204",
+      "bytes_origem": 1098,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "20457b631a4e7f14161c6924a9e0a64b186f78efa2417a810cbeeccdafbd7625"
+    },
+    {
+      "entrega": "baseline-kubuntu/recall_nominal_quinta.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/recall_nominal_quinta.csv",
+      "sha256_origem": "8da3df6ea50ceddabad3bbcc5e2cc2e913411ab96378ad7ad18954d45d704cc3",
+      "bytes_origem": 3673,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "66d4003aef11d8153104a7c9cd4afb7bcd1b6769f95e18d88152bdb9c1dc5587"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/preparo.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/preparo.log",
+      "sha256_origem": "c08e1189ff1dd648280e0cdc36b4215eec3f3aba5cd5d64d459ce127cca1043a",
+      "bytes_origem": 1911,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "c08e1189ff1dd648280e0cdc36b4215eec3f3aba5cd5d64d459ce127cca1043a"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/baseline_treino.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline_treino.log",
+      "sha256_origem": "efe075e0eff79d316e7a137771dac049fd73e77fa1c3ed20f7b170f67b27d9dd",
+      "bytes_origem": 904,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "efe075e0eff79d316e7a137771dac049fd73e77fa1c3ed20f7b170f67b27d9dd"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/baseline_recarga.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline_recarga.log",
+      "sha256_origem": "6e5a2a9cdc4d6b8edbdf2790828e71c54849087a0066d005c539c0be258cf66f",
+      "bytes_origem": 31,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "6e5a2a9cdc4d6b8edbdf2790828e71c54849087a0066d005c539c0be258cf66f"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/flower_treinar.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/flower_treinar.log",
+      "sha256_origem": "af39b6b87fec3c3b592315c9438cbac61a244767d0d95e6fdd2d1b8803d04b06",
+      "bytes_origem": 459,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "06b8edefd69e80c76cf253c4866a87c4ba8a225a43eab7262201a1c59e075843"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/flower_verificar.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/flower_verificar.log",
+      "sha256_origem": "306b4cf094e92a43bfaf0bf43553a78c4ad44845ca81494f93d5ae3781f2f9be",
+      "bytes_origem": 26,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "306b4cf094e92a43bfaf0bf43553a78c4ad44845ca81494f93d5ae3781f2f9be"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/verificacao_candidato.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/verificacao_candidato.log",
+      "sha256_origem": "850d51babcd5c2c9309dbbe9427249577f8af87fb3e1c13c74c7732e1e73397c",
+      "bytes_origem": 305,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "850d51babcd5c2c9309dbbe9427249577f8af87fb3e1c13c74c7732e1e73397c"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/comando_preparo.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/comando_preparo.json",
+      "sha256_origem": "e6c4559850efe6b4d64293b2bb6156f39229e4f9d71b42df3dda32ffe5c805db",
+      "bytes_origem": 675,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "e6c4559850efe6b4d64293b2bb6156f39229e4f9d71b42df3dda32ffe5c805db"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/comandos_baseline.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/comandos_baseline.json",
+      "sha256_origem": "3b8bae79f50be07690b6ddc513e3110e29721b4b4497a0c3465730ff6c696de2",
+      "bytes_origem": 1767,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "3b8bae79f50be07690b6ddc513e3110e29721b4b4497a0c3465730ff6c696de2"
+    },
+    {
+      "entrega": "baseline-kubuntu/logs/comandos_flower.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/comandos_flower.json",
+      "sha256_origem": "aa1f8c2733263ab6e72080bd1fca65d4986b9d8efe1efa9c15f769c2ca7da9e3",
+      "bytes_origem": 1117,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "aa1f8c2733263ab6e72080bd1fca65d4986b9d8efe1efa9c15f769c2ca7da9e3"
+    },
+    {
+      "entrega": "controle/comparar_cnn.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/controle/comparar_cnn.py",
+      "sha256_origem": "4a2bbf235b727b317a80bee49db39236d90915d33dd07309d9f9da6d41d25f1c",
+      "bytes_origem": 7328,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "4a2bbf235b727b317a80bee49db39236d90915d33dd07309d9f9da6d41d25f1c"
+    },
+    {
+      "entrega": "controle/comparar_reproducao.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/controle/comparar_reproducao.py",
+      "sha256_origem": "83030a510405852d156cd727442daa19664178998b6302ef242caa6940e855df",
+      "bytes_origem": 4371,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "83030a510405852d156cd727442daa19664178998b6302ef242caa6940e855df"
+    },
+    {
+      "entrega": "controle/config.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/controle/config.json",
+      "sha256_origem": "f573d9ea54e74b8b3c546e4cb336ad6a45c1b78975a5f7cf565374e974c1922e",
+      "bytes_origem": 1124,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "f573d9ea54e74b8b3c546e4cb336ad6a45c1b78975a5f7cf565374e974c1922e"
+    },
+    {
+      "entrega": "controle/executar_job.py",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/controle/executar_job.py",
+      "sha256_origem": "d727bc8e84184c81766a5d42a23b663b9547d5c292f6038b9d58ea7465bb9721",
+      "bytes_origem": 17649,
+      "transformacao": "nenhuma; repo_estado configuravel somente para consulta Git; calculo numerico inalterado",
+      "sha256_entrega": "3a339ec5580fb7b3233e890feb80ff4e33310b01436d492e91df4bcfb06ad375"
+    },
+    {
+      "entrega": "controle/recursos_preflight_vm.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/controle/recursos_preflight_vm.json",
+      "sha256_origem": "a3fea0bb1b96c39d1f3af87cac34d9ef298881a2b213de93384d6975bac09c51",
+      "bytes_origem": 1526,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "a3fea0bb1b96c39d1f3af87cac34d9ef298881a2b213de93384d6975bac09c51"
+    },
+    {
+      "entrega": "controle/referencia_kubuntu.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/controle/referencia_kubuntu.json",
+      "sha256_origem": "41b51bf417eb0fa7e7c4516888edd941f97fa749cce814499c80b7817f4f1759",
+      "bytes_origem": 82638,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "41b51bf417eb0fa7e7c4516888edd941f97fa749cce814499c80b7817f4f1759"
+    },
+    {
+      "entrega": "vm/RELATORIO_2026-11-25_21-31-34_BRT_VM_CNN_5x5.md",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/RELATORIO_2026-11-25_21-31-34_BRT_VM_CNN_5x5.md",
+      "sha256_origem": "2188e28dfa51921be16a602cee0db9fa7fe77fb53a7bd17b10d30205b09d7a3f",
+      "bytes_origem": 9194,
+      "transformacao": "nenhuma; aviso editorial e links relativos dos manifestos",
+      "sha256_entrega": "a551e9fb3429b849fcd05a10e41719c783c2d68194e641dbe9dad1471a77b375"
+    },
+    {
+      "entrega": "vm/RELATORIO_2026-11-25_21-39-10_BRT_VM_CNN_CONSOLIDADO.md",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/RELATORIO_2026-11-25_21-39-10_BRT_VM_CNN_CONSOLIDADO.md",
+      "sha256_origem": "141c6891f5a7ea9c6c11f2442023d0ea628ab6a28b1f2a9e879f1f2dff648ac2",
+      "bytes_origem": 11565,
+      "transformacao": "nenhuma; aviso editorial e links relativos dos manifestos",
+      "sha256_entrega": "7582df66dec3809236dd22c94a22c4c1128ca5aee520ef7870d7e581b4ad5c0e"
+    },
+    {
+      "entrega": "vm/execucao.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/execucao.log",
+      "sha256_origem": "d93cf0e680bdbc2387f74601f084ef38ff1b2728abdcf4693e3f3efadafa3e6c",
+      "bytes_origem": 1276,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "d93cf0e680bdbc2387f74601f084ef38ff1b2728abdcf4693e3f3efadafa3e6c"
+    },
+    {
+      "entrega": "vm/logs/01_venv.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/01_venv.log",
+      "sha256_origem": "00fe58154f1d2004cb6b374dca26c854460db5e9bb6aead0ea94c72886edfb3d",
+      "bytes_origem": 143,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "00fe58154f1d2004cb6b374dca26c854460db5e9bb6aead0ea94c72886edfb3d"
+    },
+    {
+      "entrega": "vm/logs/02_lock_offline.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/02_lock_offline.log",
+      "sha256_origem": "a838810f687c46a15981fa38c46021511187c21171304139c42280eeee9186c0",
+      "bytes_origem": 1337,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "a838810f687c46a15981fa38c46021511187c21171304139c42280eeee9186c0"
+    },
+    {
+      "entrega": "vm/logs/02c_pip_check.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/02c_pip_check.log",
+      "sha256_origem": "ddb59846853291f66156a20fdd1288c861ea3ec4bf783d22991e6e98d2e56852",
+      "bytes_origem": 113,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "ddb59846853291f66156a20fdd1288c861ea3ec4bf783d22991e6e98d2e56852"
+    },
+    {
+      "entrega": "vm/logs/03_reproducao.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/03_reproducao.log",
+      "sha256_origem": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes_origem": 0,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "entrega": "vm/logs/04_gate_reproducao.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/04_gate_reproducao.log",
+      "sha256_origem": "9fe8fea120cb4d903430a5579878492ba6a15c3bd9816004a4a9a094e8d0b2a9",
+      "bytes_origem": 33,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "9fe8fea120cb4d903430a5579878492ba6a15c3bd9816004a4a9a094e8d0b2a9"
+    },
+    {
+      "entrega": "vm/logs/05_seed23_central.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/05_seed23_central.log",
+      "sha256_origem": "a214cbbecd0b5f4297c37ac59f6106ff51911f26e839c1eae7454a6cfb2bffeb",
+      "bytes_origem": 707,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "a214cbbecd0b5f4297c37ac59f6106ff51911f26e839c1eae7454a6cfb2bffeb"
+    },
+    {
+      "entrega": "vm/logs/05_seed23_fedavg.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/05_seed23_fedavg.log",
+      "sha256_origem": "b4cdec69751596663fe13730a4697b90d1244ad2d15dcbf2f4a129504529240d",
+      "bytes_origem": 3241,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "911b198c58b948321bd6e00084391893e8b3f7f8837feb98566ba58eaac2291f"
+    },
+    {
+      "entrega": "vm/logs/05_seed41_central.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/05_seed41_central.log",
+      "sha256_origem": "658870eb8ab435e400912f8d0d1e2f3cdc8009a487fa45bfe54162c35c4d1c47",
+      "bytes_origem": 705,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "658870eb8ab435e400912f8d0d1e2f3cdc8009a487fa45bfe54162c35c4d1c47"
+    },
+    {
+      "entrega": "vm/logs/05_seed41_fedavg.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/05_seed41_fedavg.log",
+      "sha256_origem": "4272481c143f358972824a6bdfe0378c9c265fa7d29c7308f33c9fd47c234c0d",
+      "bytes_origem": 3246,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "7bca3e438f6cb8cc45fc20df7923612bc55d9c9eaa9dcf4e8a4eab38010b6d1c"
+    },
+    {
+      "entrega": "vm/logs/05_seed89_central.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/05_seed89_central.log",
+      "sha256_origem": "d1681736af9b4794ef49b1d636313b253c84ed381b7caa3e1b2297b72ac4d52a",
+      "bytes_origem": 705,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "d1681736af9b4794ef49b1d636313b253c84ed381b7caa3e1b2297b72ac4d52a"
+    },
+    {
+      "entrega": "vm/logs/05_seed89_fedavg.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/05_seed89_fedavg.log",
+      "sha256_origem": "c43a674bf0db6188fea156ec5a67929e87498d3916fe6a0ca348a93b2b12ee09",
+      "bytes_origem": 3236,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "57360f446bd4f12b4a225592de532029336f063d7eb6b67f9e45c3b13e48d32b"
+    },
+    {
+      "entrega": "vm/logs/prova_checkpoints_apos_execucao.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/prova_checkpoints_apos_execucao.log",
+      "sha256_origem": "f8a67ace5b0f0ee718ef4f06c649138f1bb11a197171759a40c5645a5f013d58",
+      "bytes_origem": 958,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "f8a67ace5b0f0ee718ef4f06c649138f1bb11a197171759a40c5645a5f013d58"
+    },
+    {
+      "entrega": "vm/logs/verificacao_final_vm.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/logs/verificacao_final_vm.log",
+      "sha256_origem": "bccc5a44e6c76caeb84e4d349818f8c6cbe5e49289a428dc89be86e9959c92ef",
+      "bytes_origem": 467,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "bccc5a44e6c76caeb84e4d349818f8c6cbe5e49289a428dc89be86e9959c92ef"
+    },
+    {
+      "entrega": "vm/manifesto_execucao.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/manifesto_execucao.json",
+      "sha256_origem": "deb80d1521ca2e5aacb0813ef903bbfe624c63bf6ef907def83634b11c86507b",
+      "bytes_origem": 87859,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "deb80d1521ca2e5aacb0813ef903bbfe624c63bf6ef907def83634b11c86507b"
+    },
+    {
+      "entrega": "vm/reproducao/baseline.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/baseline.log",
+      "sha256_origem": "5e8818061e94dcc42ba6419c19086a124182bce8e7237fc40585612af9c7fc2e",
+      "bytes_origem": 904,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "5e8818061e94dcc42ba6419c19086a124182bce8e7237fc40585612af9c7fc2e"
+    },
+    {
+      "entrega": "vm/reproducao/baseline_recarga.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/baseline_recarga.log",
+      "sha256_origem": "6e5a2a9cdc4d6b8edbdf2790828e71c54849087a0066d005c539c0be258cf66f",
+      "bytes_origem": 31,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "6e5a2a9cdc4d6b8edbdf2790828e71c54849087a0066d005c539c0be258cf66f"
+    },
+    {
+      "entrega": "vm/reproducao/documentacao.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/documentacao.log",
+      "sha256_origem": "5f3d91f99087d501d0d50b1574135428efd3e44b72ece00d8977d3449587086c",
+      "bytes_origem": 49,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "5f3d91f99087d501d0d50b1574135428efd3e44b72ece00d8977d3449587086c"
+    },
+    {
+      "entrega": "vm/reproducao/flower.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/flower.log",
+      "sha256_origem": "af39b6b87fec3c3b592315c9438cbac61a244767d0d95e6fdd2d1b8803d04b06",
+      "bytes_origem": 459,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "06b8edefd69e80c76cf253c4866a87c4ba8a225a43eab7262201a1c59e075843"
+    },
+    {
+      "entrega": "vm/reproducao/flower_recarga.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/flower_recarga.log",
+      "sha256_origem": "306b4cf094e92a43bfaf0bf43553a78c4ad44845ca81494f93d5ae3781f2f9be",
+      "bytes_origem": 26,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "306b4cf094e92a43bfaf0bf43553a78c4ad44845ca81494f93d5ae3781f2f9be"
+    },
+    {
+      "entrega": "vm/reproducao/preparo.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/preparo.log",
+      "sha256_origem": "c08e1189ff1dd648280e0cdc36b4215eec3f3aba5cd5d64d459ce127cca1043a",
+      "bytes_origem": 1911,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "c08e1189ff1dd648280e0cdc36b4215eec3f3aba5cd5d64d459ce127cca1043a"
+    },
+    {
+      "entrega": "vm/reproducao/testes_metricas.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/testes_metricas.log",
+      "sha256_origem": "b02f7add7c55f9da261518b643ffbeb8191af2ceabf089cb062378e5f4afdc61",
+      "bytes_origem": 20,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "b02f7add7c55f9da261518b643ffbeb8191af2ceabf089cb062378e5f4afdc61"
+    },
+    {
+      "entrega": "vm/reproducao/verificacao.log",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/reproducao/verificacao.log",
+      "sha256_origem": "850d51babcd5c2c9309dbbe9427249577f8af87fb3e1c13c74c7732e1e73397c",
+      "bytes_origem": 305,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "850d51babcd5c2c9309dbbe9427249577f8af87fb3e1c13c74c7732e1e73397c"
+    },
+    {
+      "entrega": "vm/tabelas/orcamento_por_seed.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/tabelas/orcamento_por_seed.csv",
+      "sha256_origem": "c0367135098535f4a4aaf888ffdb3cbfecae0f5a76a605e1dbf6ec4c9bdca072",
+      "bytes_origem": 1600,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "ecc55b02c0254b771f01626b965ca807fc12e89722b15b630fcfaae1dd4d3208"
+    },
+    {
+      "entrega": "vm/tabelas/recall_por_tipo.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/tabelas/recall_por_tipo.csv",
+      "sha256_origem": "cc7472751f7f849dfbe8c0688528abe2668cd8f043fc901432a66bb665b6d584",
+      "bytes_origem": 9474,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "0781606c92ab88f14b740319a90666763ce209d8a13c5e635d52f6f54a1234e0"
+    },
+    {
+      "entrega": "vm/tabelas/reproducao_checks.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/tabelas/reproducao_checks.csv",
+      "sha256_origem": "046426e528ef14d0e6de0e5d808639564f392a4fbc239a0abdd8d39be25d9dea",
+      "bytes_origem": 10125,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "9918d8c6e102864ed6441f099e0c55f439a2f5b04b97a8ac5f27891031a328de"
+    },
+    {
+      "entrega": "vm/tabelas/reproducao_tempo_ambiente.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/tabelas/reproducao_tempo_ambiente.csv",
+      "sha256_origem": "94d3e29143b2e17ecf7288e189bcf690ef20d50db9572d380f2a6d0667dfe298",
+      "bytes_origem": 1229,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "ae69c378f0230f4c6ac5af06cacab99415ede88a9699621f359c9f206387071c"
+    },
+    {
+      "entrega": "vm/tabelas/resultados_por_seed.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/tabelas/resultados_por_seed.csv",
+      "sha256_origem": "4081ad48cfbfe9970040aef8c048853b3fd8c8c09b6573938f6b60779d878ad9",
+      "bytes_origem": 2041,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "64d4b708ff3cbd3b6ed39e647c3451959a77884422737bb05840689b2febc681"
+    },
+    {
+      "entrega": "vm/tabelas/variacao_entre_seeds.csv",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/tabelas/variacao_entre_seeds.csv",
+      "sha256_origem": "5975fefbc6049c6268c74dfcc36a42c49d01b0591b14d169915f6101d7e8a081",
+      "bytes_origem": 2375,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "c97f7abe41bbebc61a90d337e9ebd6e50ce371e557eee2c01faa49577f2a5096"
+    },
+    {
+      "entrega": "vm/validacao_retorno.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/validacao_retorno.json",
+      "sha256_origem": "fe99f5926225a92219d8c8e279802f85c20cce85a06cfda88c3ff42f37c5bf14",
+      "bytes_origem": 335,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "fe99f5926225a92219d8c8e279802f85c20cce85a06cfda88c3ff42f37c5bf14"
+    },
+    {
+      "entrega": "vm/evidencia_sessao_gate_vm.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/evidencia_sessao_gate_vm.json",
+      "sha256_origem": "bd945ee69bee67f64a00084a9b2b58543c3a55f8edb563b093c8e0bc9c3b8605",
+      "bytes_origem": 2322,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "bd945ee69bee67f64a00084a9b2b58543c3a55f8edb563b093c8e0bc9c3b8605"
+    },
+    {
+      "entrega": "vm/recebimento_sha256.json",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/recebimento_sha256.json",
+      "sha256_origem": "620aa0fde06410dfbb0bbbc7c0ad3820e57f7e376e3183a688f66fe6d9cbc12a",
+      "bytes_origem": 4781,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "620aa0fde06410dfbb0bbbc7c0ad3820e57f7e376e3183a688f66fe6d9cbc12a"
+    },
+    {
+      "entrega": "historicos/auditoria_SHA256_ARTEFATOS",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/SHA256_ARTEFATOS",
+      "sha256_origem": "01d8b15f2d686b2f30fd3e3b62bcd2b90128ff6335f47a0353b3153ef060be46",
+      "bytes_origem": 2865,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "01d8b15f2d686b2f30fd3e3b62bcd2b90128ff6335f47a0353b3153ef060be46"
+    },
+    {
+      "entrega": "historicos/candidato_SHA256_ARTEFATOS",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/SHA256_ARTEFATOS",
+      "sha256_origem": "baa7c2a379864073bdb6baa8156fbc63a49c12d22cd864e8a0a852565ff82777",
+      "bytes_origem": 7557,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "baa7c2a379864073bdb6baa8156fbc63a49c12d22cd864e8a0a852565ff82777"
+    },
+    {
+      "entrega": "historicos/vm_SHA256_RETORNO_VM",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/SHA256_RETORNO_VM",
+      "sha256_origem": "8d99c8bc36a4f5a71a8fcb3e3d48567fc920d3e9ec72c3aa59a85b4c0fa67008",
+      "bytes_origem": 2513,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "8d99c8bc36a4f5a71a8fcb3e3d48567fc920d3e9ec72c3aa59a85b4c0fa67008"
+    },
+    {
+      "entrega": "historicos/vm_SHA256_ENTREGA_LOCAL",
+      "origem": "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59/retorno_vm/SHA256_ENTREGA_LOCAL",
+      "sha256_origem": "e7a77bf1ec7717a1a6bcfd30e44ca2b492f590cdb4aa4a7f66c4cd31cc4a78cc",
+      "bytes_origem": 3026,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "e7a77bf1ec7717a1a6bcfd30e44ca2b492f590cdb4aa4a7f66c4cd31cc4a78cc"
+    },
+    {
+      "entrega": "gabriel/unsw-nb15/count_classes.py",
+      "origem": "SecFedNet_UNSW-NB15_auditoria.zip!unsw-nb15/count_classes.py",
+      "sha256_origem": "23b00d902cd3dc614b063f63f5b8f99e9573c22a087bda6080a96f50a9520a48",
+      "bytes_origem": 4820,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "23b00d902cd3dc614b063f63f5b8f99e9573c22a087bda6080a96f50a9520a48"
+    },
+    {
+      "entrega": "gabriel/unsw-nb15/docs/dataset_source.md",
+      "origem": "SecFedNet_UNSW-NB15_auditoria.zip!unsw-nb15/docs/dataset_source.md",
+      "sha256_origem": "88212057117aafd5560f146daf7e646c204dfdbdf7a125b6e296c72f9b03c993",
+      "bytes_origem": 1130,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "88212057117aafd5560f146daf7e646c204dfdbdf7a125b6e296c72f9b03c993"
+    },
+    {
+      "entrega": "gabriel/unsw-nb15/results/class_counts_binary.csv",
+      "origem": "SecFedNet_UNSW-NB15_auditoria.zip!unsw-nb15/results/class_counts_binary.csv",
+      "sha256_origem": "f72f71606572bbf41f6d83645d23a978e3e32a260f8cde83ea1c13060b2e2f64",
+      "bytes_origem": 95,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "d425ae770b9c45943e53623b0a1cc154b1497fe9bd20a14d5f992bbd98e83c1c"
+    },
+    {
+      "entrega": "gabriel/unsw-nb15/results/class_counts_multiclass.csv",
+      "origem": "SecFedNet_UNSW-NB15_auditoria.zip!unsw-nb15/results/class_counts_multiclass.csv",
+      "sha256_origem": "287ae5753aee0cf2f8c3cc2f8ba4f680f2eb709e794e6898fa8960f01001322e",
+      "bytes_origem": 304,
+      "transformacao": "texto LF e remocao de brancos finais",
+      "sha256_entrega": "7c7c230def3820bcd8bbc08aaefc7c0ba34b753b678d15f55750877f6e45306d"
+    },
+    {
+      "entrega": "gabriel/unsw-nb15/results/dataset_audit.json",
+      "origem": "SecFedNet_UNSW-NB15_auditoria.zip!unsw-nb15/results/dataset_audit.json",
+      "sha256_origem": "adc213fd1e09c47931a06c74ede6e5ce7825edd3e031bf41a7535cec7ed6cf7f",
+      "bytes_origem": 3434,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "adc213fd1e09c47931a06c74ede6e5ce7825edd3e031bf41a7535cec7ed6cf7f"
+    },
+    {
+      "entrega": "historicos/gabriel_PACKAGE_SHA256SUMS",
+      "origem": "SecFedNet_UNSW-NB15_auditoria.zip!unsw-nb15/PACKAGE_SHA256SUMS",
+      "sha256_origem": "aa3a0e06be7281390b2009f795e6f14185421d041144525fde8cc739c4af60c0",
+      "bytes_origem": 899,
+      "transformacao": "nenhuma",
+      "sha256_entrega": "aa3a0e06be7281390b2009f795e6f14185421d041144525fde8cc739c4af60c0"
+    }
+  ]
+}

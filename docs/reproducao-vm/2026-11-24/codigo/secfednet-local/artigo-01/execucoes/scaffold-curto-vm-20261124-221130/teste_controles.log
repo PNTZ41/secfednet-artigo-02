@@ -1,0 +1,23 @@
+{
+  "rodada_1": {
+    "w": 0.2,
+    "c": -2.0,
+    "ci": [
+      -1.0,
+      -3.0000000000000004
+    ]
+  },
+  "rodada_2": {
+    "w": 0.38,
+    "c": -1.7999999999999996,
+    "ci": [
+      -0.7999999999999998,
+      -2.8
+    ]
+  },
+  "tolerancia_absoluta": 1e-12,
+  "retomada_outro_processo_igual_bit_a_bit": true,
+  "resetar_ci_e_detectado": true,
+  "divisor_N_participacao_parcial_verificado": true,
+  "torch_load_weights_only": true
+}

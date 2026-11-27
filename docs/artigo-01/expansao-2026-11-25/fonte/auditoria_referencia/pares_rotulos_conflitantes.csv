@@ -1,0 +1,89 @@
+par,tipo,escala,rotulo_a,rotulo_b,pares_linhas
+treino_x_validacao,flow_id_direcional,nominal,SSH-Patator,BENIGN,1
+treino_x_validacao,flow_id_direcional,nominal,DoS Slowloris,Web Attack - Brute Force,20
+treino_x_validacao,flow_id_direcional,nominal,DoS Slowloris,Web Attack - XSS,14
+treino_x_validacao,flow_id_direcional,nominal,DoS Slowhttptest,BENIGN,2
+treino_x_validacao,flow_id_direcional,nominal,DoS Slowhttptest,Web Attack - Brute Force,10
+treino_x_validacao,flow_id_direcional,nominal,DoS Slowhttptest,Web Attack - XSS,5
+treino_x_validacao,flow_id_direcional,nominal,DoS Slowhttptest,Web Attack - SQL Injection,2
+treino_x_validacao,flow_id_direcional,nominal,DoS Hulk,BENIGN,301
+treino_x_validacao,flow_id_direcional,nominal,DoS Hulk,Web Attack - Brute Force,797
+treino_x_validacao,flow_id_direcional,nominal,DoS Hulk,Web Attack - XSS,207
+treino_x_validacao,flow_id_direcional,nominal,DoS Hulk,Web Attack - SQL Injection,143
+treino_x_validacao,flow_id_direcional,nominal,DoS GoldenEye,BENIGN,3
+treino_x_validacao,flow_id_direcional,nominal,DoS GoldenEye,Web Attack - Brute Force,32
+treino_x_validacao,flow_id_direcional,nominal,DoS GoldenEye,Web Attack - XSS,8
+treino_x_validacao,flow_id_direcional,nominal,DoS GoldenEye,Web Attack - SQL Injection,13
+treino_x_validacao,flow_id_direcional,binario,ATTACK,BENIGN,307
+treino_x_validacao,grupo_bidirecional,nominal,BENIGN,Web Attack - Brute Force,2
+treino_x_validacao,grupo_bidirecional,nominal,SSH-Patator,BENIGN,1
+treino_x_validacao,grupo_bidirecional,nominal,DoS Slowloris,Web Attack - Brute Force,20
+treino_x_validacao,grupo_bidirecional,nominal,DoS Slowloris,Web Attack - XSS,14
+treino_x_validacao,grupo_bidirecional,nominal,DoS Slowhttptest,BENIGN,2
+treino_x_validacao,grupo_bidirecional,nominal,DoS Slowhttptest,Web Attack - Brute Force,10
+treino_x_validacao,grupo_bidirecional,nominal,DoS Slowhttptest,Web Attack - XSS,5
+treino_x_validacao,grupo_bidirecional,nominal,DoS Slowhttptest,Web Attack - SQL Injection,2
+treino_x_validacao,grupo_bidirecional,nominal,DoS Hulk,BENIGN,334
+treino_x_validacao,grupo_bidirecional,nominal,DoS Hulk,Web Attack - Brute Force,817
+treino_x_validacao,grupo_bidirecional,nominal,DoS Hulk,Web Attack - XSS,207
+treino_x_validacao,grupo_bidirecional,nominal,DoS Hulk,Web Attack - SQL Injection,143
+treino_x_validacao,grupo_bidirecional,nominal,DoS GoldenEye,BENIGN,5
+treino_x_validacao,grupo_bidirecional,nominal,DoS GoldenEye,Web Attack - Brute Force,34
+treino_x_validacao,grupo_bidirecional,nominal,DoS GoldenEye,Web Attack - XSS,8
+treino_x_validacao,grupo_bidirecional,nominal,DoS GoldenEye,Web Attack - SQL Injection,13
+treino_x_validacao,grupo_bidirecional,binario,BENIGN,ATTACK,2
+treino_x_validacao,grupo_bidirecional,binario,ATTACK,BENIGN,342
+treino_x_teste,flow_id_direcional,nominal,BENIGN,DDoS,17
+treino_x_teste,flow_id_direcional,nominal,FTP-Patator,Portscan,62
+treino_x_teste,flow_id_direcional,nominal,SSH-Patator,Portscan,26
+treino_x_teste,flow_id_direcional,nominal,DoS Slowloris,Portscan,71
+treino_x_teste,flow_id_direcional,nominal,DoS Slowloris,DDoS,14858
+treino_x_teste,flow_id_direcional,nominal,DoS Slowhttptest,Portscan,52
+treino_x_teste,flow_id_direcional,nominal,DoS Slowhttptest,DDoS,1802
+treino_x_teste,flow_id_direcional,nominal,DoS Hulk,BENIGN,192
+treino_x_teste,flow_id_direcional,nominal,DoS Hulk,Portscan,2737
+treino_x_teste,flow_id_direcional,nominal,DoS Hulk,DDoS,328222
+treino_x_teste,flow_id_direcional,nominal,DoS GoldenEye,BENIGN,16
+treino_x_teste,flow_id_direcional,nominal,DoS GoldenEye,Portscan,116
+treino_x_teste,flow_id_direcional,nominal,DoS GoldenEye,DDoS,9288
+treino_x_teste,flow_id_direcional,binario,BENIGN,ATTACK,17
+treino_x_teste,flow_id_direcional,binario,ATTACK,BENIGN,208
+treino_x_teste,grupo_bidirecional,nominal,BENIGN,Portscan,25
+treino_x_teste,grupo_bidirecional,nominal,BENIGN,DDoS,149
+treino_x_teste,grupo_bidirecional,nominal,FTP-Patator,Portscan,62
+treino_x_teste,grupo_bidirecional,nominal,SSH-Patator,Portscan,26
+treino_x_teste,grupo_bidirecional,nominal,DoS Slowloris,BENIGN,90
+treino_x_teste,grupo_bidirecional,nominal,DoS Slowloris,Portscan,71
+treino_x_teste,grupo_bidirecional,nominal,DoS Slowloris,DDoS,15118
+treino_x_teste,grupo_bidirecional,nominal,DoS Slowhttptest,BENIGN,10
+treino_x_teste,grupo_bidirecional,nominal,DoS Slowhttptest,Portscan,52
+treino_x_teste,grupo_bidirecional,nominal,DoS Slowhttptest,DDoS,1805
+treino_x_teste,grupo_bidirecional,nominal,DoS Hulk,BENIGN,1908
+treino_x_teste,grupo_bidirecional,nominal,DoS Hulk,Portscan,2737
+treino_x_teste,grupo_bidirecional,nominal,DoS Hulk,DDoS,332787
+treino_x_teste,grupo_bidirecional,nominal,DoS GoldenEye,BENIGN,89
+treino_x_teste,grupo_bidirecional,nominal,DoS GoldenEye,Portscan,116
+treino_x_teste,grupo_bidirecional,nominal,DoS GoldenEye,DDoS,9343
+treino_x_teste,grupo_bidirecional,binario,BENIGN,ATTACK,174
+treino_x_teste,grupo_bidirecional,binario,ATTACK,BENIGN,2097
+treino_x_teste,vetor_float64,nominal,BENIGN,Portscan,957
+treino_x_teste,vetor_float64,binario,BENIGN,ATTACK,957
+validacao_x_teste,flow_id_direcional,nominal,BENIGN,DDoS,221
+validacao_x_teste,flow_id_direcional,nominal,Web Attack - Brute Force,BENIGN,1
+validacao_x_teste,flow_id_direcional,nominal,Web Attack - Brute Force,Portscan,4
+validacao_x_teste,flow_id_direcional,nominal,Web Attack - Brute Force,DDoS,134
+validacao_x_teste,flow_id_direcional,nominal,Web Attack - XSS,DDoS,57
+validacao_x_teste,flow_id_direcional,nominal,Web Attack - SQL Injection,DDoS,13
+validacao_x_teste,flow_id_direcional,binario,BENIGN,ATTACK,221
+validacao_x_teste,flow_id_direcional,binario,ATTACK,BENIGN,1
+validacao_x_teste,grupo_bidirecional,nominal,BENIGN,DDoS,223
+validacao_x_teste,grupo_bidirecional,nominal,Web Attack - Brute Force,BENIGN,2
+validacao_x_teste,grupo_bidirecional,nominal,Web Attack - Brute Force,Portscan,4
+validacao_x_teste,grupo_bidirecional,nominal,Web Attack - Brute Force,DDoS,134
+validacao_x_teste,grupo_bidirecional,nominal,Web Attack - XSS,DDoS,57
+validacao_x_teste,grupo_bidirecional,nominal,Web Attack - SQL Injection,DDoS,13
+validacao_x_teste,grupo_bidirecional,binario,BENIGN,ATTACK,223
+validacao_x_teste,grupo_bidirecional,binario,ATTACK,BENIGN,2
+validacao_x_teste,vetor_float64,nominal,BENIGN,Portscan,1688
+validacao_x_teste,vetor_float64,nominal,Infiltration - Portscan,Portscan,11077776
+validacao_x_teste,vetor_float64,binario,BENIGN,ATTACK,1688

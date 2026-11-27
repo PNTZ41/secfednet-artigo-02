@@ -1,0 +1,274 @@
+{
+  "estado": "EXPLORATORIO; protocolo candidato; unica seed",
+  "sexta_avaliada": false,
+  "limiar_escolhido": "0.5 fixado antes do treino; sem calibracao na quinta",
+  "principal": {
+    "matriz_real_por_previsto": [
+      [
+        287950,
+        221
+      ],
+      [
+        68372,
+        3535
+      ]
+    ],
+    "ordem_classes": [
+      "BENIGN",
+      "ATTACK"
+    ],
+    "suporte": {
+      "BENIGN": 288171,
+      "ATTACK": 71907
+    },
+    "limiar": 0.5,
+    "macro_f1": 0.49350562821019944,
+    "precisao_ATTACK": 0.941160809371672,
+    "recall_ATTACK": 0.04916072148747688,
+    "FPR": 0.0007669057608156269,
+    "PR_AUC_average_precision": 0.5717846821058351,
+    "definicao_PR_AUC": "Average precision = soma(delta recall * precision) nos limiares distintos, empates agrupados; sem trapezios; positivo ATTACK",
+    "recall_por_tipo_nominal": [
+      {
+        "tipo": "BENIGN",
+        "suporte": 288171,
+        "classe_binaria": 0,
+        "recall_classe_binaria": 0.9992330942391844
+      },
+      {
+        "tipo": "Botnet",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DDoS",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS GoldenEye",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS Hulk",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS Slowhttptest",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS Slowloris",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "FTP-Patator",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "Heartbleed",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "Infiltration",
+        "suporte": 36,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      },
+      {
+        "tipo": "Infiltration - Portscan",
+        "suporte": 71767,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.04925662212437471
+      },
+      {
+        "tipo": "Portscan",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "SSH-Patator",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "Web Attack - Brute Force",
+        "suporte": 73,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      },
+      {
+        "tipo": "Web Attack - SQL Injection",
+        "suporte": 13,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      },
+      {
+        "tipo": "Web Attack - XSS",
+        "suporte": 18,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      }
+    ]
+  },
+  "sensibilidade_raw64": {
+    "matriz_real_por_previsto": [
+      [
+        256301,
+        221
+      ],
+      [
+        68372,
+        3535
+      ]
+    ],
+    "ordem_classes": [
+      "BENIGN",
+      "ATTACK"
+    ],
+    "suporte": {
+      "BENIGN": 256522,
+      "ATTACK": 71907
+    },
+    "limiar": 0.5,
+    "macro_f1": 0.4877100107000138,
+    "precisao_ATTACK": 0.941160809371672,
+    "recall_ATTACK": 0.04916072148747688,
+    "FPR": 0.0008615245476021549,
+    "PR_AUC_average_precision": 0.5771983510613897,
+    "definicao_PR_AUC": "Average precision = soma(delta recall * precision) nos limiares distintos, empates agrupados; sem trapezios; positivo ATTACK",
+    "recall_por_tipo_nominal": [
+      {
+        "tipo": "BENIGN",
+        "suporte": 256522,
+        "classe_binaria": 0,
+        "recall_classe_binaria": 0.9991384754523979
+      },
+      {
+        "tipo": "Botnet",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DDoS",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS GoldenEye",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS Hulk",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS Slowhttptest",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "DoS Slowloris",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "FTP-Patator",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "Heartbleed",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "Infiltration",
+        "suporte": 36,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      },
+      {
+        "tipo": "Infiltration - Portscan",
+        "suporte": 71767,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.04925662212437471
+      },
+      {
+        "tipo": "Portscan",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "SSH-Patator",
+        "suporte": 0,
+        "classe_binaria": 1,
+        "recall_classe_binaria": null
+      },
+      {
+        "tipo": "Web Attack - Brute Force",
+        "suporte": 73,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      },
+      {
+        "tipo": "Web Attack - SQL Injection",
+        "suporte": 13,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      },
+      {
+        "tipo": "Web Attack - XSS",
+        "suporte": 18,
+        "classe_binaria": 1,
+        "recall_classe_binaria": 0.0
+      }
+    ]
+  },
+  "uso": "INTEGRACAO; arquitetura e orcamento diferentes do baseline, sem comparacao conclusiva",
+  "historico_flower": {
+    "perda": [
+      [
+        1,
+        0.1667693192662446
+      ]
+    ],
+    "exemplos_treinados": [
+      [
+        1,
+        1184424
+      ]
+    ]
+  },
+  "tempo_treino_s": 9.755340147996321,
+  "tempo_total_s": 14.522183667999343,
+  "pico_rss_kib": 1159812,
+  "checkpoint_sha256": "e3dd0d3fe55d66b7a9e74d091d283d039526d8e06f91b136b498d6511747cb8c"
+}

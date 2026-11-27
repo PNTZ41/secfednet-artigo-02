@@ -1,0 +1,10 @@
+INFO :      [INIT]
+INFO :      Using initial global parameters provided by strategy
+INFO :      Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO :
+INFO :      [ROUND 1]
+INFO :      configure_fit: strategy sampled 5 clients (out of 5)
+INFO :      aggregate_fit: received 5 results and 0 failures
+INFO :      configure_evaluate: no clients selected, skipping evaluation
+INTEGRACAO FLOWER CONCLUIDA

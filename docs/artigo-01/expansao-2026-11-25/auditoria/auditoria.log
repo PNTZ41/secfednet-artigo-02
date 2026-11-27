@@ -1,0 +1,39 @@
+monday.csv 100000 registros lidos
+monday.csv 200000 registros lidos
+monday.csv 300000 registros lidos
+monday.csv concluído: 371624 não-Attempted
+tuesday.csv 100000 registros lidos
+tuesday.csv 200000 registros lidos
+tuesday.csv 300000 registros lidos
+tuesday.csv concluído: 322039 não-Attempted
+wednesday.csv 100000 registros lidos
+wednesday.csv 200000 registros lidos
+wednesday.csv 300000 registros lidos
+wednesday.csv 400000 registros lidos
+wednesday.csv concluído: 490765 não-Attempted
+thursday.csv 100000 registros lidos
+thursday.csv 200000 registros lidos
+thursday.csv 300000 registros lidos
+thursday.csv concluído: 360079 não-Attempted
+friday.csv 100000 registros lidos
+friday.csv 200000 registros lidos
+friday.csv 300000 registros lidos
+friday.csv 400000 registros lidos
+friday.csv 500000 registros lidos
+friday.csv concluído: 543490 não-Attempted
+treino_x_validacao id_local_escopado chaves 0 linhas 0 0
+treino_x_validacao flow_id_direcional chaves 66337 linhas 357414 145519
+treino_x_validacao grupo_bidirecional chaves 66350 linhas 357709 145624
+treino_x_validacao vetor_float64 chaves 19965 linhas 62395 31649
+treino_x_validacao flow_id_timestamp chaves 0 linhas 0 0
+treino_x_teste id_local_escopado chaves 0 linhas 0 0
+treino_x_teste flow_id_direcional chaves 80246 linhas 498838 178899
+treino_x_teste grupo_bidirecional chaves 80454 linhas 501371 179509
+treino_x_teste vetor_float64 chaves 20437 linhas 64403 33221
+treino_x_teste flow_id_timestamp chaves 0 linhas 0 0
+validacao_x_teste id_local_escopado chaves 0 linhas 0 0
+validacao_x_teste flow_id_direcional chaves 38166 linhas 107610 108314
+validacao_x_teste grupo_bidirecional chaves 38175 linhas 107623 108325
+validacao_x_teste vetor_float64 chaves 10728 linhas 34882 96417
+validacao_x_teste flow_id_timestamp chaves 0 linhas 0 0
+AUDITORIA CONCLUÍDA 140.49219252099283 s; RSS 2151856 KiB

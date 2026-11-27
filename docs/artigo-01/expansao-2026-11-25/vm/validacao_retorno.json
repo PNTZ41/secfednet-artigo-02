@@ -1,0 +1,11 @@
+{
+  "status": "OK",
+  "resultados_por_seed": 12,
+  "linhas_nominais": 192,
+  "pares_configuracao_orcamento": 3,
+  "matrizes_metricas_reconciliadas": true,
+  "variacao_ddof1_recalculada": true,
+  "recall_ponderado_por_tipo_reconciliado": true,
+  "inicializacao_particao_mascaras_pareadas": true,
+  "modelos_ou_scores_copiados": false
+}

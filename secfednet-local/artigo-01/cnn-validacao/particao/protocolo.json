@@ -1,0 +1,34 @@
+{
+  "formato": "secfednet-validacao-v1",
+  "seed_validacao": 2505,
+  "fracao_validacao_por_classe_alvo": 0.2,
+  "fpr_maxima_validacao": 0.01,
+  "grade": [
+    {
+      "nome": "fedavg",
+      "mu": null
+    },
+    {
+      "nome": "fedprox_mu0001",
+      "mu": 0.001
+    },
+    {
+      "nome": "fedprox_mu001",
+      "mu": 0.01
+    },
+    {
+      "nome": "fedprox_mu01",
+      "mu": 0.1
+    }
+  ],
+  "rodadas": 3,
+  "seed_modelo": 23,
+  "seed_clientes": 2305,
+  "alpha_clientes": 0.5,
+  "regra_limiar": "maior recall dentro do teto empirico de FPR; empate por menor FP e depois maior limiar",
+  "regra_selecao": "maior recall calibrado na validacao; empate por menor FPR e depois menor mu (FedAvg equivale a zero)",
+  "url_dados": "https://intrusion-detection.distrinet-research.be/CNS2022/Datasets/CICIDS2017_improved.zip",
+  "zip_sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+  "split_global_sha256": "5511442dcb01580d7cd327f312ca2c651e7ed194f4628f2246387de0bd779447",
+  "pool_treino_original_sha256": "b1a7e316661ebe6e0d5bb87ec712e989739a9768c38baad2096d91042a9d2247"
+}

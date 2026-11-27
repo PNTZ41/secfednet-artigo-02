@@ -1,0 +1,140 @@
+{
+  "status": "OK",
+  "copia_limpa": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo",
+  "checks": [
+    {
+      "teste": "manifesto_links_tabelas",
+      "exit_code": 0,
+      "tempo_s": 0.058070600003702566,
+      "comando": [
+        "python3",
+        "-B",
+        "verificar.py"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "baseline_historica_e_46_evidencias",
+      "exit_code": 0,
+      "tempo_s": 0.07114517599984538,
+      "comando": [
+        "python3",
+        "-B",
+        "docs/reproducao-vm/2026-11-24/verificar.py"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo"
+    },
+    {
+      "teste": "auditoria_tabelas",
+      "exit_code": 0,
+      "tempo_s": 0.05714050799724646,
+      "comando": [
+        "python3",
+        "-B",
+        "verificar_auditoria.py",
+        "fonte/auditoria_referencia"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "sintetico_auditoria",
+      "exit_code": 0,
+      "tempo_s": 0.32828663900727406,
+      "comando": [
+        "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+        "-B",
+        "fonte/fontes/auditar_split.py",
+        "sintetico",
+        "/tmp/secfednet-fechamento-limpo-lil83gqh/sintetico"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "teste_metricas",
+      "exit_code": 0,
+      "tempo_s": 2.9313470799970673,
+      "comando": [
+        "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+        "-B",
+        "fonte/baseline.py",
+        "testar"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "modulos_e_versoes",
+      "exit_code": 0,
+      "tempo_s": 3.261150040998473,
+      "comando": [
+        "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+        "-B",
+        "-c",
+        "import sys, pathlib, importlib,json; r=pathlib.Path.cwd(); sys.path[:0]=[str(r/'fonte'),str(r/'fonte/fontes')]; names=['preparar_candidato','documentar_candidato','verificar_candidato','baseline','federado_integracao','treinar_cnn','cnn1d','avaliar_corrigido','avaliar_piloto','piloto_fedavg','controle.comparar_cnn','controle.comparar_reproducao','controle.executar_job']; modules=[importlib.import_module(n) for n in names]; assert all(pathlib.Path(m.__file__).is_relative_to(r) for m in modules); import torch,numpy,flwr; print(json.dumps({'python':sys.version,'torch':torch.__version__,'numpy':numpy.__version__,'flower':flwr.__version__,'modulos_locais':{m.__name__:str(pathlib.Path(m.__file__).relative_to(r)) for m in modules}},indent=2))"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "candidato_completo_somente_leitura",
+      "exit_code": 0,
+      "tempo_s": 7.154417020006804,
+      "comando": [
+        "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+        "-B",
+        "fonte/verificar_candidato.py",
+        "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "reexportacao_parametros_colisoes",
+      "exit_code": 0,
+      "tempo_s": 1.4298573389969533,
+      "comando": [
+        "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+        "-B",
+        "fonte/documentar_candidato.py",
+        "/tmp/secfednet-fechamento-limpo-lil83gqh/documentar"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "preparador_destino_novo",
+      "exit_code": 0,
+      "tempo_s": 0.7473308219923638,
+      "comando": [
+        "python3",
+        "-B",
+        "preparar_rodada.py",
+        "/tmp/secfednet-fechamento-limpo-lil83gqh/nova-rodada",
+        "--zip",
+        "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+        "--repo",
+        "/home/willian/Projetos/secfednet/secfednet-local/worktrees/fechamento-20261126-045420",
+        "--uv",
+        "/home/willian/.local/bin/uv",
+        "--python",
+        "/usr/bin/python3.14",
+        "--cache",
+        "/tmp/secfednet-fechamento-limpo-lil83gqh/cache"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    },
+    {
+      "teste": "sintaxe_bash",
+      "exit_code": 0,
+      "tempo_s": 0.001937373002874665,
+      "comando": [
+        "bash",
+        "-n",
+        "fonte/reproduzir.sh"
+      ],
+      "cwd": "/tmp/secfednet-fechamento-limpo-lil83gqh/codigo/docs/artigo-01/expansao-2026-11-25"
+    }
+  ],
+  "python_dependencias": "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+  "verificado_sem_dataset": "hashes, links, reconciliacao das tabelas, historicos, modulos, metricas sinteticas",
+  "verificado_com_acervo": "hashes de12matrizes/indices e padronizacao de todas as linhas; reexportacao81parametros; ZIP no preparador",
+  "treino_executado": false,
+  "desempenho_sexta": false,
+  "fontes_csv_numericamente_inalteradas": true
+}

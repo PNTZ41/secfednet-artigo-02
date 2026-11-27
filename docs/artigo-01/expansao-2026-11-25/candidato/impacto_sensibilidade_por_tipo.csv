@@ -1,0 +1,49 @@
+conjunto,tipo,principal,sensibilidade,excluidas_sensibilidade,pct_tipo_excluido
+treino,BENIGN,1005846,1005846,0,0.0
+treino,Botnet,0,0,0,
+treino,DDoS,0,0,0,
+treino,DoS GoldenEye,7567,7567,0,0.0
+treino,DoS Hulk,158468,158468,0,0.0
+treino,DoS Slowhttptest,1740,1740,0,0.0
+treino,DoS Slowloris,3859,3859,0,0.0
+treino,FTP-Patator,3972,3972,0,0.0
+treino,Heartbleed,11,11,0,0.0
+treino,Infiltration,0,0,0,
+treino,Infiltration - Portscan,0,0,0,
+treino,Portscan,0,0,0,
+treino,SSH-Patator,2961,2961,0,0.0
+treino,Web Attack - Brute Force,0,0,0,
+treino,Web Attack - SQL Injection,0,0,0,
+treino,Web Attack - XSS,0,0,0,
+validacao,BENIGN,288171,256522,31649,10.982715124006232
+validacao,Botnet,0,0,0,
+validacao,DDoS,0,0,0,
+validacao,DoS GoldenEye,0,0,0,
+validacao,DoS Hulk,0,0,0,
+validacao,DoS Slowhttptest,0,0,0,
+validacao,DoS Slowloris,0,0,0,
+validacao,FTP-Patator,0,0,0,
+validacao,Heartbleed,0,0,0,
+validacao,Infiltration,36,36,0,0.0
+validacao,Infiltration - Portscan,71767,71767,0,0.0
+validacao,Portscan,0,0,0,
+validacao,SSH-Patator,0,0,0,
+validacao,Web Attack - Brute Force,73,73,0,0.0
+validacao,Web Attack - SQL Injection,13,13,0,0.0
+validacao,Web Attack - XSS,18,18,0,0.0
+teste,BENIGN,288544,251184,37360,12.947765332150382
+teste,Botnet,736,736,0,0.0
+teste,DDoS,95144,95144,0,0.0
+teste,DoS GoldenEye,0,0,0,
+teste,DoS Hulk,0,0,0,
+teste,DoS Slowhttptest,0,0,0,
+teste,DoS Slowloris,0,0,0,
+teste,FTP-Patator,0,0,0,
+teste,Heartbleed,0,0,0,
+teste,Infiltration,0,0,0,
+teste,Infiltration - Portscan,0,0,0,
+teste,Portscan,159066,82737,76329,47.98574176756818
+teste,SSH-Patator,0,0,0,
+teste,Web Attack - Brute Force,0,0,0,
+teste,Web Attack - SQL Injection,0,0,0,
+teste,Web Attack - XSS,0,0,0,

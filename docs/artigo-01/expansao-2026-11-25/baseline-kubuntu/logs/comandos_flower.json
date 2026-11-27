@@ -1,0 +1,18 @@
+[
+  [
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+    "-B",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/federado_integracao.py",
+    "treinar",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fedavg_integracao"
+  ],
+  [
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+    "-B",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/federado_integracao.py",
+    "verificar",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fedavg_integracao"
+  ]
+]

@@ -1,0 +1,9 @@
+{
+  "outro_processo": true,
+  "estados_verificados": 40,
+  "scores_iguais_bit_a_bit": true,
+  "controles_e_hashes_conferidos": true,
+  "matrizes_suporte_reconciliadas": true,
+  "torch_load_weights_only": true,
+  "avaliou_teste_global": false
+}

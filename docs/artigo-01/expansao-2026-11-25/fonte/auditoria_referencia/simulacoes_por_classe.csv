@@ -1,0 +1,541 @@
+cenario,conjunto,escala,classe,antes,depois,excluidas,pct_da_classe_excluida,pct_composicao_antes,pct_composicao_depois,suporte_zerou,perda_ge_10pct,perda_ge_50pct,suporte_final_menor_100
+sem_exclusao,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+sem_exclusao,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+sem_exclusao,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+sem_exclusao,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+sem_exclusao,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+sem_exclusao,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+sem_exclusao,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+sem_exclusao,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+sem_exclusao,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+sem_exclusao,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+sem_exclusao,validacao,nominal,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+sem_exclusao,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.02027332890837844,False,False,False,True
+sem_exclusao,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.009997806037008545,False,False,False,True
+sem_exclusao,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,19.930904051610895,False,False,False,False
+sem_exclusao,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.004998903018504273,False,False,False,True
+sem_exclusao,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.00361031884669753,False,False,False,True
+sem_exclusao,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,validacao,binario,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+sem_exclusao,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,19.969784408421486,False,False,False,False
+sem_exclusao,teste,nominal,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+sem_exclusao,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+sem_exclusao,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.13542107490478206,False,False,False,False
+sem_exclusao,teste,nominal,Portscan,159066,159066,0,0.0,29.26751182174465,29.26751182174465,False,False,False,False
+sem_exclusao,teste,nominal,DDoS,95144,95144,0,0.0,17.506117867854055,17.506117867854055,False,False,False,False
+sem_exclusao,teste,binario,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+sem_exclusao,teste,binario,ATTACK,254946,254946,0,0.0,46.90905076450348,46.90905076450348,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,BENIGN,1005850,1005846,4,0.0003976736093850972,84.92284883504949,84.92279791696217,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535288038742883,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999493424651983,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.32581237799977036,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.14690685092500658,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.379330374933302,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388759430744395,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.0009287214713649841,False,False,False,True
+qualidade_numerica_todos_conjuntos,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,binario,BENIGN,1005850,1005846,4,0.0003976736093850972,84.92284883504949,84.92279791696217,False,False,False,False
+qualidade_numerica_todos_conjuntos,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.07720208303783,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,BENIGN,288172,288171,1,0.0003470149771664145,80.03021559157851,80.0301601319714,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.020273385210982067,False,False,False,True
+qualidade_numerica_todos_conjuntos,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.009997833802676086,False,False,False,True
+qualidade_numerica_todos_conjuntos,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,19.930959403240408,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.004998916901338043,False,False,False,True
+qualidade_numerica_todos_conjuntos,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.003610328873188587,False,False,False,True
+qualidade_numerica_todos_conjuntos,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,binario,BENIGN,288172,288171,1,0.0003470149771664145,80.03021559157851,80.0301601319714,False,False,False,False
+qualidade_numerica_todos_conjuntos,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,19.969839868028593,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.13542107490478206,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,Portscan,159066,159066,0,0.0,29.26751182174465,29.26751182174465,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,nominal,DDoS,95144,95144,0,0.0,17.506117867854055,17.506117867854055,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,binario,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+qualidade_numerica_todos_conjuntos,teste,binario,ATTACK,254946,254946,0,0.0,46.90905076450348,46.90905076450348,False,False,False,False
+sequencial_vetor_float64,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+sequencial_vetor_float64,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+sequencial_vetor_float64,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+sequencial_vetor_float64,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+sequencial_vetor_float64,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+sequencial_vetor_float64,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+sequencial_vetor_float64,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+sequencial_vetor_float64,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+sequencial_vetor_float64,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+sequencial_vetor_float64,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,BENIGN,288172,256523,31649,10.982677012339852,80.03021559157851,78.10583686021374,False,True,False,False
+sequencial_vetor_float64,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.022226958560423834,False,False,False,True
+sequencial_vetor_float64,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.010961239838017233,False,False,False,True
+sequencial_vetor_float64,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,21.851536095971746,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.0054806199190086165,False,False,False,True
+sequencial_vetor_float64,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.003958225497061779,False,False,False,True
+sequencial_vetor_float64,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,validacao,binario,BENIGN,288172,256523,31649,10.982677012339852,80.03021559157851,78.10583686021374,False,True,False,False
+sequencial_vetor_float64,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,21.894163139786254,False,False,False,False
+sequencial_vetor_float64,teste,nominal,BENIGN,288544,251184,37360,12.947765332150382,53.09094923549652,58.44193010253583,False,True,False,False
+sequencial_vetor_float64,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.17124203992080056,False,False,False,False
+sequencial_vetor_float64,teste,nominal,Portscan,159066,82737,76329,47.98574176756818,29.26751182174465,19.250071544738145,False,True,False,False
+sequencial_vetor_float64,teste,nominal,DDoS,95144,95144,0,0.0,17.506117867854055,22.13675631280523,False,False,False,False
+sequencial_vetor_float64,teste,binario,BENIGN,288544,251184,37360,12.947765332150382,53.09094923549652,58.44193010253583,False,True,False,False
+sequencial_vetor_float64,teste,binario,ATTACK,254946,178617,76329,29.939281259560847,46.90905076450348,41.55806989746417,False,True,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+par_treino_x_validacao_vetor_float64,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_validacao_vetor_float64,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,BENIGN,288172,256523,31649,10.982677012339852,80.03021559157851,78.10583686021374,False,True,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.022226958560423834,False,False,False,True
+par_treino_x_validacao_vetor_float64,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.010961239838017233,False,False,False,True
+par_treino_x_validacao_vetor_float64,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,21.851536095971746,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.0054806199190086165,False,False,False,True
+par_treino_x_validacao_vetor_float64,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.003958225497061779,False,False,False,True
+par_treino_x_validacao_vetor_float64,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,validacao,binario,BENIGN,288172,256523,31649,10.982677012339852,80.03021559157851,78.10583686021374,False,True,False,False
+par_treino_x_validacao_vetor_float64,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,21.894163139786254,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.13542107490478206,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,Portscan,159066,159066,0,0.0,29.26751182174465,29.26751182174465,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,nominal,DDoS,95144,95144,0,0.0,17.506117867854055,17.506117867854055,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,binario,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+par_treino_x_validacao_vetor_float64,teste,binario,ATTACK,254946,254946,0,0.0,46.90905076450348,46.90905076450348,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+par_treino_x_teste_vetor_float64,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_teste_vetor_float64,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.02027332890837844,False,False,False,True
+par_treino_x_teste_vetor_float64,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.009997806037008545,False,False,False,True
+par_treino_x_teste_vetor_float64,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,19.930904051610895,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.004998903018504273,False,False,False,True
+par_treino_x_teste_vetor_float64,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.00361031884669753,False,False,False,True
+par_treino_x_teste_vetor_float64,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,binario,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_treino_x_teste_vetor_float64,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,19.969784408421486,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,BENIGN,288544,256280,32264,11.181656870355994,53.09094923549652,50.224489435964166,False,True,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.14423764720177004,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,Portscan,159066,158109,957,0.6016370563162461,29.26751182174465,30.985421414979157,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,nominal,DDoS,95144,95144,0,0.0,17.506117867854055,18.645851501854903,False,False,False,False
+par_treino_x_teste_vetor_float64,teste,binario,BENIGN,288544,256280,32264,11.181656870355994,53.09094923549652,50.224489435964166,False,True,False,False
+par_treino_x_teste_vetor_float64,teste,binario,ATTACK,254946,253989,957,0.3753736085288649,46.90905076450348,49.775510564035834,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+par_validacao_x_teste_vetor_float64,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_validacao_x_teste_vetor_float64,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.02027332890837844,False,False,False,True
+par_validacao_x_teste_vetor_float64,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.009997806037008545,False,False,False,True
+par_validacao_x_teste_vetor_float64,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,19.930904051610895,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.004998903018504273,False,False,False,True
+par_validacao_x_teste_vetor_float64,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.00361031884669753,False,False,False,True
+par_validacao_x_teste_vetor_float64,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,binario,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_validacao_x_teste_vetor_float64,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,19.969784408421486,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,BENIGN,288544,267499,21045,7.2935150271708995,53.09094923549652,59.83340528280616,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.16462635855889307,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,Portscan,159066,83694,75372,47.384104711251936,29.26751182174465,18.720432681016298,False,True,False,False
+par_validacao_x_teste_vetor_float64,teste,nominal,DDoS,95144,95144,0,0.0,17.506117867854055,21.281535677618646,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,binario,BENIGN,288544,267499,21045,7.2935150271708995,53.09094923549652,59.83340528280616,False,False,False,False
+par_validacao_x_teste_vetor_float64,teste,binario,ATTACK,254946,179574,75372,29.563907651031982,46.90905076450348,40.16659471719384,False,True,False,False
+sequencial_grupo_bidirecional,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+sequencial_grupo_bidirecional,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+sequencial_grupo_bidirecional,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,BENIGN,288172,142652,145520,50.49761947725664,80.03021559157851,66.51838381012334,False,True,True,False
+sequencial_grupo_bidirecional,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,Web Attack - Brute Force,73,0,73,100.0,0.02027332890837844,0.0,True,True,True,False
+sequencial_grupo_bidirecional,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.016786738476603485,False,False,False,True
+sequencial_grupo_bidirecional,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,33.464829451400064,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,Web Attack - XSS,18,0,18,100.0,0.004998903018504273,0.0,True,True,True,False
+sequencial_grupo_bidirecional,validacao,nominal,Web Attack - SQL Injection,13,0,13,100.0,0.00361031884669753,0.0,True,True,True,False
+sequencial_grupo_bidirecional,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,validacao,binario,BENIGN,288172,142652,145520,50.49761947725664,80.03021559157851,66.51838381012334,False,True,True,False
+sequencial_grupo_bidirecional,validacao,binario,ATTACK,71907,71803,104,0.14463125982171415,19.969784408421486,33.48161618987666,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,BENIGN,288544,130640,157904,54.724409448818896,53.09094923549652,36.682924637705575,False,True,True,False
+sequencial_grupo_bidirecional,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.20666436415608774,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,Portscan,159066,158713,353,0.22192046068927362,29.26751182174465,44.565653842805915,False,False,False,False
+sequencial_grupo_bidirecional,teste,nominal,DDoS,95144,66044,29100,30.58521819557723,17.506117867854055,18.54475715533242,False,True,False,False
+sequencial_grupo_bidirecional,teste,binario,BENIGN,288544,130640,157904,54.724409448818896,53.09094923549652,36.682924637705575,False,True,True,False
+sequencial_grupo_bidirecional,teste,binario,ATTACK,254946,225493,29453,11.552642520376864,46.90905076450348,63.317075362294425,False,True,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,BENIGN,288172,142652,145520,50.49761947725664,80.03021559157851,66.51838381012334,False,True,True,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Web Attack - Brute Force,73,0,73,100.0,0.02027332890837844,0.0,True,True,True,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.016786738476603485,False,False,False,True
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,33.464829451400064,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Web Attack - XSS,18,0,18,100.0,0.004998903018504273,0.0,True,True,True,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Web Attack - SQL Injection,13,0,13,100.0,0.00361031884669753,0.0,True,True,True,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,validacao,binario,BENIGN,288172,142652,145520,50.49761947725664,80.03021559157851,66.51838381012334,False,True,True,False
+par_treino_x_validacao_grupo_bidirecional,validacao,binario,ATTACK,71907,71803,104,0.14463125982171415,19.969784408421486,33.48161618987666,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.13542107490478206,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,Portscan,159066,159066,0,0.0,29.26751182174465,29.26751182174465,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,nominal,DDoS,95144,95144,0,0.0,17.506117867854055,17.506117867854055,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,binario,BENIGN,288544,288544,0,0.0,53.09094923549652,53.09094923549652,False,False,False,False
+par_treino_x_validacao_grupo_bidirecional,teste,binario,ATTACK,254946,254946,0,0.0,46.90905076450348,46.90905076450348,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.02027332890837844,False,False,False,True
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.009997806037008545,False,False,False,True
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,19.930904051610895,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.004998903018504273,False,False,False,True
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.00361031884669753,False,False,False,True
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,binario,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,19.969784408421486,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,BENIGN,288544,138371,150173,52.04509537540202,53.09094923549652,38.01599534041612,False,True,True,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.20220835702962517,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,Portscan,159066,158713,353,0.22192046068927362,29.26751182174465,43.60474859951481,False,False,False,False
+par_treino_x_teste_grupo_bidirecional,teste,nominal,DDoS,95144,66161,28983,30.462246699739342,17.506117867854055,18.177047703039445,False,True,False,False
+par_treino_x_teste_grupo_bidirecional,teste,binario,BENIGN,288544,138371,150173,52.04509537540202,53.09094923549652,38.01599534041612,False,True,True,False
+par_treino_x_teste_grupo_bidirecional,teste,binario,ATTACK,254946,225610,29336,11.506750449114714,46.90905076450348,61.98400465958388,False,True,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,FTP-Patator,3972,3972,0,0.0,0.33535174784790633,0.33535174784790633,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,SSH-Patator,2961,2961,0,0.0,0.24999408997423228,0.24999408997423228,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,DoS Slowloris,3859,3859,0,0.0,0.3258112776800278,0.3258112776800278,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,DoS Slowhttptest,1740,1740,0,0.0,0.1469063547974212,0.1469063547974212,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,DoS Hulk,158468,158468,0,0.0,13.37928519082629,13.37928519082629,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,DoS GoldenEye,7567,7567,0,0.0,0.6388737854897047,0.6388737854897047,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Heartbleed,11,11,0,0.0,0.000928718334926226,0.000928718334926226,False,False,False,True
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,binario,BENIGN,1005850,1005850,0,0.0,84.92284883504949,84.92284883504949,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,treino,binario,ATTACK,178578,178578,0,0.0,15.077151164950507,15.077151164950507,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Web Attack - Brute Force,73,73,0,0.0,0.02027332890837844,0.02027332890837844,False,False,False,True
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Infiltration,36,36,0,0.0,0.009997806037008545,0.009997806037008545,False,False,False,True
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Infiltration - Portscan,71767,71767,0,0.0,19.930904051610895,19.930904051610895,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Web Attack - XSS,18,18,0,0.0,0.004998903018504273,0.004998903018504273,False,False,False,True
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Web Attack - SQL Injection,13,13,0,0.0,0.00361031884669753,0.00361031884669753,False,False,False,True
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Botnet,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,nominal,DDoS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,binario,BENIGN,288172,288172,0,0.0,80.03021559157851,80.03021559157851,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,validacao,binario,ATTACK,71907,71907,0,0.0,19.969784408421486,19.969784408421486,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,BENIGN,288544,180647,107897,37.3936037484751,53.09094923549652,41.51229993220962,False,True,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,FTP-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,SSH-Patator,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,DoS Slowloris,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,DoS Slowhttptest,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,DoS Hulk,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,DoS GoldenEye,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Heartbleed,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Web Attack - Brute Force,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Infiltration,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Infiltration - Portscan,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Web Attack - XSS,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Web Attack - SQL Injection,0,0,0,,0.0,0.0,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Botnet,736,736,0,0.0,0.13542107490478206,0.16913124906644605,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,Portscan,159066,159062,4,0.002514679441238228,29.26751182174465,36.55211241712914,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,nominal,DDoS,95144,94720,424,0.44564029260909777,17.506117867854055,21.766456401594798,False,False,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,binario,BENIGN,288544,180647,107897,37.3936037484751,53.09094923549652,41.51229993220962,False,True,False,False
+par_validacao_x_teste_grupo_bidirecional,teste,binario,ATTACK,254946,254518,428,0.1678786880358978,46.90905076450348,58.48770006779038,False,False,False,False

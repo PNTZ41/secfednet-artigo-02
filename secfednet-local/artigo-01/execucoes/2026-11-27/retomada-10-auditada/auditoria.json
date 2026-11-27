@@ -1,0 +1,71 @@
+{
+  "rodada": 10,
+  "pesos_bit_a_bit": true,
+  "scores_bit_a_bit": true,
+  "dados_internos_sha256": "55742f5e280e8e13f26e83bd83d48d541d6cf391128a7cc48bb0f222c75862b5",
+  "entradas_vm": {
+    "rodada-09.pt": "2bd04013797041c291013ac82c32ad2e25ce3e8110b5d80f24cf97bf1ffdd062",
+    "checkpoint.pt": "4e73b24cf7042eace103969787d86f07084ddc4eb558a01fe3bcf32562898922",
+    "rodada-10.pt": "8be0ec6a061c77d5c3e806d4c6ca8b3983b514ab89cff374011d392e914808da",
+    "scores_validacao_10.npy": "56506368572736c705ac4f94bb4b9c6c4a905fbcea72d858387ceddeb550e198"
+  },
+  "clientes": [
+    {
+      "cliente": 0,
+      "norma_l2_delta_pesos": 0.028684020203519713
+    },
+    {
+      "cliente": 1,
+      "norma_l2_delta_pesos": 0.046986906249757064
+    },
+    {
+      "cliente": 2,
+      "norma_l2_delta_pesos": 0.0443848046185329
+    },
+    {
+      "cliente": 3,
+      "norma_l2_delta_pesos": 0.15283045548083743
+    },
+    {
+      "cliente": 4,
+      "norma_l2_delta_pesos": 0.2717015813950385
+    }
+  ],
+  "minibatches": [
+    {
+      "rodada": 10,
+      "cliente": 0,
+      "seed": 1023,
+      "ordem_sha256": "60af30dc7437c139fb01b9936b3cd2d6057a1daa721690111a61f447ea65b4fd",
+      "passos": 9
+    },
+    {
+      "rodada": 10,
+      "cliente": 1,
+      "seed": 1024,
+      "ordem_sha256": "777e135ee0512328576d169ce39f1aaaccf7972d0d06bb0bb03c70d12e7fecd9",
+      "passos": 40
+    },
+    {
+      "rodada": 10,
+      "cliente": 2,
+      "seed": 1025,
+      "ordem_sha256": "4dab3252622520bb4db26bb1187f03b415b2a4110a1b8218d1cb49385b5db8a7",
+      "passos": 13
+    },
+    {
+      "rodada": 10,
+      "cliente": 3,
+      "seed": 1026,
+      "ordem_sha256": "e02ced4d3f5a680cac919202336f490c3636f3766c44020c266f3e3f5113cb81",
+      "passos": 100
+    },
+    {
+      "rodada": 10,
+      "cliente": 4,
+      "seed": 1027,
+      "ordem_sha256": "e51d8a3212ab7f0263ff1c0787b56661527b73b172605c2bc8478f8c7a064a0f",
+      "passos": 238
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+monday.csv concluído: 3 não-Attempted
+thursday.csv concluído: 5 não-Attempted
+friday.csv concluído: 2 não-Attempted
+treino_x_validacao id_local_escopado chaves 0 linhas 0 0
+treino_x_validacao flow_id_direcional chaves 0 linhas 0 0
+treino_x_validacao grupo_bidirecional chaves 1 linhas 1 1
+treino_x_validacao vetor_float64 chaves 1 linhas 2 1
+treino_x_validacao flow_id_timestamp chaves 0 linhas 0 0
+treino_x_teste id_local_escopado chaves 0 linhas 0 0
+treino_x_teste flow_id_direcional chaves 0 linhas 0 0
+treino_x_teste grupo_bidirecional chaves 0 linhas 0 0
+treino_x_teste vetor_float64 chaves 1 linhas 2 1
+treino_x_teste flow_id_timestamp chaves 0 linhas 0 0
+validacao_x_teste id_local_escopado chaves 0 linhas 0 0
+validacao_x_teste flow_id_direcional chaves 1 linhas 1 1
+validacao_x_teste grupo_bidirecional chaves 1 linhas 1 1
+validacao_x_teste vetor_float64 chaves 1 linhas 1 1
+validacao_x_teste flow_id_timestamp chaves 0 linhas 0 0

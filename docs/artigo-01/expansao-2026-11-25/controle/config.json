@@ -1,0 +1,42 @@
+{
+  "seeds": [
+    23,
+    41,
+    89
+  ],
+  "particao_seed": {
+    "23": 2305,
+    "41": 4105,
+    "89": 8905
+  },
+  "clientes": 5,
+  "alpha": 0.5,
+  "epocas_centralizadas": 5,
+  "rodadas_federadas": 5,
+  "epocas_locais": 1,
+  "lote": 512,
+  "otimizador": "Adam",
+  "lr": 0.001,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.0,
+  "amsgrad": false,
+  "reinicio_otimizador": "central: por epoca; FedAvg: por cliente/rodada",
+  "limiar": 0.5,
+  "seed_minibatches_central": "seed+100*epoca",
+  "seed_minibatches_fedavg": "seed+100*rodada+cliente",
+  "torch_threads": 2,
+  "torch_interop_threads": 1,
+  "frac_participacao": 1.0,
+  "ordem_treinos": "para cada seed, central e depois FedAvg; processos sequenciais",
+  "avaliacao": "somente quinta principal e sensibilidade_raw64; sem calibracao",
+  "prazo_externo_s": 2700,
+  "prazo_interno_s": 2640,
+  "zip_path_vm": "/home/williian/secfednet-repro/codigo/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+  "uv_vm": "/home/williian/.local/bin/uv",
+  "python_vm": "/usr/bin/python3.14",
+  "cache_uv": "/tmp/secfednet-uv-cache"
+}

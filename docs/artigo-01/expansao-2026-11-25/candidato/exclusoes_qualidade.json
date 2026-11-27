@@ -1,0 +1,47 @@
+[
+  {
+    "arquivo": "monday.csv",
+    "registro_csv1": 106984,
+    "rotulo": "BENIGN",
+    "features": [
+      "Flow Bytes/s",
+      "Flow Packets/s"
+    ]
+  },
+  {
+    "arquivo": "monday.csv",
+    "registro_csv1": 114891,
+    "rotulo": "BENIGN",
+    "features": [
+      "Flow Bytes/s",
+      "Flow Packets/s"
+    ]
+  },
+  {
+    "arquivo": "monday.csv",
+    "registro_csv1": 121883,
+    "rotulo": "BENIGN",
+    "features": [
+      "Flow Bytes/s",
+      "Flow Packets/s"
+    ]
+  },
+  {
+    "arquivo": "wednesday.csv",
+    "registro_csv1": 465856,
+    "rotulo": "BENIGN",
+    "features": [
+      "Flow Bytes/s",
+      "Flow Packets/s"
+    ]
+  },
+  {
+    "arquivo": "thursday.csv",
+    "registro_csv1": 12013,
+    "rotulo": "BENIGN",
+    "features": [
+      "Flow Bytes/s",
+      "Flow Packets/s"
+    ]
+  }
+]

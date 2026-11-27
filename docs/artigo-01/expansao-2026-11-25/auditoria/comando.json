@@ -1,0 +1,25 @@
+{
+  "sintetico": [
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+    "-B",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/auditar_split.py",
+    "sintetico",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/sintetico"
+  ],
+  "auditoria": [
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cnn-flower/.venv/bin/python",
+    "-B",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/auditar_split.py",
+    "auditar",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/expansao/2026-11-25_15-41-13/cicids2017/inventario_cicids2017.json",
+    "/home/willian/Projetos/secfednet/integracao/artigo-01/contrato-cnn/contrato.json",
+    "/home/willian/Projetos/secfednet/secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28/resultados"
+  ],
+  "cwd": "/home/willian/Projetos/secfednet",
+  "ambiente": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  }
+}

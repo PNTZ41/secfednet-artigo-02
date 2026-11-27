@@ -1,0 +1,20 @@
+[
+  {
+    "epoca": 1,
+    "BCE_online_ponderada": 0.4442404769477015,
+    "passos": 290,
+    "tempo_s": 0.600765737995971
+  },
+  {
+    "epoca": 2,
+    "BCE_online_ponderada": 0.27021619219698256,
+    "passos": 290,
+    "tempo_s": 0.5180631020048168
+  },
+  {
+    "epoca": 3,
+    "BCE_online_ponderada": 0.20781784121602817,
+    "passos": 290,
+    "tempo_s": 0.45086220200755633
+  }
+]

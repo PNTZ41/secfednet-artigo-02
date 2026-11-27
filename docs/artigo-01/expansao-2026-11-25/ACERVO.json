@@ -1,0 +1,53 @@
+{
+  "raiz_local": "/home/willian/Projetos/secfednet",
+  "execucoes_originais": [
+    "secfednet-local/artigo-01/execucoes/2026-11-25/auditoria-benchmark-binario-20-22-28",
+    "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58",
+    "secfednet-local/artigo-01/execucoes/2026-11-25/vm-rodada-limitada-21-11-59"
+  ],
+  "artefatos_fora_git": [
+    {
+      "path_local": "secfednet-local/artigo-01/cicids2017-corrigido/CICIDS2017_improved.zip",
+      "sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+      "bytes": 343549013
+    },
+    {
+      "path_local": "secfednet-local/artigo-01/cnn-flower-entrega/secfednet-cnn1d-v1.zip",
+      "sha256": "e7d042b38c77b96bef54533302bef817d6b8a4a8e55b717bac7b32f98b5b6014",
+      "bytes": 13489
+    },
+    {
+      "path_local": "SecFedNet_UNSW-NB15_auditoria.zip",
+      "sha256": "9334cbae93e244f94c2bb46d6fd9621aae0e4809f6bd4a190dcff1eab62a5933",
+      "bytes": 11169
+    },
+    {
+      "path_local": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/manifesto_indices_candidato.npz",
+      "sha256": "af1c057c2ca9114c4bcad8c2da5b8ce265c2d22427f7771fd8ae983cba17bdd6",
+      "bytes": 15551274
+    },
+    {
+      "path_local": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/candidato/preprocessamento.npz",
+      "sha256": "68ca040c9419a0f38ac9ee24fa76644263c7fdc40ad6dcf503402f8c2444ec27",
+      "bytes": 2583
+    },
+    {
+      "path_local": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/baseline/checkpoint.pt",
+      "sha256": "59401542d3e6512e57b9c6d37a8fc64bf1b6983762b7db57a215de8dbd869c5d",
+      "bytes": 7291
+    },
+    {
+      "path_local": "secfednet-local/artigo-01/execucoes/2026-11-25/protocolo-candidato-validacao-20-46-58/fedavg_integracao/checkpoint.pt",
+      "sha256": "e3dd0d3fe55d66b7a9e74d091d283d039526d8e06f91b136b498d6511747cb8c",
+      "bytes": 13173
+    },
+    {
+      "path_local": "SecFedNet_CICIDS2017_entrega/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "sha256": "6ff1580f5f81c0ae28a26f7631721018577f5f7c5e0feac28b795fcfe7b411ee",
+      "bytes": 77123859
+    }
+  ],
+  "VM": "/home/williian/secfednet-repro/codigo/secfednet-local/artigo-01/execucoes/2026-11-25/rodada-limitada-21-11-59",
+  "manifestos_historicos": "snapshots imutaveis; nao executar contra a selecao editorial",
+  "exclusoes": "ZIPs/dados brutos, matrizes, modelos, indices NPZ, scores, ambientes, caches, bundles, sockets SSH; demais hashes no manifesto VM e no candidato"
+}

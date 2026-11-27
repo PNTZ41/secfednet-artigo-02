@@ -1,0 +1,188 @@
+{
+  "uso": "selecao exploratoria na mesma validacao usada para escolher o limiar",
+  "avaliou_teste_global": false,
+  "escolhido": "fedavg",
+  "mu": null,
+  "limiar": 0.22592271864414215,
+  "teto_fpr": 0.01,
+  "manifesto_sha256": "bb710d6492ac83456b61ba8469d06f6729bf063ba586a557b0165a701173339f",
+  "resultados": [
+    {
+      "nome": "fedavg",
+      "mu": null,
+      "limiar_05": {
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40764,
+            12
+          ],
+          [
+            4,
+            10035
+          ]
+        ],
+        "fpr": 0.0002942907592701589,
+        "recall_ddos": 0.9996015539396355,
+        "macro_f1_binario": 0.9995036060919602
+      },
+      "calibrado": {
+        "limiar": 0.22592271864414215,
+        "orcamento_fp": 407,
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40739,
+            37
+          ],
+          [
+            1,
+            10038
+          ]
+        ],
+        "fpr": 0.0009073965077496566,
+        "recall_ddos": 0.9999003884849088,
+        "macro_f1_binario": 0.998822301233721
+      }
+    },
+    {
+      "nome": "fedprox_mu0001",
+      "mu": 0.001,
+      "limiar_05": {
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40761,
+            15
+          ],
+          [
+            4,
+            10035
+          ]
+        ],
+        "fpr": 0.0003678634490876986,
+        "recall_ddos": 0.9996015539396355,
+        "macro_f1_binario": 0.9994105985785899
+      },
+      "calibrado": {
+        "limiar": 0.2476588636636734,
+        "orcamento_fp": 407,
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40734,
+            42
+          ],
+          [
+            1,
+            10038
+          ]
+        ],
+        "fpr": 0.0010300176574455562,
+        "recall_ddos": 0.9999003884849088,
+        "macro_f1_binario": 0.9986675903370346
+      }
+    },
+    {
+      "nome": "fedprox_mu001",
+      "mu": 0.01,
+      "limiar_05": {
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40754,
+            22
+          ],
+          [
+            4,
+            10035
+          ]
+        ],
+        "fpr": 0.000539533058661958,
+        "recall_ddos": 0.9996015539396355,
+        "macro_f1_binario": 0.9991936624090548
+      },
+      "calibrado": {
+        "limiar": 0.20939026772975922,
+        "orcamento_fp": 407,
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40644,
+            132
+          ],
+          [
+            1,
+            10038
+          ]
+        ],
+        "fpr": 0.003237198351971748,
+        "recall_ddos": 0.9999003884849088,
+        "macro_f1_binario": 0.9958926442974232
+      }
+    },
+    {
+      "nome": "fedprox_mu01",
+      "mu": 0.1,
+      "limiar_05": {
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40611,
+            165
+          ],
+          [
+            4,
+            10035
+          ]
+        ],
+        "fpr": 0.0040464979399646855,
+        "recall_ddos": 0.9996015539396355,
+        "macro_f1_binario": 0.9947866942076198
+      },
+      "calibrado": {
+        "limiar": 0.47400549054145813,
+        "orcamento_fp": 407,
+        "suporte": {
+          "BENIGN": 40776,
+          "DDoS": 10039
+        },
+        "matriz_real_por_previsto": [
+          [
+            40566,
+            210
+          ],
+          [
+            1,
+            10038
+          ]
+        ],
+        "fpr": 0.005150088287227781,
+        "recall_ddos": 0.9999003884849088,
+        "macro_f1_binario": 0.9935026483772211
+      }
+    }
+  ],
+  "tempo_total_s": 39.63664262602106
+}

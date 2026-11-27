@@ -1,0 +1,30 @@
+{'epoca': 1, 'BCE_online_ponderada': 0.4442404769477015, 'passos': 290, 'tempo_s': 0.5337408979976317}
+{'epoca': 2, 'BCE_online_ponderada': 0.27021619219698256, 'passos': 290, 'tempo_s': 0.4899231220042566}
+{'epoca': 3, 'BCE_online_ponderada': 0.20781784121602817, 'passos': 290, 'tempo_s': 0.4818989199993666}
+{
+  "matriz_real_por_previsto": [
+    [
+      277355,
+      10816
+    ],
+    [
+      63724,
+      8183
+    ]
+  ],
+  "ordem_classes": [
+    "BENIGN",
+    "ATTACK"
+  ],
+  "suporte": {
+    "BENIGN": 288171,
+    "ATTACK": 71907
+  },
+  "limiar": 0.5,
+  "macro_f1": 0.5307868193859473,
+  "precisao_ATTACK": 0.43070687930943735,
+  "recall_ATTACK": 0.11379976914625836,
+  "FPR": 0.03753327017638833,
+  "PR_AUC_average_precision": 0.5316927055589348,
+  "definicao_PR_AUC": "Average precision = soma(delta recall * precision) nos limiares distintos, empates agrupados; sem trapezios; positivo ATTACK"
+}
